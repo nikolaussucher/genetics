@@ -1,0 +1,28 @@
+---
+knit: "bookdown::render_book"
+title: "Laboratory Manual For SCIxxx
+        Genetics at Roxbury Community College"
+author: ["Nikolaus Sucher"]
+description: "This laboratory manual will accompany you during your laboratory for Genetics."
+#url: 'https://myrcc.rcc.mass.edu/ICS/xxx_lab_manual/index.html'
+github-repo: nikolaussuchert/genetics
+twitter-handle: NikolausSucher
+cover-image: cover.jpg
+site: bookdown::bookdown_site
+documentclass: book
+lof: yes
+lot: yes
+---
+
+# Welcome {-}
+
+This is the __Laboratory Manual__ for the Genetics course (SCIxxx) at RCC.
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("cover.jpg")
+```
+
+
+This work is licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en) United States License.

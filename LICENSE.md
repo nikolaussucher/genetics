@@ -1,0 +1,1 @@
+This work is licensed under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en) United States License or writen an email to info@creativecommons.org.

@@ -1,0 +1,12 @@
+new_session: yes
+
+rmd_files:   [ "index.rmd",
+              "acknowledgements.Rmd",
+              "course_description.rmd",
+              "how_to.Rmd",
+              "safety.Rmd",
+              "appendix_1.rmd",
+              "appendix_2.rmd",
+             ]
+output_dir: docs
+before_chapter_script:  "_common.R"

@@ -1,0 +1,16 @@
+_bookdown_files
+_book
+_main.epub
+*.aux
+*.pdf
+*.idx
+*.out
+*.log
+*.toc
+*.lot
+*.lof
+*.rds
+*.md
+.DS_Store
+.Rhistory
+.Rproj.user

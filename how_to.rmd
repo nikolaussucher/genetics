@@ -1,0 +1,16 @@
+# How to do well in this class
+
+## Before the lab {-}
+*	Know what's coming up. Each week, look at the schedule to know what lab is coming up.
+*	Be prepared. Read the chapter in the manual **before** you come to the lab.
+*	In your own words, explain to yourself or someone else what the upcoming lab is about.
+
+## During the lab {-}
+*	Read the lab instructions carefully.
+*	Follow the instructions carefully.
+*	Make sure that you know what you are doing and why you are doing it.
+*	Don't be afraid to ask your instructor for help or clarifications.
+
+## After the lab {-}
+*	Ask yourself: what was this lab about? What did we do? How did we do it?
+*	In your own words, tell yourself or someone else what you learned in the lab.

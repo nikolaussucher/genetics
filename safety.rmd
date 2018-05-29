@@ -1,0 +1,72 @@
+# Lab Safety
+The laboratory classes are hands-on. Some classes require the use of hazardous chemicals and materials. Safety in the classroom is the #1 priority for students and faculty. To ensure a safe science laboratory, a list of rules must be followed at all times.
+
+Please watch the [RCC safety video](https//youtu.be/NxcsyTv7stQ)
+
+<iframe src="https://www.youtube.com/embed/NxcsyTv7stQ" frameborder="0" width="500" height="315"></iframe>
+
+```{block2, type='rmdimportant'}
+**Prior to your participation in the science lab course, you must read this safety document and sign and return the acknowledgment and agreement page.**
+```
+
+##  General rules
+1. NO FOOD, BEVERAGES, GUM, in the labs.  Cell phone usage is also prohibited in the lab.
+2. Conduct yourself in a responsible manner at all times in the lab. Horseplay, pranks and practical jokes are prohibited and will not be tolerated.  If you participate in inappropriate behavior the INSTRUCTOR HAS THE RIGHT TO ASK YOU TO LEAVE THE lab.
+3. Students cannot be in the lab without an instructor present.
+4. Read all lab procedures, precautions, and equipment instructions thoroughly before each lab.  Follow all written and verbal instructions carefully. Perform only those experiments authorized by the instructor. If during the lab you don't understand, stop and ask the instructor before proceeding. Never do anything in the lab that is outside of your instructors directions or that is not in your lab procedure.
+5. Do not begin lab activities; touch any chemicals or equipment until you are instructed to do so.
+6. Work areas should be kept organized and clean at all times. Only necessary items (lab notebook, worksheets, etc.) should be on your workbench. Backpacks and purses must be stored under the benches or against the walls. CLEAN ALL OF YOUR WORK SURFACES AND EQUIPMENT AT THE END OF THE EXPERIMENT. Safely dispose of waste in its proper container and place glassware in the grey bins by the sink. DO NOT STACK GLASSWARE. If the bin is full ask the instructor for another bin.
+7. Keep aisles clear. Push lab stools under the lab benches when not in use.
+8. Know where the safety equipment is and how to use it. This includes the first aid kit, eyewash station, safety shower, fire extinguisher, and fire blanket. Know the location of the fire alarm, and emergency phone.  In the event of a fire drill during lab time containers must be closed, gas valves off, fume hood, and all electrical equipment must be turned off.
+9. NEVER DISPOSE OF ANYTHING IN THE SINK. All materials are to be disposed of in the proper hazardous waste containers with the assistance of the instructor. All waste containers must be closed and placed inside a secondary containment bin.
+10. As classes in these labs use toxic chemicals, keep your hands away from your face, eyes and mouth while working in the lab. Always wash your hands thoroughly with warm water and soap before leaving the lab to prevent injury or illness. This is part of proper lab procedure.
+11. Students are not permitted in the prep room areas (between the lab rooms).
+12. Handle all living organisms used for lab experiments in a respectful, humane manner.
+13. Microscopes must be properly cleaned, the electrical cords properly wrapped, and returned to their places with their protective covers.
+
+Disposal of all hazardous waste is ONLY to be handled by the instructor and in a manner consistent with federal, state and local hazardous waste disposal regulations. Organic solvents are never to be disposed of down the sink; receptacles will be provided as needed for their collection. All hazardous chemical substances must be placed in the appropriate type of container and labeled with chemical, name and date, sealed and placed upright in a gray plastic bin.
+
+## Class dissections
+14. Preserved biological specimens should be treated with respect and disposed of in a clear plastic bag and placed inside the hazardous waste drum located in the classroom. This container must be sealed at the end of each dissection.
+15. When using sharp objects always carry the tips pointed down and away from you. When dissecting, cut away from your body. Grasp the instrument only by the handle.  Never try to catch falling sharp instruments or glassware. When you are finished dissecting, wash and dry your instruments and dissecting pan before storing them in the proper location. Do not leave any instruments in the sink.
+
+## Clothing
+16. Students must wear lab goggles when using chemicals, or using heat. NO EXCEPTIONS! Lab coats are mandatory for Anatomy and Physiology, Biology, Microbiology, Chemistry, and Biotechnology labs, except for when lecturing and working on dry lab (for example, looking at models or prepared slides) activities.
+17. Gloves should be worn when handling solutions, solids, specimens, etc.
+18. Proper dress should always be observed in the lab. Long hair must be tied back. Loose or baggy clothing (especially sleeves), dangling jewelry, hats, shorts, short skirts, bare mid riffs, high heels, sleeveless shirts, and open toed or open heeled shoes and sandals are prohibited in the lab. Failure to comply may result in expulsion from class.
+
+## Handling chemicals
+18. Always work in a well-ventilated area. Use the fume hood when working with volatile substances or poisonous vapors, or any chemical with an odor.
+19. Never smell a chemical by sniffing. Use your hand to wave the chemical towards your nose.
+20. DO NOT TASTE, TOUCH or smell anything unless instructed to do so. You should wear a lab apron and gloves at all times. Your instructor will tell you the proper gloves to wear depending on the chemical being used.
+21. CHECK EACH LABEL TWICE before removing any of its contents. Take only what is needed of each chemical. NEVER return unused chemicals to their original container; put it in the waste container.
+22. Do not use your fingers to transfer solid chemicals. Use a scoop or spatula.
+23. Use a rubber bulb, pipette, or pi-pump when transferring liquid chemicals. NEVER USE YOUR MOUTH TO PIPETTE!
+24. When transferring reagents hold the containers away from your body while working on the bench.
+25. Acids must be handled with extreme care. You will be shown the proper method for diluting strong acids. ALWAYS ADD ACID TO WATER, swirl or invert the solution and be careful of the heat produced particularly with sulfuric acid.
+26. Handle hazardous liquids over a pan to contain spills.
+27. Never handle flammable liquids anywhere near an open flame or heat source.
+28. Be careful when transporting chemicals across the lab. Hold securely and walk carefully.
+29. NEVER POUR CHEMICALS INTO SINK. Waste should be disposed of in the proper hazardous waste container provided.
+
+## Glassware
+30. Never handle broken glass with bare hands. Use a brush and a dustpan to clean up broken glass. Place uncontaminated broken glass in the white and blue broken glass receptacles. Contaminated trash goes in the biohazard bin.
+31. Fill wash bottles only with distilled water and use only as intended, e.g.; rinsing glassware, adding water to a container.
+32. Never use chipped, cracked or dirty glassware to avoid shattering.
+33. Never immerse hot glassware in cold water. It may shatter.
+34.  Never place dirty glassware with the clean glassware. All dirty glassware should be placed in gray wash bins. DO NOT STACK DIRTY GLASSWARE IN BINS.
+
+## Heating substances
+35. Exercise extreme caution when using a gas burner. Be careful to keep hair, loose clothing and hands away from flames at all times. Wear safety goggles.  Do not put any substances into the flame unless specifically instructed to do so. Never reach over an exposed flame. The instructor will provide a demonstration of the proper way to operate a Bunsen burner. Never leave a lighted burner or hot plate unattended. Always turn the burner or hot plate off when not in use.
+36. Do not point the open end of a test tube being heated at yourself or anyone else. Never look into a container that's being heated.
+37. Heated metals and glass remain hot for a very long time. They should be set aside to cool and picked up with caution. Use tongs or heat protective gloves.
+
+## Handling microbiology materials
+38. Please be aware that micro labs include work with pathogenic organisms. Be alert. Conduct yourself in a responsible manner at all times.
+39. If you spill anything notify your instructor immediately. There are special procedures to be followed for spills containing microorganisms.
+40. A lab coat must be worn during lab activities. Lab coats/aprons may never leave the lab. If you must leave the lab during a class then your lab coat must be removed.
+41. Gloves must be worn at all times when working with bacteria. Gloves need to be disposed of in the biohazard waste container.
+42. All contaminated waste must be disposed of in the biohazard container. Do not overfill biohazard containers.
+43. You must spray down your lab bench with Lysol after each lab. Do not wipe with paper towels. The bench surface must remain wet for at least five minutes for the Lysol to destroy any micro organisms.
+44. Wash your hands thoroughly before and after each lab as well as before you leave the lab for any reason.
+45. Dispose of contaminated broken glass in the biohazard bin. Please wrap the broken glass in paper towels before disposal so that the broken glass doesn't cut through the bag. Dispose of uncontaminated glass in the white and blue cardboard glass boxes.
