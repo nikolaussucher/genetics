@@ -1,0 +1,37 @@
+```{r include=FALSE, cache=FALSE}
+set.seed(1014)
+options(digits = 3)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  cache = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+options(knitr.graphics.auto_pdf = TRUE)
+```
+# Course Description
+
+This course provides an introduction to the biology and classification of plants, fungi, and animals, their tissues, organ systems, development and reproduction. Four hours of lecture and a two-hour lab session are required each week.
+
+## Learning Objectives
+
+* Understand and explain the evolutionary relationships between the major groups of fungi, plants and animals, and their relationships with their habitats, and with other groups of organisms.
+
+*	Identify the appropriate external and internal structures and their functions in representative organisms.
+
+*	Identify some of the distinguishing characteristics of the major fungi, plant and animal groups studied, and to be able to recognize and/or give examples of organisms belonging to these major groups.
+
+*	Identify (through the microscope, and in diagrams) representative examples of the major somatic tissue groups, and to demonstrate understanding of their characteristics, functions, and location in the vertebrate organism.
+
+*	Identify the basic anatomy of the different organ systems studied, and to understand the related basic physiology.
+
+*	Recognize some of the factors which influence human health, and the causes and symptoms of some common human diseases.
+
+*	Learn and demonstrate basic lab dissections.
