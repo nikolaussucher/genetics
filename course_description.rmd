@@ -1,37 +1,28 @@
-```{r include=FALSE, cache=FALSE}
-set.seed(1014)
-options(digits = 3)
-
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  cache = TRUE,
-  out.width = "70%",
-  fig.align = 'center',
-  fig.width = 6,
-  fig.asp = 0.618,  # 1 / phi
-  fig.show = "hold"
-)
-
-options(dplyr.print_min = 6, dplyr.print_max = 6)
-options(knitr.graphics.auto_pdf = TRUE)
-```
 # Course Description
 
-This course provides an introduction to the biology and classification of plants, fungi, and animals, their tissues, organ systems, development and reproduction. Four hours of lecture and a two-hour lab session are required each week.
+## Instructional Objectives:
 
-## Learning Objectives
+At the end of the course, students will be able to
 
-* Understand and explain the evolutionary relationships between the major groups of fungi, plants and animals, and their relationships with their habitats, and with other groups of organisms.
+*  	contrast the role of mitosis and meiosis in cellular reproduction in eukaryotes.
+*  	describe how the concept of the “gene” has originated and evolved over time.
+*  	identify eukaryotic chromosomes and describe their structure and function.
+*  	explain how DNA stores information, read the genetic code, and describe how it is translated and transmitted to the offspring.
+*  	define genetic mutations and describe how they happen and how they can be prevented and give examples of how they influence the function of cells and can lead to disease.
+*  	outline how we can isolate, sequence, manipulate and move DNA between cells and organisms.
+*  	define the terms genome and genomics, evaluate genomics-related information and discuss the far-reaching consequences for our society of the use of genomics.
+*  	outline molecular mechanisms of gene expression.
+*  	give examples of complex traits and discuss current models of their genetic basis.
+*  	outline the role of genes in the development of organisms and give some specific examples.
+*  	discuss how variation in the types and frequencies of “genes” in organisms and populations forms the substrate for natural selection and evolution.
 
-*	Identify the appropriate external and internal structures and their functions in representative organisms.
+## Student Learning Outcomes:
 
-*	Identify some of the distinguishing characteristics of the major fungi, plant and animal groups studied, and to be able to recognize and/or give examples of organisms belonging to these major groups.
+At successful completion of the course, students will be able to
 
-*	Identify (through the microscope, and in diagrams) representative examples of the major somatic tissue groups, and to demonstrate understanding of their characteristics, functions, and location in the vertebrate organism.
-
-*	Identify the basic anatomy of the different organ systems studied, and to understand the related basic physiology.
-
-*	Recognize some of the factors which influence human health, and the causes and symptoms of some common human diseases.
-
-*	Learn and demonstrate basic lab dissections.
+*  	describe the molecular and cellular mechanisms explaining why children resemble their parents to a certain degree yet are also distinctly different both from them and (if applicable) their own siblings.
+*  	give examples and evaluate the strength of the relationship between specific genes and health disorders.
+*  	demonstrate “information literacy” and critically analyze reports describing genetics-related research.
+*  	discuss the science underlying purported or real medical and scientific breakthroughs or doomsday scenarios related to the manipulation of cells and organisms at the level of DNA.
+*  	articulate and appraise the personal and societal implications of genetic testing and genetic engineering.
+*  	embark on the next level of training or start work in the life sciences or related fields.

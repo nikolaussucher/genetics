@@ -1,6 +1,6 @@
 ---
 knit: "bookdown::render_book"
-title: "Laboratory Manual For SCIxxx
+title: "Laboratory Manual For SCI200
         Genetics at Roxbury Community College"
 author: ["Nikolaus Sucher"]
 description: "This laboratory manual will accompany you during your laboratory for Genetics."
@@ -16,7 +16,7 @@ lot: yes
 
 # Welcome {-}
 
-This is the __Laboratory Manual__ for the Genetics course (SCIxxx) at RCC.
+This is the __Laboratory Manual__ for the Genetics course (SCI200) at RCC.
 
 
 

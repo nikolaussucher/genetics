@@ -1,12 +1,22 @@
 new_session: yes
 
 rmd_files:   [ "index.rmd",
-              "acknowledgements.Rmd",
+              "acknowledgements.rmd",
               "course_description.rmd",
-              "how_to.Rmd",
-              "safety.Rmd",
-              "appendix_1.rmd",
-              "appendix_2.rmd",
+              "how_to.rmd",
+              "safety.rmd",
+              "mitosis.rmd",
+              "mendel.rmd",
+              "karyotype.rmd",
+              "skills.rmd",
+              "fingerprinting.rmd",
+              "pcr.rmd",
+              "digest.rmd",
+              "transformation.rmd",
+              "plasmid.rmd",
+              "databases.rmd",
+#              "appendix_1.rmd",
+#              "appendix_2.rmd",
              ]
 output_dir: docs
 before_chapter_script:  "_common.R"
