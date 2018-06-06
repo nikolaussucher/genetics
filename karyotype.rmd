@@ -1,15 +1,42 @@
-# Determining The Karyotype
+# Chromosomes And Karyotypes
 
-As [karyotype](https://en.wikipedia.org/wiki/Karyotype) is the number and appearance of chromosomes in the nucleus of a
-eukaryotic cell. The term is also used for the complete set of chromosomes in a
+## Chromosomes
+
+A [chromosome](https://en.wikipedia.org/wiki/Chromosome) is a DNA molecule with part or all of the genetic material (genome) of an organism. Most eukaryotic chromosomes include packaging proteins which, aided by chaperone proteins, bind to and condense the DNA molecule to prevent it from becoming an unmanageable tangle. The word chromosome comes from the Greek χρῶμα (chroma, "colour") and σῶμα (soma, "body"), describing their strong staining by particular dyes. The term was coined by [Heinrich Wilhelm Gottfried von Waldeyer-Hartz](https://en.wikipedia.org/wiki/Heinrich_Wilhelm_Gottfried_von_Waldeyer-Hartz), referring to the term chromatin, which was introduced by [Walther Flemming](https://en.wikipedia.org/wiki/Walther_Flemming).
+
+Chromosomes are normally visible under a light microscope only when the cell is undergoing the metaphase of cell division (where all chromosomes are aligned in the center of the cell in their condensed form). Before this happens, every chromosome is copied once (S phase), and the copy is joined to the original by a centromere, resulting either in an X-shaped structure (Figure \@ref(fig:karyo)) if the centromere is located in the middle of the chromosome or a two-arm structure if the centromere is located near one of the ends. The original chromosome and the copy are now called sister chromatids. During metaphase the X-shape structure is called a metaphase chromosome. In this highly condensed form chromosomes are easiest to distinguish and study. In animal cells, chromosomes reach their highest compaction level in anaphase during segregation.
+
+(ref:chromosome) [Diagram of a replicated and condensed metaphase eukaryotic chromosome. (1) Chromatid – one of the two identical parts of the chromosome after S phase. (2) Centromere – the point where the two chromatids touch. (3) Short (p) arm. (4) Long (q) arm.](https://commons.wikimedia.org/wiki/File:Chromosome.svg) By derivative work: Tryphon (talk)*Chromosome-upright.png: Original version: Magnus Manske, this version with upright chromosome: User:Dietzel65 [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
+
+```{r chromosome, fig.cap='(ref:chromosome)', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/karyotyping/Chromosome.svg")
+```
+
+Chromosomal recombination during meiosis and subsequent sexual reproduction play a significant role in genetic diversity. If these structures are manipulated incorrectly, through processes known as chromosomal instability and translocation, the cell may undergo mitotic catastrophe and die. Mutations in the cell can allow it to inappropriately evade apoptosis and lead to the progression of cancer.
+
+Some use the term chromosome in a wider sense, to refer to the individualized portions of chromatin in cells, either visible or not under light microscopy. Others use the concept in a narrower sense, to refer to the individualized portions of chromatin during cell division, visible under light microscopy due to high condensation.
+
+The prokaryotes – bacteria and archaea – typically have a single circular chromosome, but many variations exist. The chromosomes of most bacteria can range in size from only 130,000 base pairs in the endosymbiotic bacteria *Candidatus Hodgkinia cicadicola* to more than 14,000,000 base pairs in the soil-dwelling bacterium *Sorangium cellulosum*. Spirochaetes of the genus *Borrelia* are a notable exception to this arrangement, with bacteria such as *Borrelia burgdorferi*, the cause of Lyme disease, containing a single linear chromosome.
+
+Chromosomes in eukaryotes are composed of chromatin fiber. Chromatin fiber is made of nucleosomes (histone octamers with part of a DNA strand attached to and wrapped around it). Chromatin fibers are packaged by proteins into a condensed structure called chromatin. Chromatin contains the vast majority of DNA and a small amount inherited maternally, can be found in the mitochondria. Chromatin is present in most cells, with a few exceptions, for example, red blood cells.
+
+Chromatin allows the very long DNA molecules to fit into the cell nucleus. During cell division chromatin condenses further to form microscopically visible chromosomes. The structure of chromosomes varies through the cell cycle. During cellular division chromosomes are replicated, divided, and passed successfully to their daughter cells so as to ensure the genetic diversity and survival of their progeny. Chromosomes may exist as either duplicated or unduplicated. Unduplicated chromosomes are single double helixes, whereas duplicated chromosomes contain two identical copies (called chromatids or sister chromatids) joined by a centromere. Eukaryotes possess multiple large linear chromosomes contained in the cells' nucleus. Each chromosome has one centromere, with one or two arms projecting from the centromere, although, under most circumstances, these arms are not visible as such. In addition, most eukaryotes have a small circular mitochondrial genome, and some eukaryotes may have additional small circular or linear cytoplasmic chromosomes.Eukaryotes (cells with nuclei such as those found in plants, fungi, and animals) possess multiple large linear chromosomes contained in the cell's nucleus. Each chromosome has one centromere, with one or two arms projecting from the centromere, although, under most circumstances, these arms are not visible as such. In addition, most eukaryotes have a small circular mitochondrial genome, and some eukaryotes may have additional small circular or linear cytoplasmic chromosomes.
+
+In the nuclear chromosomes of eukaryotes, the uncondensed DNA exists in a semi-ordered structure, where it is wrapped around histones (structural proteins), forming a composite material called chromatin.
+
+Chromosomes in humans are divided into two types: autosomes (body chromosome(s)) and allosome (sex chromosome(s)). Certain genetic traits are linked to a person's sex and are passed on through the sex chromosomes. The autosomes contain the rest of the genetic hereditary information. All act in the same way during cell division. Human cells have 23 pairs of chromosomes (22 pairs of autosomes and one pair of sex chromosomes), giving a total of 46 per cell. In addition to these, human cells have many hundreds of copies of the mitochondrial genome.
+
+## Karyotypes
+
+A [karyotype](https://en.wikipedia.org/wiki/Karyotype) is the number and appearance of chromosomes in the nucleus of a eukaryotic cell. The term is also used for the complete set of chromosomes in a
 species or in an individual organism and for a test that detects this
-complement or measures the number.
+complement or measures the number. The name was coined by the German anatomist, Heinrich von Waldeyer in 1888. It is New Latin from Ancient Greek κάρυον karyon, "kernel", "seed", or "nucleus", and τύπος typos, "general form").
 
 Karyotypes describe the chromosome count of an organism and what these chromosomes look like under a light microscope. Attention is paid to their length, the position of the centromeres, banding pattern, any differences between the sex chromosomes, and any other physical characteristics. The preparation and study of karyotypes is part of cytogenetics.
 
 The study of whole sets of chromosomes is sometimes known as karyology. The chromosomes are depicted (by rearranging a photomicrograph) in a standard format known as a karyogram or idiogram: in pairs, ordered by size and position of centromere for chromosomes of the same size as shown in Figure \@ref(fig:karyo).
 
-(ref:karyo)[Karyogram of human male using Giemsa staining](https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png)
+(ref:karyo) [Karyogram of human male using Giemsa staining](https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png)
 
 ```{r karyo, fig.cap='(ref:karyo)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/human_male_karyotype.jpg")
@@ -21,13 +48,13 @@ So, in normal diploid organisms, autosomal chromosomes are present in two copies
 
 The study of karyotypes is important for cell biology and genetics, and the results may be used in evolutionary biology (karyosystematics) and medicine. Karyotypes can be used for many purposes; such as to study chromosomal aberrations, cellular function, taxonomic relationships, and to gather information about past evolutionary events.
 
-Chromosomes were first observed in plant cells by Carl Wilhelm von Nägeli in 1842. Their behavior in animal (salamander) cells was described by Walther Flemming, the discoverer of mitosis, in 1882. The name was coined by another German anatomist, Heinrich von Waldeyer in 1888. It is New Latin from Ancient Greek κάρυον karyon, "kernel", "seed", or "nucleus", and τύπος typos, "general form").
+The German scientists Matthias [Jakob Schleiden](https://en.wikipedia.org/wiki/Matthias_Jakob_Schleiden), [Rudolf Virchow](https://en.wikipedia.org/wiki/Rudolf_Virchow) and [Otto Bütschli](https://en.wikipedia.org/wiki/Otto_Bütschli) were among the first scientists who recognized the structures now familiar as chromosomes. Chromosomes were first observed in plant cells by [Carl Wilhelm von Nägeli](https://en.wikipedia.org/wiki/Carl_Nägeli) in 1842. Their behavior in animal (salamander) cells was described by Walther Flemming, the discoverer of mitosis, in 1882.
 
 The next stage took place after the development of genetics in the early 20th century, when it was appreciated that chromosomes (that can be observed by karyotype) were the carrier of genes.
 
-Investigation into the human karyotype took many years to settle the most basic question: how many chromosomes does a normal diploid human cell contain? In 1912, Hans von Winiwarter reported 47 chromosomes in spermatogonia and 48 in oogonia, concluding an XX/XO sex determination mechanism. Painter in 1922 was not certain whether the diploid of humans was 46 or 48, at first favoring 46, but revised his opinion from 46 to 48, and he correctly insisted on humans having an XX/XY system. Considering the techniques of the time, these results were remarkable.
+In his famous textbook The Cell in Development and Heredity, Wilson linked together the independent work of [Theodor Boveri](https://en.wikipedia.org/wiki/Theodor_Boveri) and [Walter Sutton](https://en.wikipedia.org/wiki/Walter_Sutton) (both around 1902) by naming the chromosome theory of inheritance the [Boveri–Sutton chromosome theory](https://en.wikipedia.org/wiki/Boveri–Sutton_chromosome_theory) (the names are sometimes reversed).
 
-In textbooks, the number of human chromosomes remained at 48 for over thirty years. New techniques were needed to correct this error. Joe Hin Tjio working in Albert Levan's lab was responsible for finding the approach:
+Investigation into the human karyotype took many years to settle the most basic question: how many chromosomes does a normal diploid human cell contain? In 1912, Hans von Winiwarter reported 47 chromosomes in spermatogonia and 48 in oogonia, concluding an XX/XO sex determination mechanism. The number of human chromosomes was published in 1923 by Theophilus Painter. By inspection through the microscope, he counted 24 pairs, which would mean 48 chromosomes. His error was copied by others and it was not until 1956 that the true number, 46, was determined by Indonesia-born cytogeneticist [Joe Hin Tjio](https://en.wikipedia.org/wiki/Joe_Hin_Tjio). He was responsible for finding a new approach that settled the issue:
 
 * Using cells in tissue culture
 * Pretreating cells in a hypotonic solution, which swells them and spreads the chromosomes
@@ -39,7 +66,7 @@ The work took place in 1955, and was published in 1956. The karyotype of humans 
 
 ## Observations on karyotypes
 ### Staining
-The study of karyotypes is made possible by staining. Usually, a suitable dye, such as Giemsa,[19] is applied after cells have been arrested during cell division by a solution of colchicine usually in metaphase or prometaphase when most condensed. In order for the Giemsa stain to adhere correctly, all chromosomal proteins must be digested and removed. For humans, white blood cells are used most frequently because they are easily induced to divide and grow in tissue culture.[20] Sometimes observations may be made on non-dividing (interphase) cells. The sex of an unborn fetus can be determined by observation of interphase cells (see amniotic centesis and Barr body).
+The study of karyotypes is made possible by staining. Usually, a suitable dye, such as Giemsa, is applied after cells have been arrested during cell division by a solution of colchicine usually in metaphase or prometaphase when most condensed. In order for the Giemsa stain to adhere correctly, all chromosomal proteins must be digested and removed. For humans, white blood cells are used most frequently because they are easily induced to divide and grow in tissue culture. Sometimes observations may be made on non-dividing (interphase) cells. The sex of an unborn fetus can be determined by observation of interphase cells (see amniotic centesis and Barr body).
 
 ### Observations
 Six different characteristics of karyotypes are usually observed and compared:
@@ -85,17 +112,20 @@ Chromosome abnormalities can be numerical, as in the presence of extra or missin
 * [Trisomy 9](https://en.wikipedia.org/wiki/Trisomy_9), believed to be the 4th most common trisomy, has many long lived affected individuals but only in a form other than a full trisomy, such as trisomy 9p syndrome or mosaic trisomy 9. They often function quite well, but tend to have trouble with speech.
 * Also documented are trisomy 8 and trisomy 16, although they generally do not survive to birth.
 
-(ref:Turner\)[45,X karyotype, showing an unpaired X at the lower right](https://commons.wikimedia.org/wiki/File:45,X.jpg)
+(ref:Turner\) [45,X karyotype, showing an unpaired X at the lower right](https://commons.wikimedia.org/wiki/File:45,X.jpg)
+
 ```{r Turner, fig.cap='(ref:Turner)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/45,X.jpg")
 ```
 
-(ref:Klinefelter\)[Klinefelter syndrome karyotype (XXY)](https://commons.wikimedia.org/wiki/File:Human_chromosomesXXY01.png)
+(ref:Klinefelter\) [Klinefelter syndrome karyotype (XXY)](https://commons.wikimedia.org/wiki/File:Human_chromosomesXXY01.png)
+
 ```{r Klinefelter, fig.cap='(ref:Klinefelter)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Human_chromosomesXXY01.jpg")
 ```
 
-(ref:Down\)[Karyotype for trisomy Down syndrome: notice the three copies of chromosome 21](https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png)
+(ref:Down\) [Karyotype for trisomy Down syndrome: notice the three copies of chromosome 21](https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png)
+
 ```{r Down, fig.cap='(ref:Down)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Down_Syndrome_Karyotype.jpg")
 ```
@@ -133,11 +163,25 @@ Karyotypes are arranged with the short arm of the chromosome on top, and the lon
 
 Multicolor FISH and the older spectral karyotyping are molecular cytogenetic techniques used to simultaneously visualize all the pairs of chromosomes in an organism in different colors (Figure \@ref(fig:sky)). Fluorescently labeled probes for each chromosome are made by labeling chromosome-specific DNA with different fluorophores. Because there are a limited number of spectrally distinct fluorophores, a combinatorial labeling method is used to generate many different colors. Fluorophore combinations are captured and analyzed by a fluorescence microscope using up to 7 narrow-banded fluorescence filters or, in the case of spectral karyotyping, by using an interferometer attached to a fluorescence microscope. In the case of an mFISH image, every combination of fluorochromes from the resulting original images is replaced by a pseudo color in a dedicated image analysis software. Thus, chromosomes or chromosome sections can be visualized and identified, allowing for the analysis of chromosomal rearrangements. In the case of spectral karyotyping, image processing software assigns a pseudo color to each spectrally different combination, allowing the visualization of the individually colored chromosomes. Multicolor FISH is used to identify structural chromosome aberrations in cancer cells and other disease conditions when Giemsa banding or other techniques are not accurate enough.
 
-(ref:sky\)[Spectral human karyotype](https://en.wikipedia.org/wiki/File:Spectralkaryotype98-300.jpg)
+(ref:sky\) [Spectral human karyotype](https://en.wikipedia.org/wiki/File:Spectralkaryotype98-300.jpg)
+
 ```{r sky, fig.cap='(ref:sky)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Spectralkaryotype98-300.jpg")
 ```
 
-
-## Exercise 1: using graduated (serological) macropipettes
+## Determine the karyotype
 ### Experimental procedures
+
+1. Obtain a photomicrograph of a metaphase chromosome spread.
+2. Write down the code associated with the photomicrograph.
+3. Using scissors carefully cut out the largest chromosome on the page and paste it onto the “data page”.
+4. Find the  matching chromosome and paste it next to the first chromosome.
+5. Repeat these steps until all chromosomes have been pasted onto the data page by decreasing size (as shown in  Figure \@ref(fig:karyo)). **Cut out only one chromosome at a time or you will get confused and likely lose chromosomes.**
+6. Determine the number of chromosomes on the data page. Any extra chromosome(s) are indication of an aneuploidy.
+7. Determine the type of sex chromosomes on the data page.
+8. Write down the karyotype.
+9. Write down the suggested diagnosis.
+
+## Review Questions
+
+1.

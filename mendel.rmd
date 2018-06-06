@@ -32,6 +32,16 @@ The squares containing the single letters represent the possible gametes. The sq
 knitr::include_graphics("./figures/mendel/PunnettF1.svg")
 ```
 
+## Test cross
+
+A [test cross](https://en.wikipedia.org/wiki/Test_cross), first introduced by Gregor Mendel, involves the breeding of an individual with a phenotypically recessive individual, in order to determine the zygosity of the former by analyzing proportions of offspring phenotypes. Zygosity can either be heterozygous or homozygous. Those that are heterozygous have one dominant and one recessive allele. Individuals that are homozygous dominant have two dominant alleles, and those that are homozygous recessive have two recessive alleles.
+
+The genotype that an offspring has for each of its genes is determined by the alleles inherited from its parents. The combination of alleles is a result of the maternal and paternal chromosomes contributed from each gamete at fertilization of that offspring. During meiosis in gametes, homologous chromosomes experience genetic recombination and segregate randomly into haploid daughter cells, each with a unique combination of maternally and paternally coded genes. Dominant alleles will override the expression of recessive alleles.
+
+Test crosses are used to test an individual's genotype by crossing it with an individual of a known genotype. Individuals that show the recessive phenotype are known to have a homozygous recessive genotype. Individuals that show the dominant phenotype, however, may either be homozygous dominant or heterozygous. The phenotypically dominant organism is the individual in question in a test cross. The purpose of a test cross is to determine if this individual is homozygous dominant or heterozygous.
+
+Test crosses involve breeding the individual in question with another individual that expresses a recessive version of the same trait. Analyzing the proportions of dominant and recessive offspring determines if the individual in question is homozygous dominant or heterozygous. If all offspring from the test cross display the dominant phenotype, the individual in question is homozygous dominant; if half the offspring display dominant phenotypes and half display recessive phenotypes, then the individual is heterozygous. Since the homozygous recessive individual can only pass on recessive alleles, the alleles the individual in question passes on determine the phenotypes of the offspring.
+
 ## Monohybrid cross (Experiment 1)
 A [monohybrid cross](https://en.wikipedia.org/wiki/Monohybrid_cross) is a mating between two individuals with different variations at one genetic trait of interest. The character(s) being studied in a monohybrid cross are governed by two or multiple variations for a single locus. A cross between two parents possessing a pair of contrasting characters is known as monohybrid cross. To carry out such a cross, each parent is chosen to be homozygous or true breeding for a given trait (locus). When a cross satisfies the conditions for a monohybrid cross, it is usually detected by a characteristic distribution of second-generation (F2) offspring that is sometimes called the monohybrid ratio.
 
@@ -91,44 +101,6 @@ Row #  |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starc
 8      |			                     |                           |                           |                           |     |
 9      |			                     |                           |                           |                           |     |
 Total  |			                     |                           |                           |                           |     |
-
-## Blood Typing (Experiment 3)
-In this experiment, we will determine the ABO properties of four (artificial) blood samples.
-
-(ref:type) Blood type (or blood group) is determined, in part, by the ABO blood group antigens present on red blood cells.
-
-```{r type, fig.cap='(ref:type)', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./figures/mendel/blood_type.svg")
-```
-
-A [blood type](https://en.wikipedia.org/wiki/Blood_type) (also called a blood group) ([Figure \@ref(fig:type)](https://commons.wikimedia.org/wiki/File:ABO_blood_type.svg)) is a classification of blood based on the presence and absence of antibodies and also based on the presence or absence of inherited antigenic substances on the surface of red blood cells (RBCs). These antigens may be proteins, carbohydrates, glycoproteins, or glycolipids, depending on the blood group system. Some of these antigens are also present on the surface of other types of cells of various tissues. Blood types are inherited and represent contributions from both parents. A total of 35 human blood group systems are now recognized by the International Society of Blood Transfusion (ISBT). The two most important ones are ABO and the RhD ("Rhesus") antigen; they determine someone's blood type (A, B, AB and O, with +, - or Null denoting RhD status).
-
-### Experimental procedures
-1.  Using the dropper vial, place a drop of the first synthetic blood sample in each well of the blood-typing slide (Figure \@ref(fig:typing)). Replace the cap on the dropper vial. Always replace the cap on one vial before opening the next vial, to prevent cross-contamination.
-2. Add a drop of synthetic anti-A (blue) to the well labeled A. Replace the cap.
-3. Add a drop of synthetic anti-B serum (yellow) to the well labeled B. Replace the cap.
-4. Add a drop of synthetic anti-D (Rh) serum (clear) to the well labeled Rh. Replace the cap.
-5. Using a mixing stick of a different color for each well (blue for anti-A, yellow for anti-B, white for anti-Rh), gently stir the synthetic blood and anti-serum drops for 30 seconds. Remember to discard each mixing stick after a single use to avoid contamination of your samples.
-6. Carefully examine the thin films of liquid mixture left behind:
-    * If a film remains uniform in appearance, there is no agglutination.
-    * If the sample appears granular, agglutination has occurred.
-8. Answer yes or no as to whether agglutination occurred in each sample. A positive agglutination reaction indicates the blood type.
-7. Record the results for the first blood sample in Table \@ref(tab:blood).
-8. Determine the blood type of the sample using the results that you entered in Table \@ref(tab:blood).
-8. Thoroughly rinse the blood-typing slide and repeat steps 1 through 7 for synthetic blood samples 2, 3, and 4, recording the results of each test as you go (and rinsing the slide after each sample).
-
-```{r typing, fig.cap='Blood typing result', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./figures/mendel/blood_typing.jpg")
-```
-
-Table: (\#tab:blood) Blood Typing.
-
-|                 |Sample 1 |	Sample 2|	Sample 3|	Sample 4
-|-----------------|---------|---------|---------|---------|
-Anti-A            |         |         |         |         |
-Anti-B            |         |         |         |         |
-Anti-D (Rh) + or -|         |         |         |         |
-Blood Type        |         |         |         |         |
 
 
 ## Review Questions
