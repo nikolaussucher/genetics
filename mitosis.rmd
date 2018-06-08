@@ -38,7 +38,7 @@ knitr::include_graphics("./figures/mitosis/Onion_root_tip_spread.jpg")
 
 ## Review Questions
 1. What is mitosis and what is its outcome?
-2. What is meiosis and what is its outrcome?
+2. What is meiosis and what is its outcome?
 3. What is homologous recombination and what is its outcome?
 4. What do the terms haploid and diploid mean?
 5. Are you a haploid or a diploid organism?
