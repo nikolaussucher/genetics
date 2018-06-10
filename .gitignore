@@ -3,6 +3,9 @@ _bookdown_files
 _book
 _main.epub
 *.aux
+*.un~
+*.txt~
+.*~
 *.pdf
 *.idx
 *.out
