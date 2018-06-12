@@ -4,7 +4,7 @@ title: "Laboratory Manual For SCI200
         Genetics at Roxbury Community College"
 author: ["Nikolaus Sucher"]
 description: "This laboratory manual will accompany you during your laboratory for Genetics."
-#url: 'https://myrcc.rcc.mass.edu/ICS/xxx_lab_manual/index.html'
+#url: 'https://myrcc.rcc.mass.edu/ICS/200_lab_manual/index.html'
 github-repo: nikolaussuchert/genetics
 twitter-handle: NikolausSucher
 cover-image: cover.jpg
