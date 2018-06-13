@@ -1,0 +1,25 @@
+# Agarose Gel Electrophoresis, Ligation and Transformation
+
+## Agarose gel electrophoresis
+
+Electrophoresis (from the Greek "electrophoron" meaning "to bear electrons") is the motion of dispersed particles relative to a fluid under the influence of a spatially uniform electric field.
+
+Agarose gel electrophoresis is a method of gel electrophoresis used in biochemistry, molecular biology, genetics, and clinical chemistry to separate a mixed population of macromolecules such as DNA or proteins in a matrix of agarose, one of the two main components of agar. The proteins may be separated by charge and/or size, and the DNA and RNA fragments by length. Biomolecules are separated by applying an electric field to move the charged molecules through an agarose matrix, and the biomolecules are separated by size in the agarose gel matrix.
+
+Agarose gels are easy to cast and are particularly suitable for separating DNA of size range most often encountered in laboratories. The separated DNA is visualized using a stain, most commonly under UV light, and the DNA fragments can be extracted from the gel with relative ease. Most agarose gels used are made using 0.5–3% agarose which is dissolved in a suitable electrophoresis buffer.
+
+Agarose gel is easy to cast, has relatively fewer charged groups, and is particularly suitable for separating DNA of size range most often encountered in laboratories, which accounts for the popularity of its use. The separated DNA may be viewed with stain, most commonly under UV light, and the DNA fragments can be extracted from the gel with relative ease. Most agarose gels used are between 0.7–2% dissolved in a suitable electrophoresis buffer.
+
+## Ligation
+
+In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecular_biology)) is the joining of two nucleic acid fragments through the action of an enzyme. It is an essential laboratory procedure in the molecular cloning of DNA whereby DNA fragments are joined together to create recombinant DNA molecules, such as when a foreign DNA fragment is inserted into a plasmid. The ends of DNA fragments are joined together by the formation of phosphodiester bonds between the 3'-hydroxyl of one DNA terminus with the 5'-phosphoryl of another.
+
+## Transformation
+
+In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformation_(genetics)) is the genetic alteration of a cell resulting from the direct uptake and incorporation of exogenous genetic material from its surroundings through the cell membrane(s). For transformation to take place, the recipient bacteria must be in a state of competence, which might occur in nature as a time-limited response to environmental conditions such as starvation and cell density, and may also be induced in a laboratory.
+
+Transformation is one of three processes for horizontal gene transfer, in which exogenous genetic material passes from one bacterium to another, the other two being conjugation (transfer of genetic material between two bacterial cells in direct contact) and transduction (injection of foreign DNA by a bacteriophage virus into the host bacterium). In transformation, the genetic material passes through the intervening medium, and uptake is completely dependent on the recipient bacterium.
+
+"Transformation" may also be used to describe the insertion of new genetic material into nonbacterial cells, including animal and plant cells; however, because "transformation" has a special meaning in relation to animal cells, indicating progression to a cancerous state, the process is usually called "transfection".
+
+Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of S. pneumoniae and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.

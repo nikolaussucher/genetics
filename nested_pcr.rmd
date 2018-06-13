@@ -1,0 +1,18 @@
+# Exonuclease I Digestion And Nested PCR
+
+Exonucleases are enzymes that work by cleaving nucleotides one at a time from the end (exo) of a polynucleotide chain. A hydrolyzing reaction that breaks phosphodiester bonds at either the 3' or the 5' end occurs. Its close relative is the endonuclease, which cleaves phosphodiester bonds in the middle (endo) of a polynucleotide chain. Exonuclease I (Phosphodiesterase I) hydrolytically removes 5'-nucleotides successively from the 3'-hydroxy termini of 3'-hydroxy-terminated oligonucleotides. We use exonuclease I to digest the oligonucleotide primers from the firs PCR reaction so that they will not allow for PCR amplification in the second PCR. After the initial PCR primers have been digested, exonuclease I also needs to be inactivated before it is introduced into fresh PCR reactions to prevent it digesting the nested PCR primers.
+
+
+## Nested polymerase chain reaction
+
+Nested polymerase chain reaction (Nested PCR) is a modification of polymerase chain reaction intended to reduce non-specific binding in products due to the amplification of unexpected primer binding sites.
+
+Nested polymerase chain reaction involves two sets of primers, used in two successive runs of polymerase chain reaction, the second set intended to amplify a secondary target within the first run product. This allows amplification for a low number of runs in the first round, limiting non-specific products. The second nested primer set should only amplify the intended product from the first round of amplification and not non-specific product. This allows running more total cycles while minimizing non-specific products. This is useful for very rare templates or PCR with high background.
+
+## Glyceraldehyde 3-phosphate dehydrogenase
+
+[Glyceraldehyde 3-phosphate dehydrogenase](https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate_dehydrogenase) (abbreviated as GAPDH or less commonly as G3PDH) (EC 1.2.1.12) is an enzyme of ~37kDa that catalyzes the sixth step of glycolysis and thus serves to break down glucose for energy and carbon molecules. In addition to this long established metabolic function, GAPDH has recently been implicated in several non-metabolic processes, including transcription activation, initiation of apoptosis, ER to Golgi vesicle shuttling, and fast axonal, or axoplasmic transport.
+
+Because the GAPDH gene is often stably and constitutively expressed at high levels in most tissues and cells, it is considered a housekeeping gene. For this reason, GAPDH is commonly used by biological researchers as a loading control for western blot and as a control for qPCR. However, researchers have reported different regulation of GAPDH under specific conditions.
+
+
