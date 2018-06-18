@@ -1,4 +1,4 @@
-# DNA extraction and Polymerase Chain Reaction 
+# DNA extraction and GAPDH Polymerase Chain Reaction 
 
 ## DNA
 Deoxyribonucleic acid DNA) is a thread-like chain of nucleotides carrying the genetic instructions used in the growth, development, functioning and reproduction of all known living organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids; alongside proteins, lipids and complex carbohydrates (polysaccharides), they are one of the four major types of macromolecules that are essential for all known forms of life. Most DNA molecules consist of two biopolymer strands coiled around each other to form a double helix.
@@ -17,6 +17,9 @@ Within eukaryotic cells, DNA is organized into long structures called chromosome
 DNA was first isolated by [Friedrich Miescher](https://en.wikipedia.org/wiki/Friedrich_Miescher) in 1869. Its molecular structure was first identified by [James Watson](https://en.wikipedia.org/wiki/James_Watsoni) and [Francis Crick](https://en.wikipedia.org/wiki/Francis_Crick) at the Cavendish Laboratory within the University of Cambridge in 1953, whose model-building efforts were guided by X-ray diffraction data acquired by [Raymond Gosling](https://en.wikipedia.org/wiki/Raymond_Gosling), who was a post-graduate student of [Rosalind Franklin](https://en.wikipedia.org/wiki/Rosalind_Franklin).
 
 DNA isolation is a process of purification of DNA from sample using a combination of physical and chemical methods. Currently it is a routine procedure in molecular biology. 
+
+## Glyceraldehyde 3-phosphate dehydrogenase
+
 
 ## Polymerase chain reaction
 
