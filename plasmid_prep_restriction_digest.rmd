@@ -1,5 +1,47 @@
 # Plasmid Purification And Restriction Digests
 
+## Plasmid Purification 
 
+## Experimental Procedures
+
+1. Label one capless collection tube, one plasmid mini column, and two microcentrifuge tubes for each miniprep culture with your initials and the information on the labels of the 1.5 ml cultures. On the microcentrifuge tubes, include “miniprep DNA” in the name.
+2. Place each column in the appropriate capless collection tube.
+3. Transfer 1.5 ml of each miniprep culture into one of the appropriately labeled microcentrifuge tubes by pipetting or decanting.
+4. Centrifuge the microcentrifuge tubes for 1 min at top speed (>12,000 x g) to pellet the bacteria. Accomodate tubes of classmates to ensure economic use of the microcentrifuge. Make sure that the microcentrifuge is balanced.
+1.5 ml
+   5. Locate the bacterial pellet and remove the supernatant from each tube using a 1,000 μl pipet or a vacuum source; avoid touching or extracting the pellet. Dispose of the supernatant according to your local environmental health and safety regulations.
+6. Add the remaining 1.5 ml of the appropriate miniprep culture to the correct microcentrifuge tube containing the bacterial pellet, centrifuge for 1 min and remove supernatant.
+7. Add 250 μl of resuspension solution to each tube. Resuspend bacterial pellet by pipetting up and down or vortexing. Use a fresh tip each time. Ensure that no clumps of bacteria remain.
+8. Pipet 250 μl of lysis solution into each tube and mix by gently inverting 6–8 times. Do not pipet or vortex this lysate or you risk shearing (fragmenting) the bacterial gDNA, which could contaminate your plasmid preparation.
+This step chemically breaks the cells open.
+9. Within 5 min of adding lysis solution, pipet 350 μl of neutralization solution into each tube and mix by gently inverting 6–8 times. Do not pipet or vortex this lysate. A white precipitate should form.
+This step precipitates out the gDNA, proteins, and cellular debris.
+10. Centrifuge the tubes for 5 min at top speed. Make sure the microcentrifuge is balanced.
+This step purifies the plasmid DNA from the bacterial lysate.
+11. Decant or pipet supernatant from the centrifuged tubes onto the appropriately labeled column. Avoid
+transferring any precipitate. If necessary, recentrifuge
+the microcentrifuge tubes. Discard microcentrifuge tubes.
+This step binds plasmid DNA to column matrix.
+12. Centrifuge the columns, still in the capless collection tubes, in the microcentrifuge for 1 min at top speed.
+               
+     134 Plasmid Purification Stage
+ 
+ 
+ 
+CHAPTER 7 PROTOCOL
+ Cloning and Sequencing Explorer Series
+13. Discard flowthough from the collection tube and replace the column in the collection tube.
+14. Pipet 750 μl of wash solution onto each column (ensure that the wash solution has had ethanol added to it prior to use).
+15. Centrifuge columns in the capless collection tubes for 1 min at top speed.
+16. Discard the flowthough from the collection tube.
+17. Replace columns into collection tubes and centrifuge for an additional 1 min to dry out the column.
+It is vital that this step be performed, or wash solution and ethanol may contaminate the purified plasmid.
+18. Transfer contents of each column to the appropriately labeled capped “miniprep DNA” microcentrifuge tube and pipet 100 μl of elution solution onto the column.
+19. Let the elution solution be absorbed into the column for 1–2 min.
+20. Place the column in the microcentrifuge tube into the centrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
+21. Centrifuge the columns for 2 min.
+This step elutes the purified plasmid DNA.
+22. Discard the columns and cap the tubes containing the eluted sample.
+23. Store miniprep plasmid DNA at 4°C short term (up to 1 month) or –20°C long term.
 
 
