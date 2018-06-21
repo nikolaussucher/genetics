@@ -1,6 +1,7 @@
-# Cloning and Sequencing
 
-In the remaining 7 laboratory sessions of this course, we will learn and apply some of the fundamental techniques of molecular biology and genetics. Specifically, we will clone a portion of a glyceraldehyde-3-phosphate dehydrogenase (GAPDH) gene from plants, insert this gene fragment into a plasmid vector, and analyze the sequences of resulting clones using bioinformatics.
+# Cloning and Sequencing {-}
+
+In the remaining 8 laboratory sessions of this course, we will learn and apply some of the fundamental techniques of molecular biology and genetics. Specifically, we will clone a portion of a glyceraldehyde-3-phosphate dehydrogenase (GAPDH) gene from plants, insert this gene fragment into a plasmid vector, and analyze the sequences of resulting clones using bioinformatics.
 
 [Glyceraldehyde 3-phosphate dehydrogenase](https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate_dehydrogenase) (abbreviated as GAPDH or less commonly as G3PDH) (EC 1.2.1.12) is an enzyme of ~37kDa that catalyzes the sixth step of glycolysis and thus serves to break down glucose for energy and carbon molecules. In addition to this long established metabolic function, GAPDH has recently been implicated in several non-metabolic processes, including transcription activation, initiation of apoptosis, ER to Golgi vesicle shuttling, and fast axonal, or axoplasmic transport.
 

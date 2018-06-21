@@ -38,7 +38,7 @@ These pipettes operate by piston-driven air displacement (Figure \@ref(fig:micro
 knitr::include_graphics("./figures/skills/Gilson_schematic.svg")
 ```
 
-```{block2, type='rmdimportant'}
+```{block2, type='rmdnote'}
 **The recommendation is for using a pipette whose size is nearest to the volume being worked with.**
 ```
 
@@ -59,7 +59,7 @@ All adjustable pipettes should be calibrated and checked periodically. The simpl
 10. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:micro).
 
 
-$$ Error (\%) = \frac{expected\ mass − experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
+$$ Error (\%) = \frac{expected\ mass - experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
 
 Your results should be within ±5% of the correct volume set on the dial of the pipette.
 
@@ -105,7 +105,7 @@ Shaft
 12. Eject the tip.
 13. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:micro).
 
-$$ Error (\%) = \frac{expected\ mass − experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
+$$ Error (\%) = \frac{expected\ mass - experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
 
 Your results should be within ±5% of the correct volume set on the dial of the pipette.
 
