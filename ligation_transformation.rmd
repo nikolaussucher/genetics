@@ -24,12 +24,12 @@ Take special care when pipetting very small volumes. Make sure only the soft sto
 7.  Add the comb into the comb slot.
 8.  Pour the solution onto the gel tray in the gel box.
 1. Label a microcentrifuge tube for each PCR sample.
-2. Transfer 20 µl of each PCR reaction into the labeled microcentrifuge tube. Add 4 μl of loading dye and stain into the tube. Pipette up and down to mix.
-3. To assess the success of the nested PCR round, pipet 5 μl of each yellow nested PCR into a microcentrifuge tube and mix it with 1 µl of 6x loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
+2. Transfer 20 µl of each PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
+3. To assess the success of the nested PCR round, pipet 5 µl of each yellow nested PCR into a microcentrifuge tube and mix it with 1 µl of 6x loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
 4. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
 4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
-5. Load 10 μl of the 500 bp molecular weight ruler into the first well. 
-6. Load 20 μl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 μl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
+5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
+6. Load 20 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
 7. Connect your electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min. 
 8. On completion of electrophoresis, visualize the DNA bands (using appropriate safety equipment) and acquire an image of your gel according to your instructor’s directions.
 
@@ -122,5 +122,3 @@ The cells are now competent for transformation.
 22. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
 It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
 22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37°C.
-    
-
