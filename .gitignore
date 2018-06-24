@@ -2,7 +2,6 @@ UWisc
 _bookdown_files
 _book
 _main.epub
-docs
 *.aux
 *.swp
 *.*~
