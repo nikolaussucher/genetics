@@ -16,7 +16,7 @@ Each team will be assigned a group of wells on a 96-well plate for setting up th
 
 1. Choose two of your plasmid minipreps to sequence.
 2. Plan your experiment. You will prepare four sequencing samples for each of your two plasmid minipreps. You will combine each plasmid miniprep with each of the four different sequencing primers — two forward primers and two reverse primers — to ensure complete coverage of the insert. pJET SEQ F and pJET SEQ R anneal to the pJET1.2 vector, while GAP SEQ F and GAP SEQ R are degenerate primers homologous to internal GAPC sequences.
-Enter in Table @ref(\#tab:seq) below which plasmid was combined with which primer and added into each well. When you name your sequences (sequence wells), make sure you use the same names when submitting samples to the sequencing facility.
+Enter in Table \@ref(tab:seq) below which plasmid was combined with which primer and added into each well. When you name your sequences (sequence wells), make sure you use the same names when submitting samples to the sequencing facility.
 2. In your microcentrifuge tubes, combine 10 µl of the miniprep DNA with 1 µl of sequencing primer. Pipet up and down to mix.
 3. Pipet 10 µl of the plasmid/primer mixtures into the assigned wells of the 96-well plate. Write down the barcode number from the 96-well plate.
 4. Once the entire class has added samples to the plate, seal the plate using the sealing film provided. Ensure a secure seal by rubbing extensively over the top of the plate with a gloved finger. It is essential to seal the plate completely so that the samples are not lost during transit.
