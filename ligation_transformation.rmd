@@ -12,27 +12,23 @@ Agarose gel is easy to cast, has relatively fewer charged groups, and is particu
 
 ## Experimental Procedures
 
-```{block2, type='rmdimportant'}
+```{block2, type='rmdnote'}
 Take special care when pipetting very small volumes. Make sure only the soft stop of the pipet is used, when pulling up reagents even though it may feel like a very small movement. Also, look at the end of the pipet tip to be sure that the correct volume of reagent is in the tip. After adding the reagent to the tube, be sure that the pipet tip is empty. Never reuse a pipet tip.
 ```
 
-2.  Get the Erlenmeyer flask containing 1 g of agarose powder
-3.  Add 100 ml of 1x TAE (Tris base, acetic acid, EDTA) running buffer.
-4.  Add 10 µl of SybrGreen™ dye (10,000x stock solution).
-5.  Heat in the microwave at full power for 1 minute.
-6.  Swirl to make sure that all powder has dissolved, and the solution is clear.
-7.  Add the comb into the comb slot.
-8.  Pour the solution onto the gel tray in the gel box.
+2. Get the Erlenmeyer flask containing 1 g of agarose powder
+3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
+4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
+5. Heat in the microwave at full power for 1 minute.
+6. Swirl to make sure that all powder has dissolved, and the solution is clear.
+7. Add the comb into the comb slot.
+8. Pour the solution onto the gel tray in the gel box.
 1. Label a microcentrifuge tube for each PCR sample.
-2. Transfer 20 µl of each PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
-3. To assess the success of the nested PCR round, pipet 5 µl of each yellow nested PCR into a microcentrifuge tube and mix it with 1 µl of 6x loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
-4. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
-4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
-5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
-6. Load 20 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
-7. Connect your electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min. 
-8. On completion of electrophoresis, visualize the DNA bands (using appropriate safety equipment) and acquire an image of your gel according to your instructor’s directions.
-
+2. Transfer 20 µl of each of first-round PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
+3. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
+4. The gel will need about 30 minutes to solidify.
+5. Start setting up the PCR product purification.
+ 
 ## PCR Product Purification
 
 ## Experimental Procedures 
@@ -46,21 +42,27 @@ by vortexing. Return the beads to the bottom of the column with a sharp downward
 Centrifuge columns at 735×g for 2 min. Do not use the top speed of the microcentrifuge for this step.
 6. Move the spin column to the labeled microcentrifuge tube. Discard the flowthrough and the collection tube.
 7. Pipet 30 µl of the nested PCR product onto the top of the column bed in the spin column, without disturbing the resin (or column bed).
-Save 5 µl of this original (unpurified) yellow PCR sample and mix it with 1 µl of 6x loading dye and stain for gel electrophoresis.
+Save 5 µl of this original (unpurified) yellow PCR sample and mix it with 1 µl of 6× loading dye and stain for gel electrophoresis.
 8. Place the column in the labeled microcentrifuge tube into the microcentrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
 Centrifuge at 735×g for 2 min. Make sure that another group’s sample counterbalances the microcentrifuge.
 9. Remove the spin column from the microcentrifuge tube and discard the column. Cap the microcentrifuge tube, which now contains the purified PCR product. Store at 4°C for up to 2 weeks or at –20°C long term.
-10. Add 1 µl of 6x loading dye and stain into 5 µl of the purified sample. 
+10. Add 1 µl of 6× loading dye and stain into 5 µl of the purified sample. 
 11. Electrophorese 5 µl of this mix next to 5 µl of the unpurified sample on a 1% agarose gel to visualize differences between the original and the purified sample.
+12. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
+4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
+5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
+6. Load 20 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
+7. Connect your electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min. 
+8. While the gel is running, start setting up the ligation reactions.
 
 ## Ligation
 
 In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecular_biology)) is the joining of two nucleic acid fragments through the action of an enzyme. It is an essential laboratory procedure in the molecular cloning of DNA whereby DNA fragments are joined together to create recombinant DNA molecules, such as when a foreign DNA fragment is inserted into a plasmid. The ends of DNA fragments are joined together by the formation of phosphodiester bonds between the 3'-hydroxyl of one DNA terminus with the 5'-phosphoryl of another.
 
-## Experimental Procedureqs 
+## Experimental Procedures 
 1. Label a microcentrifuge tube with your initials and “l" for "ligation.”
 2. Briefly centrifuge the stock tubes containing the 2× ligation reaction buffer and proofreading polymerase in a microfuge to force contents to bottom of tubes.
-4. Add 5.0 µl 2x ligation reaction buffer to the labeled microcentrifuge tube.
+4. Add 5.0 µl 2× ligation reaction buffer to the labeled microcentrifuge tube.
 5. Add 1.0 µl purified PCR product
 6. Add 2.5 µl sterile water
 7. Add 0.5 µl proofreading polymerase
@@ -68,13 +70,14 @@ In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecul
 5. Incubate the tube at 70°C for 5 min. 70°C is the optimal temperature for the proofreading polymerase to blunt the PCR fragment.
 6. Cool the tube on ice for 2 min. This recondenses water vapor to maintain the reaction volume.
 Centrifuge the tube briefly to collect the contents at the bottom of the tube. Maintain the tube at room temperature.
-7. Add 0.5 µl T4 DNA ligase
-8. Add 0.5 µl pJet1.2 blunted vector        
+7. Add 0.5 µl T4 DNA ligase.
+8. Add 0.5 µl pJet1.2 blunted vector.
 10. Close the cap and mix well. 
 11. Centrifuge briefly in a microcentrifuge to collect the contents at the bottom of the tube.
 11. Incubate the tube at room temperature for 5–10 min.
 12. Pipet 5 µl of the ligation reaction into a fresh microcentrifuge tube labeled with your initials and “t" for "transformation” and store it on ice until needed for the transformation.
-  
+8. Take the gel out of the electrophoresis box to visualize the DNA bands and acquire an image of your gel.
+
 ## Transformation
 
 In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformation_(genetics)) is the genetic alteration of a cell resulting from the direct uptake and incorporation of exogenous genetic material from its surroundings through the cell membrane(s). For transformation to take place, the recipient bacteria must be in a state of competence, which might occur in nature as a time-limited response to environmental conditions such as starvation and cell density, and may also be induced in a laboratory.
@@ -88,10 +91,9 @@ Transformation in bacteria was first demonstrated in 1928 by the British bacteri
 
 1. Add 1.5 ml C-growth medium into a 15 ml culture tube. Label tube with your initials and warm it at 37°C for at least 10 min.
 2. Label 2 LB amp IPTG agar plates with your initials (on the bottom of the plate, not the lid). Also label one of the plates “pGAP” for the control plasmid and the other for your ligation (pJET + your plant name).
-   3. Pipet 150 µl of fresh E. coli starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37°C incubator or water bath for 20–40 min shaking at 275 rpm.
+3. Pipet 150 µl of fresh *E.coli starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37°C incubator or water bath for 20–40 min shaking at 275 rpm.
 4. Label a 1.5 microcentrifuge tube with your initials and “competent cells.”
-5. Prepare transformation buffer by combining 250 µl of transformation reagent A and
-250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
+5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
 6. After bacteria have grown in C-growth medium for 20–40 min at 37°C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
 7. Centrifuge the bacterial culture in a microcentrifuge at top speed for 1 min. Make sure that the microcentrifuge is balanced. Immediately put the pelleted bacterial culture on ice.
 8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture supernatant, avoiding the pellet, using a 1,000 µl pipet. Keep the cells on ice.

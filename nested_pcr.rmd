@@ -31,13 +31,15 @@ Nested polymerase chain reaction involves two sets of primers, used in two succe
 10. Use a fresh pipet tip to add 20 µl of plasmid DNA (positive control) to tube #2.
 11. Use a fresh pipet tip to add 20 µl of sterile water (negative control) to PCR tube #3. 
 12. Place the PCR tubes into the thermal cycler.
-The PCR will run for the next several hours
-using the following Nested GAPDH PCR program:
+The PCR will run for the next several hours using the Nested GAPDH PCR program listed in Table \@ref(tab:nestedpcr).
 
-Initial denaturation: 95°C for 5
-Then 40 cycles of:
-	Denaturation: 95°C for 1
-	Annealing: 52°C for 1 
-	Extension: 72°C for 2 
-	Final extension: 72°C for 6 
-Hold: 15°C hold
+Table: (\#tab:nestedpcr) PCR protocol for second round (nested) GAPDH amplification.
+
+|PCR Step            |Temperature|Time  |Number of cycles
+|:-------------------|:----------|:-----|:--------------
+|Initial denaturation|95°C       |5 min |1
+|Denaturation        |95°C       |1 min |40
+|Annealing           |52°C       |1 min |40
+|Extension           |72°C       |2 min |40
+|Final extension     |72°C       |6 min |1
+|Hold                |15°C       |hold  |

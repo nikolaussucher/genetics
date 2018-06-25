@@ -1,4 +1,4 @@
-# DNA extraction and GAPDH Polymerase Chain Reaction 
+# DNA Extraction and Polymerase Chain Reaction 
 
 ## DNA
 Deoxyribonucleic acid DNA) is a thread-like chain of nucleotides carrying the genetic instructions used in the growth, development, functioning and reproduction of all known living organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids; alongside proteins, lipids and complex carbohydrates (polysaccharides), they are one of the four major types of macromolecules that are essential for all known forms of life. Most DNA molecules consist of two biopolymer strands coiled around each other to form a double helix.
@@ -41,12 +41,14 @@ The PCR, like recombinant DNA technology, has had an enormous impact in both bas
 2. Add 200 µl of lysis buffer into each tube.
 3. Weigh 50–100 mg of plant tissue. Record the weight of the tissue.
    
+Table: (\#table:plant) Plant material record.
+
 |Plant Name|Part of Plant (Leaf, Root, etc.)|Weight (mg)|
 |:---------|:-------------------------------|:----------|
-|	   | 				    |           |
-|	   | 				    |           |
-|	   | 				    |           |
-|	   | 				    |           |
+|	         | 		                    		    |           |
+|	         | 		                    		    |           |
+|	         | 		                    		    |           |
+|	         | 		                    		    |           |
 
 4. Chop the plant tissue into small (1-2 mm in diameter) pieces using a razor blade. 
 5. Add the plant material to the microcentrifuge tubes with the lysis buffer.
@@ -64,7 +66,6 @@ Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 ```{block2, type='rmdimportant'}
 **If a precipitate is visible, spin the microcentrifuge tube again for 5 min in a microcentrifuge at full speed to pellet the precipitated material and use the supernatant for the next stages.**
 ```
- 
 10. Label the top of a mini column for each sample with your initials. Place the columns in 2 ml capless collection tubes.
 11. Remove 800 µl of cleared plant lysate from your microcentrifuge tubea and aad it to the column.
 
@@ -91,26 +92,26 @@ Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 19. Remove the spin column from the microcentrifuge tube.
 
 ## GAPDH Polymerase Chain Reaction
-
 ## Experimental Procedures
 
 1. Obtain a PCR tube.
 2. Label the tube with your initials.
-3. Add 20 µl of 2x MMIP (**m**aster **m**ix with **i**nitial **p**rimers) into each PCR tube.
+3. Add 20 µl of 2× MMIP (**m**aster **m**ix with **i**nitial **p**rimers) into each PCR tube.
 4. Add 15 µl of sterile water to each tube.
 5. Add 5 µl of the DNA template to each tube and gently pipet up and down to mix reagents.
 6. Place your PCR tubes into the thermal cycler.
-7. The PCR reaction will run for the next several hours using the following program:
-   
-Initial denaturation: 95°C for 5
-
-Then 40 cycles of:
-
-	Denaturation: 95°C for 1
-	Annealing: 52°C for 1 
-	Extension: 72°C for 2 
-	Final extension: 72°C for 6 
-
-Hold: 15°C hold
- 
+7. The PCR reaction will run for the next several hours using the program listed in Table \@ref(table:pcr).
 8. The laboratory technicians will remove the PCR tubes from the thermocycler after the PCR has finished and store the tubes at -20°C until we continue our experiments next week.
+
+Table: (\#tab:pcr) PCR protocol for GAPDH amplification.
+ 
+|PCR Step            |Temperature|Time  |Number of cycles
+|:-------------------|:----------|:-----|:--------------
+|Initial denaturation|95°C       |5 min |1
+|Denaturation        |95°C       |1 min |40
+|Annealing           |52°C       |1 min |40
+|Extension           |72°C       |2 min |40
+|Final extension     |72°C       |6 min |1
+|Hold                |15°C       |hold  |
+
+

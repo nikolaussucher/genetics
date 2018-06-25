@@ -56,7 +56,7 @@ All adjustable pipettes should be calibrated and checked periodically. The simpl
 7. Dispense the liquid into a weigh boat.
 8. Determine the mass of the dispensed volume and record your result in Table \@ref(tab:graduated).
 9. Empty the weigh boat, put it on the balance and set the balance to zero.
-10. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:micro).
+10. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:graduated).
 
 
 $$ Error (\%) = \frac{expected\ mass - experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
@@ -113,15 +113,17 @@ Table: (\#tab:micro) Experimental determination of micropipette volumes.
 
 |Name|Volume (µL)|Trial 1|Trial 2|Trial 3|Average|Error (%)
 |:-----|:------|:------|:-----|:-------|:------|:-------|
-P2     |0.5  |       |       |       |       |
-P2     |2    |       |       |       |       |
-P10    |5    |       |       |       |       |
-P10    |10   |       |       |       |       |
-P200   |50   |       |       |       |       |
-P200   |200  |       |       |       |       |
-P1000  |200  |       |       |       |       |
-P1000  |500  |       |       |       |       |
-P1000  |1000 |       |       |       |       |
+P10    |5      |       |       |       |       |
+P10    |10     |       |       |       |       |
+P20    |5      |       |       |       |       |
+P20    |10     |       |       |       |       |
+P20    |20     |       |       |       |       |
+P200   |20     |       |       |       |       |
+P200   |50     |       |       |       |       |
+P200   |200    |       |       |       |       |
+P1000  |200    |       |       |       |       |
+P1000  |500    |       |       |       |       |
+P1000  |1000   |       |       |       |       |
 
 
 Obtain an empty microcentrifuge tube and perform the follwoing pipetting exercises transferring distilled water from a beaker to and from a microcentrifuge tube:

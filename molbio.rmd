@@ -1,5 +1,4 @@
-
-# Cloning and Sequencing {-}
+# Molecular Genetics {-}
 
 In the remaining 8 laboratory sessions of this course, we will learn and apply some of the fundamental techniques of molecular biology and genetics. Specifically, we will clone a portion of a glyceraldehyde-3-phosphate dehydrogenase (GAPDH) gene from plants, insert this gene fragment into a plasmid vector, and analyze the sequences of resulting clones using bioinformatics.
 

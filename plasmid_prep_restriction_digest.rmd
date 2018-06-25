@@ -51,7 +51,7 @@ Table: (\#tab:digest) Composition of restriction digest master mix.
 
 |Reagent                   |Volume|
 |:-------------------------|:-----|
-|10x BgI II reaction buffer|2 µl
+|10× BgI II reaction buffer|2 µl
 |Sterile water             |7 µl
 |BgI II enzyme             |1 µl
 |Total                     |10 µl
