@@ -27,7 +27,7 @@ transferring any precipitate. If necessary, recentrifuge the microcentrifuge tub
 20. Place the column in the microcentrifuge tube into the centrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
 21. Centrifuge the columns for 2 min.
 22. Discard the columns and cap the tubes containing the eluted sample.
-23. Store miniprep plasmid DNA at 4°C short term (up to 1 month) or –20°C long term.
+23. Proceed to setting up the restriction digest reactions.
 
 ## Restriction Digest
 
@@ -38,9 +38,17 @@ transferring any precipitate. If necessary, recentrifuge the microcentrifuge tub
 2. Label a microcentrifuge tube for each plasmid miniprep.
 2. Prepare digestion reactions by adding 10 µl of the BgI II master mix and 10 µl of each plasmid DNA in the labeled microcentrifuge tubes.
 2. Mix tube contents and spin briefly in a microcentrifuge to collect the contents at the bottom of the tube.
-2. Incubate reactions at 37°C for 1 hr. If the reactions will not be analyzed by agarose gel electrophoresis immediately, store them at –20°C until analysis.
+2. Incubate reactions at 37°C for 1 hr. Set timer to sound an alarm after 1 hour.
 3. While the restriction digest is incubating, prepare an agarose gel.
-3. Combine 5 µl of miniprep DNA with 15 µl of sterile water.
+2. Get the Erlenmeyer flask containing 1 g of agarose powder
+3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
+4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
+5. Heat in the microwave at full power for 1 minute.
+6. Swirl to make sure that all powder has dissolved, and the solution is clear.
+7. Add the comb into the comb slot.
+8. Pour the solution onto the gel tray in the gel box.
+4. The gel will need about 30 minutes to solidify.
+3. When the timer indicates that the restriction digest has been incubating for 1 hour, combine 5 µl of miniprep DNA with 15 µl of sterile water.
 3. Briefly centrifuge samples to force the contents to the bottom of the tube.
 3. Add 3.5 µl of 6× loading dye and stain to each of the digested and undigested samples.
 3. Load 20 µl of each sample and 10 µl of the 500 bp molecular weight ruler according to your plan on the 1% agarose gel.

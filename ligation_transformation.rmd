@@ -91,7 +91,7 @@ Transformation in bacteria was first demonstrated in 1928 by the British bacteri
 
 1. Add 1.5 ml C-growth medium into a 15 ml culture tube. Label tube with your initials and warm it at 37°C for at least 10 min.
 2. Label 2 LB amp IPTG agar plates with your initials (on the bottom of the plate, not the lid). Also label one of the plates “pGAP” for the control plasmid and the other for your ligation (pJET + your plant name).
-3. Pipet 150 µl of fresh *E.coli starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37°C incubator or water bath for 20–40 min shaking at 275 rpm.
+3. Pipet 150 µl of fresh *E. coli* starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37°C incubator or water bath for 20–40 min shaking at 275 rpm.
 4. Label a 1.5 microcentrifuge tube with your initials and “competent cells.”
 5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
 6. After bacteria have grown in C-growth medium for 20–40 min at 37°C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
