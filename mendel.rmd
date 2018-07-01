@@ -61,7 +61,7 @@ knitr::include_graphics("./figures/mendel/Monohybrid_cross.jpg")
 
 Table: (\#tab:mono) Monohybrid Cross.
 
-Row #   |purple   |yellow  |ratio
+Row #   |purple         |yellow  |ratio
 |:-----:|:-------------:|:------:|:----:|
 1       |	        |        |      |
 2       |	        |        |      |
