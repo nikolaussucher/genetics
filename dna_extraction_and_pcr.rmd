@@ -41,7 +41,7 @@ The PCR, like recombinant DNA technology, has had an enormous impact in both bas
 2. Add 200 µl of lysis buffer into each tube.
 3. Weigh 50–100 mg of plant tissue. Record the weight of the tissue.
    
-Table: (\#table:plant) Plant material record.
+Table: (\#tab:plant) Plant material record.
 
 |Plant Name|Part of Plant (Leaf, Root, etc.)|Weight (mg)|
 |:---------|:-------------------------------|:----------|
