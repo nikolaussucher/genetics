@@ -33,21 +33,21 @@ Take special care when pipetting very small volumes. Make sure only the soft sto
 
 ## Experimental Procedures 
 
-1. Label a PCR Kleen spin column and a capless collection tube with your initials.
+1. Label a PCR Kleen spin column and a cap-less collection tube with your initials.
 2. Label a capped microcentrifuge tube with your initials, “purified PCR product,” and the plant name.
 3. Resuspend the beads in the PCR Kleen spin column
 by vortexing. Return the beads to the bottom of the column with a sharp downward flick.
-4. Snap the bottom off the spin column, remove the cap, and place the column in the capless collection tube. Discard cap and bottom of column.
-5. Place the spin column, still in the capless collection tube, into the microcentrifuge. Make sure that your tube is placed in the rotor with another group’s or with a balance tube so that the microcentrifuge is balanced.
+4. Snap the bottom off the spin column, remove the cap, and place the column in the cap-less collection tube. Discard cap and bottom of column.
+5. Place the spin column, still in the cap-less collection tube, into the microcentrifuge. Make sure that your tube is placed in the rotor with another group’s or with a balance tube so that the microcentrifuge is balanced.
 Centrifuge columns at 735×g for 2 min. Do not use the top speed of the microcentrifuge for this step.
 6. Move the spin column to the labeled microcentrifuge tube. Discard the flowthrough and the collection tube.
 7. Pipet 30 µl of the nested PCR product onto the top of the column bed in the spin column, without disturbing the resin (or column bed).
-Save 5 µl of this original (unpurified) yellow PCR sample and mix it with 1 µl of 6× loading dye and stain for gel electrophoresis.
+Save 5 µl of this original (not yet purified) yellow PCR sample and mix it with 1 µl of 6× loading dye and stain for gel electrophoresis.
 8. Place the column in the labeled microcentrifuge tube into the microcentrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
 Centrifuge at 735×g for 2 min. Make sure that another group’s sample counterbalances the microcentrifuge.
 9. Remove the spin column from the microcentrifuge tube and discard the column. Cap the microcentrifuge tube, which now contains the purified PCR product. Store at 4°C for up to 2 weeks or at –20°C long term.
 10. Add 1 µl of 6× loading dye and stain into 5 µl of the purified sample. 
-11. Electrophorese 5 µl of this mix next to 5 µl of the unpurified sample on a 1% agarose gel to visualize differences between the original and the purified sample.
+11. Electrophorese 5 µl of this mix next to 5 µl of the not purified sample on a 1% agarose gel to visualize differences between the original and the purified sample.
 12. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
 4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
 5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
@@ -68,7 +68,7 @@ In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecul
 7. Add 0.5 µl proofreading polymerase
 4. Close the cap and mix well. Centrifuge briefly in a microfuge to collect the contents at the bottom of the tube.
 5. Incubate the tube at 70°C for 5 min. 70°C is the optimal temperature for the proofreading polymerase to blunt the PCR fragment.
-6. Cool the tube on ice for 2 min. This recondenses water vapor to maintain the reaction volume.
+6. Cool the tube on ice for 2 min. This re-condenses water vapor to maintain the reaction volume.
 Centrifuge the tube briefly to collect the contents at the bottom of the tube. Maintain the tube at room temperature.
 7. Add 0.5 µl T4 DNA ligase.
 8. Add 0.5 µl pJet1.2 blunted vector.
@@ -85,7 +85,7 @@ In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformat
 Transformation is one of three processes for horizontal gene transfer, in which exogenous genetic material passes from one bacterium to another, the other two being conjugation (transfer of genetic material between two bacterial cells in direct contact) and transduction (injection of foreign DNA by a bacteriophage virus into the host bacterium). In transformation, the genetic material passes through the intervening medium, and uptake is completely dependent on the recipient bacterium.
 
 "Transformation" may also be used to describe the insertion of new genetic material into nonbacterial cells, including animal and plant cells; however, because "transformation" has a special meaning in relation to animal cells, indicating progression to a cancerous state, the process is usually called "transfection".
-Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of S. pneumoniae and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.
+Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of *S. pneumoniae* and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.
 
 ## Experimental Procedures
 

@@ -3,3 +3,37 @@
 Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data. As an interdisciplinary field of science, bioinformatics combines biology, computer science, mathematics and statistics to analyze and interpret biological data. Bioinformatics has been used for *in silico* analyses of biological queries using mathematical and statistical techniques.
 
 Bioinformatics is both an umbrella term for the body of biological studies that use computer programming as part of their methodology, as well as a reference to specific analysis "pipelines" that are repeatedly used, particularly in the field of genomics. Common uses of bioinformatics include the identification of candidate genes and single nucleotide polymorphisms (SNPs). Often, such identification is made with the aim of better understanding the genetic basis of disease, unique adaptations, desirable properties (esp. in agricultural species), or differences between populations. In a less formal way, bioinformatics also tries to understand the organisational principles within nucleic acid and protein sequences, called proteomics.
+
+In this laboratory session, we will analyze the results returned from the DNA sequencing laboratory. First, we will download bioinformatics software that we will use to open and analyze the files containing the DNA sequence data.
+
+
+## Experimental procedures
+
+1. Open a web browser on your computer. If you are reading this in your browser, right click on the following link to open the [SnapGene](http://www.snapgene.com/products/snapgene_viewer/) in a new tab or enter the link in your browser manually. 
+2. Download SnapGene by clicking on the button corresponding to the operating
+   system of your computer.
+   package".
+4. Once your download has finished, install the program.
+5. After the installation has completed, double click on the program icon and
+   start the program.
+6. A program window will open. Click on the "Open" icon and navigate to the folder
+   where the sequence files are stored on your computer.   
+7. Click on the sequence file that ends with ".ab1". Click open.
+8. A new window will open showing the sequence chromtogram.  
+
+
+
+the sequence data files and 
+
+
+
+## BLAST search
+
+## Experimental procedures
+
+1. Open a web browser on your computer. If you are reading this in your browser, right click on the following link to open the web site of the [U.S. National Library of Medicine](https://www.nlm.nih.gov) in a new tab or enter the link in your browser manually. 
+2. On the NLM page, click on the right most square with the DNA icon and BLAST (Basic Local Alignment Tool) written on it.
+3. On the newly opened page, you will see a row of squares displaying various titles. Click on the left most square that has Nucleotide Blast written on it.
+4. A new page will open. Paste your DNA sequence into the white box on the top left. Leave the default values unchanged and click on the oval blue button at the lower left that has BLAST written on it. This will upload your sequence (referred
+   to from now on as the **Query** sequence) to the server where it will be compared to all sequences on record. A new page will open that will be updated every 2 seconds while your query is being processed. Once the search has completed, a new page will open.
+5.     
