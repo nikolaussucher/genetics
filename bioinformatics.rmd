@@ -1,38 +1,40 @@
-# Bioinformatics
+# DNA sequence analysis
+
+In this laboratory session, we will analyze the data from the DNA sequencing facility using various offline and online bioinformatics software tools. 
+
+During DNA sequencing, fluorescently labeled molecules of DNA are separated by size
+through capillary electrophoresis. As the DNA moves through the capillary, it passes in front
+of a fluorescence detector that measures the intensity of the light signal. Software in the sequencing instrument processes that signal and associates the signal with a nucleotide base. The chromatogram file also includes information about the presence of signals corresponding to alternate bases at each position and their intensities.
+When this information is presented in a graph, it is called a trace. At the top of the trace are the base calls (the bases the sequencing software identifies as belonging to each peak in the chromatogram). Each letter represents a base call (A, T, C, or G), with any unidentified bases assigned an N. For each base, the height and shape of the peak corresponds to the signal intensity, and the spacing of the peaks shows the relative times at which the signals were measured.
+Many DNA sequencing instruments contain additional software that can evaluate the signal intensity, the time between signal peaks, and whether any peaks overlap. This software provides additional information about the quality of each base. The ability of base-calling software to accurately interpret raw peak traces varies with the quality of the sequence data. Advances in base callers led to the evolution of the ?quality? or ?confidence? score, originally called a phred score. The phred score assigns a quality value to each called base. Quality scores are numeric values corresponding to each base call that define the likelihood that the base call is incorrect. The most common scale is from 1 to 60, where 60 represents a 1/10^6^ chance of a wrong call, 50 a 1/10^5^ chance, 40 a 1/10^4^ chance, etc. A higher quality score means a greater confidence that the base call is correct, and a lower quality score suggests that the base call has a lower chance of being reliable. Depending on the program used to generate the confidence value, the quality score may be based on peak height, the presence of more than one peak, and/or the spacing between the peaks.
+A base is considered to be of high quality when its identity is unambiguous. A high-quality region of sequence has evenly spaced peaks that do not overlap and has signal intensity in the proper range for the detection software. A quality score of 20 is considered the threshold for reasonable confidence in the data.
+## Bioinformatics
 
 Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data. As an interdisciplinary field of science, bioinformatics combines biology, computer science, mathematics and statistics to analyze and interpret biological data. Bioinformatics has been used for *in silico* analyses of biological queries using mathematical and statistical techniques.
 
 Bioinformatics is both an umbrella term for the body of biological studies that use computer programming as part of their methodology, as well as a reference to specific analysis "pipelines" that are repeatedly used, particularly in the field of genomics. Common uses of bioinformatics include the identification of candidate genes and single nucleotide polymorphisms (SNPs). Often, such identification is made with the aim of better understanding the genetic basis of disease, unique adaptations, desirable properties (esp. in agricultural species), or differences between populations. In a less formal way, bioinformatics also tries to understand the organisational principles within nucleic acid and protein sequences, called proteomics.
 
-In this laboratory session, we will analyze the results returned from the DNA sequencing laboratory. First, we will download bioinformatics software that we will use to open and analyze the files containing the DNA sequence data.
-
 
 ## Experimental procedures
 
-1. Open a web browser on your computer. If you are reading this in your browser, right click on the following link to open the [SnapGene](http://www.snapgene.com/products/snapgene_viewer/) in a new tab or enter the link in your browser manually. 
+1. Open a web browser on your computer. If you are reading this in your browser, right click on the highlighted link to open the [SnapGene](http://www.snapgene.com/products/snapgene_viewer/) web site in a new tab. Otherwise enter the link in your browser manually. 
 2. Download SnapGene by clicking on the button corresponding to the operating
    system of your computer.
-   package".
 4. Once your download has finished, install the program.
 5. After the installation has completed, double click on the program icon and
    start the program.
 6. A program window will open. Click on the "Open" icon and navigate to the folder
    where the sequence files are stored on your computer.   
 7. Click on the sequence file that ends with ".ab1". Click open.
-8. A new window will open showing the sequence chromtogram.  
-
-
-
-the sequence data files and 
-
+8. A new window will open showing the sequence chromatogram.  
 
 
 ## BLAST search
 
 ## Experimental procedures
 
-1. Open a web browser on your computer. If you are reading this in your browser, right click on the following link to open the web site of the [U.S. National Library of Medicine](https://www.nlm.nih.gov) in a new tab or enter the link in your browser manually. 
-2. On the NLM page, click on the right most square with the DNA icon and BLAST (Basic Local Alignment Tool) written on it.
+1. Open a web browser on your computer. If you are reading this in your browser, right click on the highlighted link to open the web site of the [U.S. National Library of Medicine](https://www.nlm.nih.gov) in a new tab. Otherwise enter the link in your browser manually. 
+2. On the next page, click on the right most square with the DNA icon and BLAST (Basic Local Alignment Tool) written on it.
 3. On the newly opened page, you will see a row of squares displaying various titles. Click on the left most square that has Nucleotide Blast written on it.
 4. A new page will open. Paste your DNA sequence into the white box on the top left. Leave the default values unchanged and click on the oval blue button at the lower left that has BLAST written on it. This will upload your sequence (referred
    to from now on as the **Query** sequence) to the server where it will be compared to all sequences on record. A new page will open that will be updated every 2 seconds while your query is being processed. Once the search has completed, a new page will open.
