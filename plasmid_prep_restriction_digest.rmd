@@ -38,7 +38,7 @@ transferring any precipitate. If necessary, re-centrifuge the microcentrifuge tu
 2. Label a microcentrifuge tube for each plasmid miniprep.
 2. Prepare digestion reactions by adding 10 µl of the BgI II master mix and 10 µl of each plasmid DNA in the labeled microcentrifuge tubes.
 2. Mix tube contents and spin briefly in a microcentrifuge to collect the contents at the bottom of the tube.
-2. Incubate reactions at 37°C for 1 hr. Set timer to sound an alarm after 1 hour.
+2. Incubate reactions at 37 °C for 1 hr. Set timer to sound an alarm after 1 hour.
 3. While the restriction digest is incubating, prepare an agarose gel.
 2. Get the Erlenmeyer flask containing 1 g of agarose powder
 3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.

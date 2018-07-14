@@ -86,8 +86,8 @@ Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 15. Repeat steps 11 to 14 two more times for a total of 3 washes. 
 14. After the final wash step, discard the flow-through and put the columns back into the collection tubes. Centrifuge the columns for 2 min at full speed in the microcentrifuge at room temperature. This step removes the residual ethanol which will interfere with PCR if present.
 15.Label a fresh microcentrifuge tube and transfer the column to the new tube.
-16. Obtain the sterile water from the 70°C heat block.
-17. Immediately add 80 µl of 70°C sterile water to the bed of each column, making certain that the water wets the column bed and let it sit for 1 min.
+16. Obtain the sterile water from the 70 °C heat block.
+17. Immediately add 80 µl of 70 °C sterile water to the bed of each column, making certain that the water wets the column bed and let it sit for 1 min.
 17. Place the column in the microcentrifuge tube into the microcentrifuge. Orient the loose cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation. 
 18. Spin at full speed in the microcentrifuge at room temperature for 2 min. 
 19. Remove the spin column from the microcentrifuge tube.
@@ -102,17 +102,17 @@ Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 5. Add 5 µl of the DNA template to each tube and gently pipet up and down to mix reagents.
 6. Place your PCR tubes into the thermal cycler.
 7. The PCR reaction will run for the next several hours using the program listed in Table \@ref(table:pcr).
-8. The laboratory technicians will remove the PCR tubes from the thermocycler after the PCR has finished and store the tubes at -20°C until we continue our experiments next week.
+8. The laboratory technicians will remove the PCR tubes from the thermocycler after the PCR has finished and store the tubes at -20 °C until we continue our experiments next week.
 
 Table: (\#tab:pcr) PCR protocol for GAPDH amplification.
  
 |PCR Step            |Temperature|Time  |Number of cycles
 |:-------------------|:----------|:-----|:--------------
-|Initial denaturation|95°C       |5 min |1
-|Denaturation        |95°C       |1 min |40
-|Annealing           |52°C       |1 min |40
-|Extension           |72°C       |2 min |40
-|Final extension     |72°C       |6 min |1
-|Hold                |15°C       |hold  |
+|Initial denaturation|95 °C       |5 min |1
+|Denaturation        |95 °C       |1 min |40
+|Annealing           |52 °C       |1 min |40
+|Extension           |72 °C       |2 min |40
+|Final extension     |72 °C       |6 min |1
+|Hold                |15 °C       |hold  |
 
 

@@ -8,8 +8,8 @@ Exonucleases are enzymes that work by cleaving nucleotides one at a time from th
 
 1. Add 1 µl of exonuclease I to each PCR tube containing the amplified gDNA. 
 2. Mix well by pipetting up and down.
-2. Incubate at 37°C for 15 min.
-3. Incubate at 80°C for 15 min to heat-inactivate the exonuclease I enzyme.
+2. Incubate at 37 °C for 15 min.
+3. Incubate at 80 °C for 15 min to heat-inactivate the exonuclease I enzyme.
 
 ## Nested polymerase chain reaction
 
@@ -37,9 +37,9 @@ Table: (\#tab:nestedpcr) PCR protocol for second round (nested) GAPDH amplificat
 
 |PCR Step            |Temperature|Time  |Number of cycles
 |:-------------------|:----------|:-----|:--------------
-|Initial denaturation|95°C       |5 min |1
-|Denaturation        |95°C       |1 min |40
-|Annealing           |52°C       |1 min |40
-|Extension           |72°C       |2 min |40
-|Final extension     |72°C       |6 min |1
-|Hold                |15°C       |hold  |
+|Initial denaturation|95 °C       |5 min |1
+|Denaturation        |95 °C       |1 min |40
+|Annealing           |52 °C       |1 min |40
+|Extension           |72 °C       |2 min |40
+|Final extension     |72 °C       |6 min |1
+|Hold                |15 °C       |hold  |
