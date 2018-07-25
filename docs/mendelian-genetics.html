@@ -123,10 +123,13 @@
 <li class="chapter" data-level="6.3" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#monohybrid-cross-experiment-1"><i class="fa fa-check"></i><b>6.3</b> Monohybrid Cross (Experiment 1)</a><ul>
 <li class="chapter" data-level="6.3.1" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#experimental-procedures-2"><i class="fa fa-check"></i><b>6.3.1</b> Experimental Procedures</a></li>
 </ul></li>
-<li class="chapter" data-level="6.4" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#dihybrid-cross-experiment-2"><i class="fa fa-check"></i><b>6.4</b> Dihybrid Cross (Experiment 2)</a><ul>
-<li class="chapter" data-level="6.4.1" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#experimental-procedures-3"><i class="fa fa-check"></i><b>6.4.1</b> Experimental Procedures</a></li>
+<li class="chapter" data-level="6.4" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#goodness-of-fit-and-pearsons-chi-squared-chi2-test"><i class="fa fa-check"></i><b>6.4</b> Goodness Of Fit And Pearson’s Chi-Squared (<span class="math inline">\(\chi^2\)</span>) Test</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#calculating-the-chi-squared-test-statistic"><i class="fa fa-check"></i><b>6.4.1</b> Calculating the chi-squared test statistic</a></li>
 </ul></li>
-<li class="chapter" data-level="6.5" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#review-questions-2"><i class="fa fa-check"></i><b>6.5</b> Review Questions</a></li>
+<li class="chapter" data-level="6.5" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#dihybrid-cross-experiment-2"><i class="fa fa-check"></i><b>6.5</b> Dihybrid Cross (Experiment 2)</a><ul>
+<li class="chapter" data-level="6.5.1" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#experimental-procedures-3"><i class="fa fa-check"></i><b>6.5.1</b> Experimental Procedures</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="mendelian-genetics.html"><a href="mendelian-genetics.html#review-questions-2"><i class="fa fa-check"></i><b>6.6</b> Review Questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="molecular-genetics.html"><a href="molecular-genetics.html"><i class="fa fa-check"></i>Molecular Genetics</a></li>
 <li class="chapter" data-level="7" data-path="molecular-laboratory-skills.html"><a href="molecular-laboratory-skills.html"><i class="fa fa-check"></i><b>7</b> Molecular Laboratory Skills</a><ul>
@@ -281,7 +284,6 @@ Figure 6.3: Monohybrid cross
 <th align="center">Row #</th>
 <th align="center">purple</th>
 <th align="center">yellow</th>
-<th align="center">ratio</th>
 </tr>
 </thead>
 <tbody>
@@ -289,11 +291,9 @@ Figure 6.3: Monohybrid cross
 <td align="center">1</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">2</td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -301,11 +301,9 @@ Figure 6.3: Monohybrid cross
 <td align="center">3</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">4</td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -313,11 +311,9 @@ Figure 6.3: Monohybrid cross
 <td align="center">5</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">6</td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -325,11 +321,9 @@ Figure 6.3: Monohybrid cross
 <td align="center">7</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">8</td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -337,11 +331,9 @@ Figure 6.3: Monohybrid cross
 <td align="center">9</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">Total</td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -349,8 +341,203 @@ Figure 6.3: Monohybrid cross
 </table>
 </div>
 </div>
+<div id="goodness-of-fit-and-pearsons-chi-squared-chi2-test" class="section level2">
+<h2><span class="header-section-number">6.4</span> Goodness Of Fit And Pearson’s Chi-Squared (<span class="math inline">\(\chi^2\)</span>) Test</h2>
+<p>Now that we have obtained our data, we can ask how well the Mendelian model of inheritance actually fits our data. We will use Pearson’s chi-squared test as a measure of goodness of fit. The <a href="https://en.wikipedia.org/wiki/Goodness_of_fit">goodness of fit</a> of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Pearson’s chi-squared test is a statistical test applied to sets of categorical data (like in our case, where we simply observe if a kernel is purple or yellow) to evaluate how likely it is that any observed difference between the sets arose by chance. It tests a null hypothesis stating that the frequency distribution of certain events observed in a sample is consistent with a particular theoretical distribution. The events considered must be mutually exclusive and have total probability 1. In our case, the “events” correspond to observing either purple or yellow kernels. The theoretical distribution of these events is 3:1 (we expect to observe three purple kernels for every yellow one) as predicted by Mendel’s laws of inheritance. Chi-squared (<span class="math inline">\(\chi^2\)</span>) is the sum of the squared differences between the observed and expected outcome frequencies (that is, counts of observations) divided by the expectation:</p>
+<p><span class="math display">\[ \chi^2=\sum\frac{(O_{i}-E_{i})^{2}}{E_{i}} \]</span></p>
+<p>where:</p>
+<p><em>O<sub>i</sub></em> = number (frequency) of observations of type <em>i</em></p>
+<p><em>E<sub>i</sub></em> = expected number (frequency) of observations of type <em>i</em> according to the model</p>
+<p>In our experiment, <em>i</em> is two, since we have two types of observations (purple and yellow). Let’s calculate <span class="math inline">\(\chi^2\)</span> using the data in Table <a href="#tab:data"><strong>??</strong></a> that students have collected during a previous lab session.</p>
+<div id="calculating-the-chi-squared-test-statistic" class="section level3">
+<h3><span class="header-section-number">6.4.1</span> Calculating the chi-squared test statistic</h3>
+<ol style="list-style-type: decimal">
+<li>Add the nubers of observations in each row of the “Purple” column. This number corresponds to <em>O<sub>purple</sub></em>.<br />
+</li>
+<li>Add the numbers of observations in each row of the “Yellow” column. This number corresponds to <em>O<sub>yellow</sub></em>.<br />
+</li>
+<li>Add both numbers. This is the total number of observations.</li>
+<li>Multiply the total number of observations by 0.75 (the expected fraction of purple kernels). The result is <em>E<sub>purple</sub></em>.</li>
+<li>Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is <em>E<sub>yellow</sub></em>.</li>
+<li>Subtract <em>E<sub>purple</sub></em> from <em>O<sub>purple</sub></em>, square the result and divide by <em>E<sub>purple</sub></em>. The result is <span class="math inline">\(\chi^2_{purple}\)</span>.</li>
+<li>Subtract <em>E<sub>yellow</sub></em> from <em>O<sub>yellow</sub></em>, square the result and divide by <em>E<sub>yellow</sub></em>. The result is <span class="math inline">\(\chi^2_{yellow}\)</span>.</li>
+<li>Obviously, our data does not correspond 100% to the prediction. If they did, <span class="math inline">\(\chi^2\)</span> would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided.</li>
+<li>The chi-squared statistic can be used to calculate a p-value by comparing the value of the statistic to a <a href="https://en.wikipedia.org/wiki/Chi-squared_distribution">chi-squared distribution</a> with <em>k</em> degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore <em>k</em> = 1).</li>
+</ol>
+<p><img src="mendel_files/figure-html/chi-squared_dist-1.svg" width="70%" style="display: block; margin: auto;" /></p>
+
+<table>
+<caption><span id="tab:chi-squared">Table 6.3: </span>Monohybrid cross data for Pearson’s <span class="math inline">\(\chi^2\)</span> test.</caption>
+<thead>
+<tr class="header">
+<th align="right">Purple</th>
+<th align="right">Yellow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">15</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="right">14</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">15</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="right">33</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="right">35</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="right">42</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">34</td>
+<td align="right">15</td>
+</tr>
+<tr class="odd">
+<td align="right">24</td>
+<td align="right">15</td>
+</tr>
+<tr class="even">
+<td align="right">21</td>
+<td align="right">19</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">16</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">16</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">33</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="right">20</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">15</td>
+<td align="right">7</td>
+</tr>
+<tr class="odd">
+<td align="right">35</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="right">27</td>
+<td align="right">19</td>
+</tr>
+<tr class="odd">
+<td align="right">29</td>
+<td align="right">16</td>
+</tr>
+<tr class="even">
+<td align="right">31</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">27</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="right">27</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="right">29</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="right">29</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="right">33</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="right">32</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="right">25</td>
+<td align="right">15</td>
+</tr>
+<tr class="odd">
+<td align="right">31</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="right">29</td>
+<td align="right">16</td>
+</tr>
+<tr class="odd">
+<td align="right">33</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="right">28</td>
+<td align="right">19</td>
+</tr>
+<tr class="odd">
+<td align="right">31</td>
+<td align="right">12</td>
+</tr>
+<tr class="even">
+<td align="right">38</td>
+<td align="right">11</td>
+</tr>
+<tr class="odd">
+<td align="right">36</td>
+<td align="right">14</td>
+</tr>
+<tr class="even">
+<td align="right">36</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="right">37</td>
+<td align="right">11</td>
+</tr>
+</tbody>
+</table>
+<p><img src="mendel_files/figure-html/chi-squared-1.svg" width="70%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
 <div id="dihybrid-cross-experiment-2" class="section level2">
-<h2><span class="header-section-number">6.4</span> Dihybrid Cross (Experiment 2)</h2>
+<h2><span class="header-section-number">6.5</span> Dihybrid Cross (Experiment 2)</h2>
 <p>In the second experiment, we will study the result obtained from a <a href="https://en.wikipedia.org/wiki/Dihybrid_cross">dihybrid cross</a>. A dihybrid cross is a cross between two different lines (varieties, strains) that differ in two observed traits. In the name “Dihybrid cross”, the “di” indicates that there are two traits involved (in our example designated R and Su), the “hybrid” means that each trait has two different alleles (in our example R and r, or Su and su), and “cross” means that there are two individuals who are combining or “crossing” their genetic information. In our example, a pure strain of corn producing purple-starchy kernels (RR SuSu) is crossed with a pure strain producing yellow-sweet (rr susu). The starchy seeds are smooth, the sweet seeds are wrinkled. The resulting F1 ears all bear purple-starchy (smooth) kernels. Plants that are heterozygous for two traits are called dihybrids. When the F1 is self-pollinated, the resulting F2 generation contains various combinations (Figure <a href="mendelian-genetics.html#fig:dihybrid">6.4</a>).</p>
 <div class="figure" style="text-align: center"><span id="fig:dihybrid"></span>
 <img src="figures/mendel/Dihybrid_cross.jpg" alt="Dihybrid cross" width="70%" />
@@ -366,12 +553,12 @@ Figure 6.4: Dihybrid cross
 <li>the <strong>1</strong> represents the homozygous, displaying both recessive traits.</li>
 </ul>
 <div id="experimental-procedures-3" class="section level3">
-<h3><span class="header-section-number">6.4.1</span> Experimental Procedures</h3>
+<h3><span class="header-section-number">6.5.1</span> Experimental Procedures</h3>
 <ol style="list-style-type: decimal">
-<li>Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table <a href="mendelian-genetics.html#tab:di">6.3</a>.</li>
+<li>Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table <a href="mendelian-genetics.html#tab:di">6.4</a>.</li>
 </ol>
 <table>
-<caption><span id="tab:di">Table 6.3: </span> Dihybrid Cross.</caption>
+<caption><span id="tab:di">Table 6.4: </span> Dihybrid Cross.</caption>
 <colgroup>
 <col width="5%" />
 <col width="22%" />
@@ -476,7 +663,7 @@ Figure 6.4: Dihybrid cross
 </div>
 </div>
 <div id="review-questions-2" class="section level2">
-<h2><span class="header-section-number">6.5</span> Review Questions</h2>
+<h2><span class="header-section-number">6.6</span> Review Questions</h2>
 <ol style="list-style-type: decimal">
 <li>What is a gene?</li>
 <li>What is an allele?</li>

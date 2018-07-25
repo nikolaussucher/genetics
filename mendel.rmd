@@ -61,18 +61,121 @@ knitr::include_graphics("./figures/mendel/Monohybrid_cross.jpg")
 
 Table: (\#tab:mono) Monohybrid Cross.
 
-Row #   |purple         |yellow  |ratio
-|:-----:|:-------------:|:------:|:----:|
-1       |	        |        |      |
-2       |	        |        |      |
-3       |	        |        |      |
-4       |	        |        |      |
-5       |	        |        |      |
-6       |	        |        |      |
-7       |	        |        |      |
-8       |	        |        |      |
-9       |	        |        |      |
-Total   |	        |        |      |
+Row #   |purple         |yellow  |
+|:-----:|:-------------:|:------:|
+1       |	        |        |
+2       |	        |        |
+3       |	        |        |
+4       |	        |        |
+5       |	        |        |
+6       |	        |        |
+7       |	        |        |
+8       |	        |        |
+9       |	        |        |
+Total   |	        |        |
+
+## Goodness Of Fit And Pearson's Chi-Squared ($\chi^2$) Test
+
+Now that we have obtained our data, we can ask how well the Mendelian model of inheritance actually fits our data. We will use Pearson's chi-squared test as a measure of goodness of fit. The [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Pearson's chi-squared test is a statistical test applied to sets of categorical data (like in our case, where we simply observe if a kernel is purple or yellow) to evaluate how likely it is that any observed difference between the sets arose by chance. It tests a null hypothesis stating that the frequency distribution of certain events observed in a sample is consistent with a particular theoretical distribution. The events considered must be mutually exclusive and have total probability 1. In our case, the "events" correspond to observing either purple or yellow kernels. The theoretical distribution of these events is 3:1 (we expect to observe three purple kernels for every yellow one) as predicted by Mendel's laws of inheritance. Chi-squared ($\chi^2$) is the sum of the squared differences between the observed and expected outcome frequencies (that is, counts of observations) divided by the expectation:
+
+$$ \chi^2=\sum\frac{(O_{i}-E_{i})^{2}}{E_{i}} $$
+
+where:
+
+*O~i~* = number (frequency) of observations of type *i*
+
+*E~i~* = expected number (frequency) of observations of type *i* according to the model
+
+In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using the data in Table \@ref(tab:data) that students have collected during a previous lab session. 
+
+### Calculating the chi-squared test statistic
+
+1. Add the nubers of observations in each row of the "Purple" column. This number corresponds to *O~purple~*.  
+2. Add the numbers of observations in each row of the "Yellow" column. This number corresponds to *O~yellow~*.  
+3. Add both numbers. This is the total number of observations.
+4. Multiply the total number of observations by 0.75 (the expected fraction of purple kernels). The result is *E~purple~*.
+5. Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is *E~yellow~*.
+6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. The result is $\chi^2_{purple}$.
+7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. The result is $\chi^2_{yellow}$.
+8. Obviously, our data does not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided. 
+9. The chi-squared statistic can be used to calculate a p-value by comparing the value of the statistic to a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with *k* degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore *k* = 1).
+
+```{r chi-squared_dist, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+#function to add area under the curve
+funcShaded_1 <- function(x) {
+  y <- dchisq(x, df=1)
+  y[x < 3.841459 ] <- NA
+  return(y)
+}
+
+funcShaded_3 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x < 7.814728 ] <- NA
+  return(y)
+}
+ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
+  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1.5) +
+  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
+  scale_y_continuous(name = "Probability") +
+  ggtitle("Chi-squared probability density function") +
+  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
+  # theme(axis.line = element_line(size=1, colour = "black"),
+  #       panel.grid.major = element_blank(),
+  #       panel.grid.minor = element_blank(),
+  #       panel.border = element_blank(),
+  #       panel.background = element_blank(),
+  #       plot.title=element_text(size = 20, family="xkcd-Regular"),
+  #       text=element_text(size = 16, family="xkcd-Regular"),
+  #       axis.text.x=element_text(colour="black", size = 12),
+  #       axis.text.y=element_text(colour="black", size = 12)) +
+  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
+  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+```
+
+
+(ref:datatable) Monohybrid cross data for Pearson's $\chi^2$ test.
+
+
+```{r chi-squared, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+
+# Mono hybrid cross -------------------------------------------------------
+
+#load and sum data by category
+mono_data <- read.csv("./data/monohybrid_cross.csv")
+observed_mono <- c(sum(mono_data$Purple),sum(mono_data$Yellow))
+
+
+knitr::kable(mono_data, digits = 2, caption = '(ref:datatable)')
+
+# chi squared by hand
+expected_mono <- c(0.75*sum(mono_data), 0.25*sum(mono_data))
+chi_stat_mono <- sum((observed_mono-expected_mono)^2/expected_mono)
+p_value_mono <- 1-pchisq(chi_stat_mono,1)
+
+# chi squared using R function
+p_null_mono <- c(0.75,0.25)
+chisqu_mono <- chisq.test(observed_mono,p=p_null_mono)
+
+
+data_mono = tibble(Color=c(rep("Purple",length(mono_data$Purple)),
+               rep("Yellow",length(mono_data$Yellow))), Frequency=c(mono_data$Purple, mono_data$Yellow))
+               
+ggplot(data=data_mono) +
+  geom_col(mapping = aes(x = Color, y=Frequency, fill = Color),
+           show.legend = FALSE) +
+           scale_fill_manual("legend",
+           values = c("Purple" = "#42165b", "Yellow" = "gold"))
+```
+
 
 ## Dihybrid Cross (Experiment 2)
 In the second experiment, we will study the result obtained from a [dihybrid cross](https://en.wikipedia.org/wiki/Dihybrid_cross). A dihybrid cross is a cross between two different lines (varieties, strains) that differ in two observed traits. In the name "Dihybrid cross", the "di" indicates that there are two traits involved (in our example designated R and Su), the "hybrid" means that each trait has two different alleles (in our example R and r, or Su and su), and "cross" means that there are two individuals who are combining or "crossing" their genetic information. In our example, a pure strain of corn producing purple-starchy kernels (RR SuSu) is crossed with a pure strain producing yellow-sweet (rr susu). The starchy seeds are smooth, the sweet seeds are wrinkled. The resulting F1 ears all bear purple-starchy (smooth) kernels. Plants that are heterozygous for two traits are called dihybrids. When the F1 is self-pollinated, the resulting F2 generation contains various combinations (Figure \@ref(fig:dihybrid)).
