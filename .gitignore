@@ -1,9 +1,12 @@
 UWisc
+docs
 _bookdown_files
 _book
 _main.epub
 *.aux
+*.swp
 *.*~
+.*~
 *.pdf
 *.idx
 *.out
@@ -13,6 +16,7 @@ _main.epub
 *.lof
 *.rds
 *.md
+*.html
 .DS_Store
 .Rhistory
 .Rproj.user

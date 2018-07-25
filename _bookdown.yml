@@ -5,9 +5,10 @@ rmd_files:   [ "index.rmd",
               "course_description.rmd",
               "how_to.rmd",
               "safety.rmd",
+              "classical_genetics.rmd",
               "mitosis.rmd",
-              "mendel.rmd",
               "karyotype.rmd",
+<<<<<<< HEAD
               "drosophila.rmd",
               "skills.rmd",
               "dna_extraction.rmd",
@@ -18,6 +19,19 @@ rmd_files:   [ "index.rmd",
               "bioinformatics.rmd",
 #              "appendix_1.rmd",
 #              "appendix_2.rmd",
+=======
+              "mendel.rmd",
+              "molbio.rmd",
+              "skills.rmd",
+              "dna_extraction_and_pcr.rmd",
+              "nested_pcr.rmd",
+              "ligation_transformation.rmd",
+              "plasmid_prep_restriction_digest.rmd",
+              "sequencing.rmd",
+              "bioinformatics.rmd",
+#             "appendix_1.rmd",
+#             "appendix_2.rmd",
+>>>>>>> development
              ]
 output_dir: docs
 before_chapter_script:  "_common.R"

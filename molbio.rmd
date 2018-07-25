@@ -1,0 +1,28 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Molecular Genetics {-}
+
+In the remaining 8 laboratory sessions of this course, we will clone a portion of a glyceraldehyde-3-phosphate dehydrogenase (GAPDH) gene from plants, insert this gene fragment into a plasmid vector, and analyze the sequences of resulting clones using bioinformatics.
+
+Specifically, we will:
+
+1. Learn and practice some essential skills for the molecular laboratory (Chapter \@ref(molecular-laboratory-skills))
+1. Identify the plant or plants to be studied, extract the gDNA, and amplify a portion of the GAPC gene using PCR (Chapter \@ref(dna-extraction-and-polymerase-chain-reaction)).
+2. Assess the results of PCR using agarose gel electrophoresis, perform exonuclease I digestion to remove the first round PCR primers, perform nested PCR (Chapter \@ref(exonuclease-i-digestion-and-nested-pcr)).
+3. Ligate (insert) the GAPC gene fragment into a plasmid vector and transform bacteria with the plasmid (Chapter \@ref(agarose-gel-electrophoresis-ligation-and-transformation)).
+4. Isolate the plasmid from the bacteria and confirm the presence of the insert by restriction enzyme digestion (Chapter \@ref(plasmid-purification-and-restriction-digest)).
+5. Prepare plasmid for DNA sequencing and send to a facility for sequencing (Chapter \@ref(dna-sequencing)).
+6. Obtain the sequence of the cloned GAPC gene fragment and analyze the cloned gene using bioinformatics (Chapter \@ref(bioinformatics)).
+
+While we will chose and provide the plants, the reagents used in the experiments will come in the form of ready made kits. In the early days of molecular biology, researchers had to prepare all required materials themselves including the laborious purification of enzymes. Today, virtually any reagent that is required can be purchased "off-the-shelf", prepackaged and ready to use from a great number of suppliers. One of the oldest companies specialized in supplying materials for life science research laboratories are the [BioRad Laboratories Inc.](https://en.wikipedia.org/wiki/Bio-Rad_Laboratories), which developed the curriculum for these experiments and supplies the materials under Bio-Rad Explorer~TM~ Cloning and Sequencing Explorer Series.
+
+As our hands-on-time in the laboratory is limited, the RCC laboratory technicians will help us by performing some behind the scenes work between the lab sessions.
+
+
+[Glyceraldehyde 3-phosphate dehydrogenase](https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate_dehydrogenase) (abbreviated as GAPDH or less commonly as G3PDH) (EC 1.2.1.12) is an enzyme of ~37kDa that catalyzes the sixth step of glycolysis and thus serves to break down glucose for energy and carbon molecules. In addition to this long established metabolic function, GAPDH has recently been implicated in several non-metabolic processes, including transcription activation, initiation of apoptosis, ER to Golgi vesicle shuttling, and fast axonal, or axoplasmic transport.
+
+Because the GAPDH gene is often stably and constitutively expressed at high levels in most tissues and cells, it is considered a housekeeping gene. For this reason, GAPDH is commonly used by biological researchers as a loading control for western blot and as a control for qPCR. Plants have multiple GAPDH genes; the specific ones that have been selected for cloning are the GAPC genes.
+

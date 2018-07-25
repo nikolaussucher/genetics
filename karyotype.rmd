@@ -112,19 +112,19 @@ Chromosome abnormalities can be numerical, as in the presence of extra or missin
 * [Trisomy 9](https://en.wikipedia.org/wiki/Trisomy_9), believed to be the 4th most common trisomy, has many long lived affected individuals but only in a form other than a full trisomy, such as trisomy 9p syndrome or mosaic trisomy 9. They often function quite well, but tend to have trouble with speech.
 * Also documented are trisomy 8 and trisomy 16, although they generally do not survive to birth.
 
-(ref:Turner\) [45,X karyotype, showing an unpaired X at the lower right](https://commons.wikimedia.org/wiki/File:45,X.jpg)
+(ref:Turner) [45,X karyotype, showing an unpaired X at the lower right](https://commons.wikimedia.org/wiki/File:45,X.jpg)
 
 ```{r Turner, fig.cap='(ref:Turner)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/45,X.jpg")
 ```
 
-(ref:Klinefelter\) [Klinefelter syndrome karyotype (XXY)](https://commons.wikimedia.org/wiki/File:Human_chromosomesXXY01.png)
+(ref:Klinefelter) [Klinefelter syndrome karyotype (XXY)](https://commons.wikimedia.org/wiki/File:Human_chromosomesXXY01.png)
 
 ```{r Klinefelter, fig.cap='(ref:Klinefelter)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Human_chromosomesXXY01.jpg")
 ```
 
-(ref:Down\) [Karyotype for trisomy Down syndrome: notice the three copies of chromosome 21](https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png)
+(ref:Down) [Karyotype for trisomy Down syndrome: notice the three copies of chromosome 21](https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png)
 
 ```{r Down, fig.cap='(ref:Down)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Down_Syndrome_Karyotype.jpg")
@@ -163,7 +163,7 @@ Karyotypes are arranged with the short arm of the chromosome on top, and the lon
 
 Multicolor FISH and the older spectral karyotyping are molecular cytogenetic techniques used to simultaneously visualize all the pairs of chromosomes in an organism in different colors (Figure \@ref(fig:sky)). Fluorescently labeled probes for each chromosome are made by labeling chromosome-specific DNA with different fluorophores. Because there are a limited number of spectrally distinct fluorophores, a combinatorial labeling method is used to generate many different colors. Fluorophore combinations are captured and analyzed by a fluorescence microscope using up to 7 narrow-banded fluorescence filters or, in the case of spectral karyotyping, by using an interferometer attached to a fluorescence microscope. In the case of an mFISH image, every combination of fluorochromes from the resulting original images is replaced by a pseudo color in a dedicated image analysis software. Thus, chromosomes or chromosome sections can be visualized and identified, allowing for the analysis of chromosomal rearrangements. In the case of spectral karyotyping, image processing software assigns a pseudo color to each spectrally different combination, allowing the visualization of the individually colored chromosomes. Multicolor FISH is used to identify structural chromosome aberrations in cancer cells and other disease conditions when Giemsa banding or other techniques are not accurate enough.
 
-(ref:sky\) [Spectral human karyotype](https://en.wikipedia.org/wiki/File:Spectralkaryotype98-300.jpg)
+(ref:sky) [Spectral human karyotype](https://en.wikipedia.org/wiki/File:Spectralkaryotype98-300.jpg)
 
 ```{r sky, fig.cap='(ref:sky)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Spectralkaryotype98-300.jpg")

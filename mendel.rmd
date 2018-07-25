@@ -1,6 +1,6 @@
 # Mendelian Genetics
 
-In this experiment, we will use maize *Zea mays* subsp. mays, from Spanish: maíz after Taíno mahiz), also known as corn to study [Mendelian inheritance](https://en.wikipedia.org/wiki/Mendelian_inheritance). This cereal grain was first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces separate pollen and ovuliferous inflorescences or ears, which are fruits, yielding kernels or seeds. Maize has become a staple food in many parts of the world, with total production surpassing that of wheat or rice. However, not all of this maize is consumed directly by humans. Some of the maize production is used for corn ethanol, animal feed and other maize products, such as corn starch and corn syrup. The six major types of corn are dent corn, flint corn, pod corn, popcorn, flour corn, and sweet corn.
+In this laboratory session, we will use maize *Zea mays* subsp. mays, from Spanish: maíz after Taíno mahiz), also known as corn to study [Mendelian inheritance](https://en.wikipedia.org/wiki/Mendelian_inheritance). This cereal grain was first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces separate pollen and ovuliferous inflorescences or ears, which are fruits, yielding kernels or seeds. Maize has become a staple food in many parts of the world, with total production surpassing that of wheat or rice. However, not all of this maize is consumed directly by humans. Some of the maize production is used for corn ethanol, animal feed and other maize products, such as corn starch and corn syrup. The six major types of corn are dent corn, flint corn, pod corn, popcorn, flour corn, and sweet corn.
 
 The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century Moravian monk who formulated his ideas after conducting simple hybridisation experiments with pea plants (*Pisum sativum*) he had planted in the garden of his monastery. Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of Brno on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, Hugo de Vries, Carl Correns, and Erich von Tschermak.
 
@@ -12,7 +12,7 @@ Mendel hypothesized that allele pairs separate randomly, or segregate, from each
 
 The genotype of an individual is made up of the many alleles it possesses. An individual's physical appearance, or phenotype, is determined by its alleles as well as by its environment. The presence of an allele does not mean that the trait will be expressed in the individual that possesses it. If the two alleles of an inherited pair differ (the heterozygous condition), then one determines the organism’s appearance and is called the dominant allele; the other has no noticeable effect on the organism’s appearance and is called the recessive allele. Thus, in the example above the dominant purple flower allele will hide the phenotypic effects of the recessive white flower allele. This is known as the Law of Dominance but it is not a transmission law: it concerns the expression of the genotype. The upper case letters are used to represent dominant alleles whereas the lowercase letters are used to represent recessive alleles.
 
-Table: (\#tab:mendel) Mendel's laws of inheritance.
+Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
 
 |Law|Definition|
 |:--|:---------|
@@ -20,7 +20,7 @@ Table: (\#tab:mendel) Mendel's laws of inheritance.
 |Law of independent assortment|Genes for different traits can segregate independently during the formation of gametes.|
 |Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.|
 
-## Punnett square
+## Punnett Square
 The [Punnett square](https://en.wikipedia.org/wiki/Punnett_square) (Figures \@ref(fig:punnett) and \@ref(fig:punnettF1)) is a visual representation of Mendelian inheritance and used to predict an outcome of a particular cross or breeding experiment. It is named after [Reginald C. Punnett](https://en.wikipedia.org/wiki/Reginald_Punnett), who devised the approach. In our first experiment, both parents are homozygous, one carrying two copies of the dominant allele (R), the other two copies of the recessive (r) allele. Each parent can only make gametes that have either the R (purple) or r (yellow) allele. The Punnett square for the parental cross is shown in Figure \@ref(fig:punnett)
 
 ```{r punnett, fig.cap='Punnett square for homozygous cross.', echo=FALSE, message=FALSE, warning=FALSE}
@@ -42,7 +42,7 @@ Test crosses are used to test an individual's genotype by crossing it with an in
 
 Test crosses involve breeding the individual in question with another individual that expresses a recessive version of the same trait. Analyzing the proportions of dominant and recessive offspring determines if the individual in question is homozygous dominant or heterozygous. If all offspring from the test cross display the dominant phenotype, the individual in question is homozygous dominant; if half the offspring display dominant phenotypes and half display recessive phenotypes, then the individual is heterozygous. Since the homozygous recessive individual can only pass on recessive alleles, the alleles the individual in question passes on determine the phenotypes of the offspring.
 
-## Monohybrid cross (Experiment 1)
+## Monohybrid Cross (Experiment 1)
 A [monohybrid cross](https://en.wikipedia.org/wiki/Monohybrid_cross) is a mating between two individuals with different variations at one genetic trait of interest. The character(s) being studied in a monohybrid cross are governed by two or multiple variations for a single locus. A cross between two parents possessing a pair of contrasting characters is known as monohybrid cross. To carry out such a cross, each parent is chosen to be homozygous or true breeding for a given trait (locus). When a cross satisfies the conditions for a monohybrid cross, it is usually detected by a characteristic distribution of second-generation (F2) offspring that is sometimes called the monohybrid ratio.
 
 Generally, the monohybrid cross is used to determine the dominance relationship between two alleles. The cross begins with the parental (P) generation. One parent is homozygous for one allele, and the other parent is homozygous for the other allele. The offspring make up the first filial (F1) generation. Every member of the F1 generation is heterozygous and the phenotype of the F1 generation expresses the dominant trait. Crossing two members of the F1 generation produces the second filial (F2) generation. Probability theory predicts that three quarters of the F2 generation will have the dominant allele's phenotype. And the remaining quarter of the F2s will have the recessive allele's phenotype. This predicted 3:1 phenotypic ratio assumes Mendelian inheritance.
@@ -53,26 +53,131 @@ In the first experiment, we will study the result obtained from a monohybrid cro
 knitr::include_graphics("./figures/mendel/Monohybrid_cross.jpg")
 ```
 
-### Experimental procedures
+### Experimental Procedures
 1. Count the number of purple and yellow kernels on one row of the F2 ear without removing the kernels.
 2. Determine the ratio of purple to yellow.
 3. Now tabulate the numbers obtained by each of your class mates in Table \@ref(tab:mono) and add these figures to get a total.
 4. Using the total numbers, determine a ratio of purple to yellow.
 
-Table: (\#tab:mono) Monohybrid cross.
+Table: (\#tab:mono) Monohybrid Cross.
 
-Row #	  |purple   |yellow  |ratio
-|:-----:|:-------:|:------:|:----:|
-1       |	        |        |      |
-2       |	        |        |      |
-3       |	        |        |      |
-...     |	        |        |      |
-7       |	        |        |      |
-8       |	        |        |      |
-9       |	        |        |      |
-Total   |	        |        |      |
+Row #   |purple         |yellow  |
+|:-----:|:-------------:|:------:|
+1       |	        |        |
+2       |	        |        |
+3       |	        |        |
+4       |	        |        |
+5       |	        |        |
+6       |	        |        |
+7       |	        |        |
+8       |	        |        |
+9       |	        |        |
+Total   |	        |        |
 
-## Dihybrid cross (Experiment 2)
+## Goodness Of Fit And Pearson's Chi-Squared ($\chi^2$) Test
+
+Now that we have obtained our data, we can ask how well the Mendelian model of inheritance actually fits our data. We will use Pearson's chi-squared test as a measure of goodness of fit. The [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Pearson's chi-squared test is a statistical test applied to sets of categorical data (like in our case, where we simply observe if a kernel is purple or yellow) to evaluate how likely it is that any observed difference between the sets arose by chance. It tests a null hypothesis stating that the frequency distribution of certain events observed in a sample is consistent with a particular theoretical distribution. The events considered must be mutually exclusive and have total probability 1. In our case, the "events" correspond to observing either purple or yellow kernels. The theoretical distribution of these events is 3:1 (we expect to observe three purple kernels for every yellow one) as predicted by Mendel's laws of inheritance. Chi-squared ($\chi^2$) is the sum of the squared differences between the observed and expected outcome frequencies (that is, counts of observations) divided by the expectation:
+
+$$ \chi^2=\sum\frac{(O_{i}-E_{i})^{2}}{E_{i}} $$
+
+where:
+
+*O~i~* = number (frequency) of observations of type *i*
+
+*E~i~* = expected number (frequency) of observations of type *i* according to the model
+
+In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using the data in Table \@ref(tab:data) that students have collected during a previous lab session. 
+
+### Calculating the chi-squared test statistic
+
+1. Add the nubers of observations in each row of the "Purple" column. This number corresponds to *O~purple~*.  
+2. Add the numbers of observations in each row of the "Yellow" column. This number corresponds to *O~yellow~*.  
+3. Add both numbers. This is the total number of observations.
+4. Multiply the total number of observations by 0.75 (the expected fraction of purple kernels). The result is *E~purple~*.
+5. Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is *E~yellow~*.
+6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. The result is $\chi^2_{purple}$.
+7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. The result is $\chi^2_{yellow}$.
+8. Obviously, our data does not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided. 
+9. The chi-squared statistic can be used to calculate a p-value by comparing the value of the statistic to a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with *k* degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore *k* = 1).
+
+```{r chi-squared_dist, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+#function to add area under the curve
+funcShaded_1 <- function(x) {
+  y <- dchisq(x, df=1)
+  y[x < 3.841459 ] <- NA
+  return(y)
+}
+
+funcShaded_3 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x < 7.814728 ] <- NA
+  return(y)
+}
+ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
+  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1.5) +
+  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
+  scale_y_continuous(name = "Probability") +
+  ggtitle("Chi-squared probability density function") +
+  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
+  # theme(axis.line = element_line(size=1, colour = "black"),
+  #       panel.grid.major = element_blank(),
+  #       panel.grid.minor = element_blank(),
+  #       panel.border = element_blank(),
+  #       panel.background = element_blank(),
+  #       plot.title=element_text(size = 20, family="xkcd-Regular"),
+  #       text=element_text(size = 16, family="xkcd-Regular"),
+  #       axis.text.x=element_text(colour="black", size = 12),
+  #       axis.text.y=element_text(colour="black", size = 12)) +
+  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
+  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+```
+
+
+(ref:datatable) Monohybrid cross data for Pearson's $\chi^2$ test.
+
+
+```{r chi-squared, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+
+# Mono hybrid cross -------------------------------------------------------
+
+#load and sum data by category
+mono_data <- read.csv("./data/monohybrid_cross.csv")
+observed_mono <- c(sum(mono_data$Purple),sum(mono_data$Yellow))
+
+
+knitr::kable(mono_data, digits = 2, caption = '(ref:datatable)')
+
+# chi squared by hand
+expected_mono <- c(0.75*sum(mono_data), 0.25*sum(mono_data))
+chi_stat_mono <- sum((observed_mono-expected_mono)^2/expected_mono)
+p_value_mono <- 1-pchisq(chi_stat_mono,1)
+
+# chi squared using R function
+p_null_mono <- c(0.75,0.25)
+chisqu_mono <- chisq.test(observed_mono,p=p_null_mono)
+
+
+data_mono = tibble(Color=c(rep("Purple",length(mono_data$Purple)),
+               rep("Yellow",length(mono_data$Yellow))), Frequency=c(mono_data$Purple, mono_data$Yellow))
+               
+ggplot(data=data_mono) +
+  geom_col(mapping = aes(x = Color, y=Frequency, fill = Color),
+           show.legend = FALSE) +
+           scale_fill_manual("legend",
+           values = c("Purple" = "#42165b", "Yellow" = "gold"))
+```
+
+
+## Dihybrid Cross (Experiment 2)
 In the second experiment, we will study the result obtained from a [dihybrid cross](https://en.wikipedia.org/wiki/Dihybrid_cross). A dihybrid cross is a cross between two different lines (varieties, strains) that differ in two observed traits. In the name "Dihybrid cross", the "di" indicates that there are two traits involved (in our example designated R and Su), the "hybrid" means that each trait has two different alleles (in our example R and r, or Su and su), and "cross" means that there are two individuals who are combining or "crossing" their genetic information. In our example, a pure strain of corn producing purple-starchy kernels (RR SuSu) is crossed with a pure strain producing yellow-sweet (rr susu). The starchy seeds are smooth, the sweet seeds are wrinkled. The resulting F1 ears all bear purple-starchy (smooth) kernels. Plants that are heterozygous for two traits are called dihybrids. When the F1 is self-pollinated, the resulting F2 generation contains various combinations (Figure \@ref(fig:dihybrid)).
 
 ```{r dihybrid, fig.cap='Dihybrid cross', echo=FALSE, message=FALSE, warning=FALSE}
@@ -86,21 +191,23 @@ The rules of meiosis, as they apply to the dihybrid, are codified in Mendel's fi
 *   the second **3** represents those displaying the first recessive trait and second dominant trait
 *   the **1** represents the homozygous, displaying both recessive traits.
 
-### Experimental procedures
+### Experimental Procedures
 1.  Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table \@ref(tab:di).
 
-Table: (\#tab:di) Dihybrid cross.
+Table: (\#tab:di) Dihybrid Cross.
 
 Row #  |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starchy (smooth)|yellow and sweet (wrinkled)|ratio|
 |:----:|---------------------------|---------------------------|---------------------------|---------------------------|-----|
-1 	   |			                     |                           |                           |                           |     |
-2      |			                     |                           |                           |                           |     |
-3      |			                     |                           |                           |                           |     |
-...    |			                     |                           |                           |                           |     |
-7      |			                     |                           |                           |                           |     |
-8      |			                     |                           |                           |                           |     |
-9      |			                     |                           |                           |                           |     |
-Total  |			                     |                           |                           |                           |     |
+1      |			   |                           |                           |                           |     |
+2      |			   |                           |                           |                           |     |
+3      |			   |                           |                           |                           |     |
+4      |			   |                           |                           |                           |     |
+5      |			   |                           |                           |                           |     |
+6      |			   |                           |                           |                           |     |
+7      |			   |                           |                           |                           |     |
+8      |                           |                           |                           |                           |     |
+9      |	                   |                           |                           |                           |     |
+Total  |	                   |                           |                           |                           |     |
 
 
 ## Review Questions

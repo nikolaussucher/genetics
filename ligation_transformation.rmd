@@ -1,0 +1,126 @@
+# Agarose Gel Electrophoresis, Ligation and Transformation
+
+## Agarose gel electrophoresis
+
+Electrophoresis (from the Greek "electrophoron" meaning "to bear electrons") is the motion of dispersed particles relative to a fluid under the influence of a spatially uniform electric field.
+
+Agarose gel electrophoresis is a method of gel electrophoresis used in biochemistry, molecular biology, genetics, and clinical chemistry to separate a mixed population of macromolecules such as DNA or proteins in a matrix of agarose, one of the two main components of agar. The proteins may be separated by charge and/or size, and the DNA and RNA fragments by length. Biomolecules are separated by applying an electric field to move the charged molecules through an agarose matrix, and the biomolecules are separated by size in the agarose gel matrix.
+
+Agarose gels are easy to cast and are particularly suitable for separating DNA of size range most often encountered in laboratories. The separated DNA is visualized using a stain, most commonly under UV light, and the DNA fragments can be extracted from the gel with relative ease. Most agarose gels used are made using 0.5–3% agarose which is dissolved in a suitable electrophoresis buffer.
+
+Agarose gel is easy to cast, has relatively fewer charged groups, and is particularly suitable for separating DNA of size range most often encountered in laboratories, which accounts for the popularity of its use. The separated DNA may be viewed with stain, most commonly under UV light, and the DNA fragments can be extracted from the gel with relative ease. Most agarose gels used are between 0.7–2% dissolved in a suitable electrophoresis buffer.
+
+## Experimental Procedures
+
+```{block2, type='rmdnote'}
+Take special care when pipetting very small volumes. Make sure only the soft stop of the pipet is used, when pulling up reagents even though it may feel like a very small movement. Also, look at the end of the pipet tip to be sure that the correct volume of reagent is in the tip. After adding the reagent to the tube, be sure that the pipet tip is empty. Never reuse a pipet tip.
+```
+
+2. Get the Erlenmeyer flask containing 1 g of agarose powder
+3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
+4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
+5. Heat in the microwave at full power for 1 minute.
+6. Swirl to make sure that all powder has dissolved, and the solution is clear.
+7. Add the comb into the comb slot.
+8. Pour the solution onto the gel tray in the gel box.
+1. Label a microcentrifuge tube for each PCR sample.
+2. Transfer 20 µl of each of first-round PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
+3. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
+4. The gel will need about 30 minutes to solidify.
+5. Start setting up the PCR product purification.
+ 
+## PCR Product Purification
+
+## Experimental Procedures 
+
+1. Label a PCR Kleen spin column and a cap-less collection tube with your initials.
+2. Label a capped microcentrifuge tube with your initials, “purified PCR product,” and the plant name.
+3. Resuspend the beads in the PCR Kleen spin column
+by vortexing. Return the beads to the bottom of the column with a sharp downward flick.
+4. Snap the bottom off the spin column, remove the cap, and place the column in the cap-less collection tube. Discard cap and bottom of column.
+5. Place the spin column, still in the cap-less collection tube, into the microcentrifuge. Make sure that your tube is placed in the rotor with another group’s or with a balance tube so that the microcentrifuge is balanced.
+Centrifuge columns at 735×g for 2 min. Do not use the top speed of the microcentrifuge for this step.
+6. Move the spin column to the labeled microcentrifuge tube. Discard the flowthrough and the collection tube.
+7. Pipet 30 µl of the nested PCR product onto the top of the column bed in the spin column, without disturbing the resin (or column bed).
+Save 5 µl of this original (not yet purified) yellow PCR sample and mix it with 1 µl of 6× loading dye and stain for gel electrophoresis.
+8. Place the column in the labeled microcentrifuge tube into the microcentrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
+Centrifuge at 735×g for 2 min. Make sure that another group’s sample counterbalances the microcentrifuge.
+9. Remove the spin column from the microcentrifuge tube and discard the column. Cap the microcentrifuge tube, which now contains the purified PCR product. Store at 4 °C for up to 2 weeks or at –20 °C long term.
+10. Add 1 µl of 6× loading dye and stain into 5 µl of the purified sample. 
+11. Electrophorese 5 µl of this mix next to 5 µl of the not purified sample on a 1% agarose gel to visualize differences between the original and the purified sample.
+12. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
+4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
+5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
+6. Load 20 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
+7. Connect your electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min. 
+8. While the gel is running, start setting up the ligation reactions.
+
+## Ligation
+
+In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecular_biology)) is the joining of two nucleic acid fragments through the action of an enzyme. It is an essential laboratory procedure in the molecular cloning of DNA whereby DNA fragments are joined together to create recombinant DNA molecules, such as when a foreign DNA fragment is inserted into a plasmid. The ends of DNA fragments are joined together by the formation of phosphodiester bonds between the 3'-hydroxyl of one DNA terminus with the 5'-phosphoryl of another.
+
+## Experimental Procedures 
+1. Label a microcentrifuge tube with your initials and “l" for "ligation.”
+2. Briefly centrifuge the stock tubes containing the 2× ligation reaction buffer and proofreading polymerase in a microfuge to force contents to bottom of tubes.
+4. Add 5.0 µl 2× ligation reaction buffer to the labeled microcentrifuge tube.
+5. Add 1.0 µl purified PCR product
+6. Add 2.5 µl sterile water
+7. Add 0.5 µl proofreading polymerase
+4. Close the cap and mix well. Centrifuge briefly in a microfuge to collect the contents at the bottom of the tube.
+5. Incubate the tube at 70 °C for 5 min. 70 °C is the optimal temperature for the proofreading polymerase to blunt the PCR fragment.
+6. Cool the tube on ice for 2 min. This re-condenses water vapor to maintain the reaction volume.
+Centrifuge the tube briefly to collect the contents at the bottom of the tube. Maintain the tube at room temperature.
+7. Add 0.5 µl T4 DNA ligase.
+8. Add 0.5 µl pJet1.2 blunted vector.
+10. Close the cap and mix well. 
+11. Centrifuge briefly in a microcentrifuge to collect the contents at the bottom of the tube.
+11. Incubate the tube at room temperature for 5–10 min.
+12. Pipet 5 µl of the ligation reaction into a fresh microcentrifuge tube labeled with your initials and “t" for "transformation” and store it on ice until needed for the transformation.
+8. Take the gel out of the electrophoresis box to visualize the DNA bands and acquire an image of your gel.
+
+## Transformation
+
+In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformation_(genetics)) is the genetic alteration of a cell resulting from the direct uptake and incorporation of exogenous genetic material from its surroundings through the cell membrane(s). For transformation to take place, the recipient bacteria must be in a state of competence, which might occur in nature as a time-limited response to environmental conditions such as starvation and cell density, and may also be induced in a laboratory.
+
+Transformation is one of three processes for horizontal gene transfer, in which exogenous genetic material passes from one bacterium to another, the other two being conjugation (transfer of genetic material between two bacterial cells in direct contact) and transduction (injection of foreign DNA by a bacteriophage virus into the host bacterium). In transformation, the genetic material passes through the intervening medium, and uptake is completely dependent on the recipient bacterium.
+
+"Transformation" may also be used to describe the insertion of new genetic material into nonbacterial cells, including animal and plant cells; however, because "transformation" has a special meaning in relation to animal cells, indicating progression to a cancerous state, the process is usually called "transfection".
+Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of *S. pneumoniae* and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.
+
+## Experimental Procedures
+
+1. Add 1.5 ml C-growth medium into a 15 ml culture tube. Label tube with your initials and warm it at 37 °C for at least 10 min.
+2. Label 2 LB amp IPTG agar plates with your initials (on the bottom of the plate, not the lid). Also label one of the plates “pGAP” for the control plasmid and the other for your ligation (pJET + your plant name).
+3. Pipet 150 µl of fresh *E. coli* starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37 °C incubator or water bath for 20–40 min shaking at 275 rpm.
+4. Label a 1.5 microcentrifuge tube with your initials and “competent cells.”
+5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
+6. After bacteria have grown in C-growth medium for 20–40 min at 37 °C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
+7. Centrifuge the bacterial culture in a microcentrifuge at top speed for 1 min. Make sure that the microcentrifuge is balanced. Immediately put the pelleted bacterial culture on ice.
+8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture supernatant, avoiding the pellet, using a 1,000 µl pipet. Keep the cells on ice.
+9. Pipet 300 µl of ice-cold transformation buffer into the microcentrifuge tube containing the bacterial pellet. Resuspend the pellet by gently pipetting up and down in the solution above the pellet with a 1,000 µl pipet, and gradually wear away the pellet from the bottom of the tube. Make sure that the bacteria are fully resuspended, with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
+10. Incubate the resuspended bacteria on ice for 5 min.
+11. Centrifuge the bacteria in a microcentrifuge for 1 min, then place back in ice bucket immediately.
+
+```{block2, type='rmdimportant'}
+Ensure that the bacteria are on ice immediately prior to and immediately following centrifugation. If the centrifuge is not close to the lab bench, take the entire ice bucket to the microcentrifuge so that the bacteria are only out of the ice bucket for 1 minute. Use a refrigerated microcentrifuge, if available.
+```
+
+12. Remove the supernatant from the pellet using a 1,000 μl pipet.
+    
+```{block2, type='rmdimportant'}
+After this step, it is very important to keep the bacteria on ice as much as possible during this procedure. Transformation efficiency will be severely compromised if the cells warm up.
+It is very important to treat the bacteria extremely gently during this procedure — the bacteria are very fragile and your transformation efficiency will be compromised unless you are very gentle.
+```
+
+8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture
+13. Pipet 120 μl of ice-cold transformation buffer onto the pellet and resuspend by gently pipetting up and down with a 200 μl pipet. Be sure that bacteria are fully resuspended with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
+14. Incubate the resuspended bacteria on ice for 5 min.
+The cells are now competent for transformation.
+15. Label one microcentrifuge tube with your initials and “pGAP T” (for pGAP transformation) and another microcentrifuge tube with your initials and “T” (referred to below as the “plant T” tube).
+16. Pipet 1 μl of control pGAP plasmid into the microcentrifuge tube labeled “pGAP T.”
+19. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “plant T” tube containing 5 μl of your ligation, and gently pipet up and down 2 times to mix.
+20. Incubate the transformations for 10 min on ice.
+21. Retrieve the warm LB amp IPTG agar plates from the 37 °C incubator.
+22. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
+It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
+22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37 °C.

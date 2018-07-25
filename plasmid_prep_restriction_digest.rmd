@@ -1,0 +1,67 @@
+# Plasmid Purification And Restriction Digest
+
+## Plasmid Purification 
+
+## Experimental Procedures
+
+1. Label one cap-less collection tube, one plasmid mini column, and two microcentrifuge tubes for each miniprep culture with your initial and "M" for “miniprep”.
+2. Place each column in the appropriate cap-less collection tube.
+3. Transfer 1.5 ml of each miniprep culture into one of the appropriately labeled microcentrifuge tubes by pipetting or decanting.
+4. Centrifuge the microcentrifuge tubes for 1 min at top speed (>12,000 × g) to pellet the bacteria. Make sure that the microcentrifuge is balanced.
+5. Locate the bacterial pellet and remove the supernatant from each tube using a 1,000 µl pipet; avoid touching or extracting the pellet. Dispose of the supernatant in the provided waste bottles in the fume hood.
+6. Add the remaining 1.5 ml of the appropriate miniprep culture to the correct microcentrifuge tube containing the bacterial pellet, centrifuge for 1 min and remove supernatant.
+7. Add 250 µl of resuspension solution to each tube. Resuspend bacterial pellet by pipetting up and down or vortexing. Use a fresh tip each time. Ensure that no clumps of bacteria remain.
+8. Pipet 250 µl of lysis solution into each tube and mix by gently inverting 6–8 times. Do not pipet or vortex this lysate or you risk shearing (fragmenting) the bacterial gDNA, which could contaminate your plasmid preparation.
+9. Wait for 5 min, then pipet 350 µl of neutralization solution into each tube and mix by gently inverting 6–8 times. Do not pipet or vortex this lysate. A white precipitate should form.
+10. Centrifuge the tubes for 5 min at top speed. Make sure the microcentrifuge is balanced.
+11. Pipet supernatant from the centrifuged tubes onto the appropriately labeled column. Avoid
+transferring any precipitate. If necessary, re-centrifuge the microcentrifuge tubes. Discard the empty microcentrifuge tubes.
+12. Centrifuge the columns in the cap-less collection tubes for 1 min at top speed.
+13. Discard the flowthough from the collection tube and place the column back in the collection tube.
+14. Pipet 750 µl of wash solution onto each column (ensure that the wash solution has had ethanol added to it prior to use).
+15. Centrifuge columns in the cap-less collection tubes for 1 min at top speed.
+16. Discard the flowthough from the collection tube.
+17. Place the columns back into collection tubes and centrifuge for an additional 1 min to dry the column.
+18. Transfer contents of each column to the appropriately labeled capped “miniprep DNA” microcentrifuge tube and pipet 100 µl of elution solution onto the column.
+19. Let the elution solution be absorbed into the column for 2 min.
+20. Place the column in the microcentrifuge tube into the centrifuge. It is best to orient the cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation.
+21. Centrifuge the columns for 2 min.
+22. Discard the columns and cap the tubes containing the eluted sample.
+23. Proceed to setting up the restriction digest reactions.
+
+## Restriction Digest
+
+## Experimental Procedures
+
+1. Label one microcentrifuge tube with your initials and “master mix.”
+2. Prepare a 2× master mix for BgI II restriction digestion reactions according to Table \@ref(tab:digest) using stock reagents from the common workstation. Use a fresh tip for each reagent.
+2. Label a microcentrifuge tube for each plasmid miniprep.
+2. Prepare digestion reactions by adding 10 µl of the BgI II master mix and 10 µl of each plasmid DNA in the labeled microcentrifuge tubes.
+2. Mix tube contents and spin briefly in a microcentrifuge to collect the contents at the bottom of the tube.
+2. Incubate reactions at 37 °C for 1 hr. Set timer to sound an alarm after 1 hour.
+3. While the restriction digest is incubating, prepare an agarose gel.
+2. Get the Erlenmeyer flask containing 1 g of agarose powder
+3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
+4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
+5. Heat in the microwave at full power for 1 minute.
+6. Swirl to make sure that all powder has dissolved, and the solution is clear.
+7. Add the comb into the comb slot.
+8. Pour the solution onto the gel tray in the gel box.
+4. The gel will need about 30 minutes to solidify.
+3. When the timer indicates that the restriction digest has been incubating for 1 hour, combine 5 µl of miniprep DNA with 15 µl of sterile water.
+3. Briefly centrifuge samples to force the contents to the bottom of the tube.
+3. Add 3.5 µl of 6× loading dye and stain to each of the digested and undigested samples.
+3. Load 20 µl of each sample and 10 µl of the 500 bp molecular weight ruler according to your plan on the 1% agarose gel.
+3. Connect the electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min.
+3. Visualize your bands and acquire an image of your gel. Paste the image into your lab notebook and label it accordingly.
+   
+Table: (\#tab:digest) Composition of restriction digest master mix.
+
+|Reagent                   |Volume|
+|:-------------------------|:-----|
+|10× BgI II reaction buffer|2 µl
+|Sterile water             |7 µl
+|BgI II enzyme             |1 µl
+|Total                     |10 µl
+
+
