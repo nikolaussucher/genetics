@@ -107,30 +107,31 @@ In our experiment, *i* is two, since we have two types of observations (purple a
 8. Obviously, our data does not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided. 
 9. The chi-squared statistic can be used to calculate a p-value by comparing the value of the statistic to a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with *k* degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore *k* = 1).
 
-```{r chi-squared_dist, echo=FALSE, message=FALSE, warning=FALSE}
+(ref:chisqdist) Chi-squared probability density function.
 
+```{r chisqdist, fig.cap='(ref:chisqdist)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(printr)        
 setwd("~/Dropbox/R/genetics-master")
 #function to add area under the curve
-funcShaded_1 <- function(x) {
-  y <- dchisq(x, df=1)
-  y[x < 3.841459 ] <- NA
-  return(y)
-}
-
-funcShaded_3 <- function(x) {
-  y <- dchisq(x, df=3)
-  y[x < 7.814728 ] <- NA
-  return(y)
-}
+#funcShaded_1 <- function(x) {
+#  y <- dchisq(x, df=1)
+#  y[x < 3.841459 ] <- NA
+#  return(y)
+#}
+#
+#funcShaded_3 <- function(x) {
+#  y <- dchisq(x, df=3)
+#  y[x < 7.814728 ] <- NA
+#  return(y)
+#}
 ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
   stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1.5) +
   stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
   scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
-  scale_y_continuous(name = "Probability") +
-  ggtitle("Chi-squared probability density function") +
+  scale_y_continuous(name = "Probability")  +
   scale_colour_manual("Degrees of freedom", values = c("blue", "red")) # +
+#  ggtitle("Chi-squared probability density function") +
   # theme(axis.line = element_line(size=1, colour = "black"),
   #       panel.grid.major = element_blank(),
   #       panel.grid.minor = element_blank(),
@@ -143,7 +144,6 @@ ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
  # stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
  # stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
 ```
-
 
 ## Review Questions
 1.  What is a gene?
