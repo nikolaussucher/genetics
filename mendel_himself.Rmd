@@ -1,13 +1,13 @@
 # Mendelian Genetics: Mendel in His Own Words
 
-The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century monk who formulated his ideas after conducting simple hybridization experiments with pea plants (*Pisum sativum*) he had planted in the garden of his monastery in [Moravia](https://en.wikipedia.org/wiki/Moravia). Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of Brno on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, Hugo de Vries, Carl Correns, and Erich von Tschermak.
+The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century monk who formulated his ideas after conducting simple hybridization experiments with [pea plants](https://en.wikipedia.org/wiki/Pea) (*Pisum sativum*) he had planted in the garden of his monastery in [Moravia](https://en.wikipedia.org/wiki/Moravia). Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of [Brno](https://en.wikipedia.org/wiki/Brno) on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, [Hugo de Vries](https://en.wikipedia.org/wiki/Hugo_de_Vries), [Carl Correns](https://en.wikipedia.org/wiki/Carl_Correns), and [Erich von Tschermak](https://en.wikipedia.org/wiki/Erich_von_Tschermak).
 
 In this laboratory session, we will critically read an [English translation] (http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the paper](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
 
 ## Experimental Procedures
 
 1. Right-click on the link to the [English translation] (http://www.mendelweb.org/Mendel.html) to open a new browser tab showing an HTML version of Mendel's paper.
-2. Read the first section entitled "Introductory Remarks".
+2. Read the first section entitled "INTRODUCTORY REMARKS".
 3. Notice that some terms are highlighted indicating that they are clickable. Clicking on a link will bring you to a glossary that gives some explanation of the term. You can go back to the main text by clicking on the back button of your browsers.
 4. After you have read the "INTRODUCTORY REMARKS", answer the following questions:
     * What is the backgroundof Mendel's experiments?
@@ -67,27 +67,4 @@ Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
 |Law of segregation|During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.|
 |Law of independent assortment|Genes for different traits can segregate independently during the formation of gametes.|
 |Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.|
-
-## Punnett Square
-The [Punnett square](https://en.wikipedia.org/wiki/Punnett_square) (Figures \@ref(fig:punnett) and \@ref(fig:punnettF1)) is a visual representation of Mendelian inheritance and used to predict an outcome of a particular cross or breeding experiment. It is named after [Reginald C. Punnett](https://en.wikipedia.org/wiki/Reginald_Punnett), who devised the approach. In our first experiment, both parents are homozygous, one carrying two copies of the dominant allele (R), the other two copies of the recessive (r) allele. Each parent can only make gametes that have either the R (purple) or r (yellow) allele. The Punnett square for the parental cross is shown in Figure \@ref(fig:punnett)
-
-```{r punnett, fig.cap='Punnett square for homozygous cross.', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./figures/mendel/Punnett.svg")
-```
-The squares containing the single letters represent the possible gametes. The squares with two letters represent the zygotes resulting from the combination of the respective gametes. It can be easily seen that all offspring will be heterozygous (Rr) and therefore purple. The Punnett square for the F1 cross is depicted in Figure \@ref(fig:punnettF1)
-
-```{r punnettF1, fig.cap='Punnett square for heterozygous cross.', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./figures/mendel/PunnettF1.svg")
-```
-
-## Test cross
-
-A [test cross](https://en.wikipedia.org/wiki/Test_cross), first introduced by Gregor Mendel, involves the breeding of an individual with a phenotypically recessive individual, in order to determine the zygosity of the former by analyzing proportions of offspring phenotypes. Zygosity can either be heterozygous or homozygous. Those that are heterozygous have one dominant and one recessive allele. Individuals that are homozygous dominant have two dominant alleles, and those that are homozygous recessive have two recessive alleles.
-
-The genotype that an offspring has for each of its genes is determined by the alleles inherited from its parents. The combination of alleles is a result of the maternal and paternal chromosomes contributed from each gamete at fertilization of that offspring. During meiosis in gametes, homologous chromosomes experience genetic recombination and segregate randomly into haploid daughter cells, each with a unique combination of maternally and paternally coded genes. Dominant alleles will override the expression of recessive alleles.
-
-Test crosses are used to test an individual's genotype by crossing it with an individual of a known genotype. Individuals that show the recessive phenotype are known to have a homozygous recessive genotype. Individuals that show the dominant phenotype, however, may either be homozygous dominant or heterozygous. The phenotypically dominant organism is the individual in question in a test cross. The purpose of a test cross is to determine if this individual is homozygous dominant or heterozygous.
-
-Test crosses involve breeding the individual in question with another individual that expresses a recessive version of the same trait. Analyzing the proportions of dominant and recessive offspring determines if the individual in question is homozygous dominant or heterozygous. If all offspring from the test cross display the dominant phenotype, the individual in question is homozygous dominant; if half the offspring display dominant phenotypes and half display recessive phenotypes, then the individual is heterozygous. Since the homozygous recessive individual can only pass on recessive alleles, the alleles the individual in question passes on determine the phenotypes of the offspring.
-
 

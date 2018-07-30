@@ -3,11 +3,25 @@
 In this laboratory session, we will use maize *Zea mays* subsp. mays, from Spanish: maíz after Taíno mahiz), also known as corn to study [Mendelian inheritance](https://en.wikipedia.org/wiki/Mendelian_inheritance). This cereal grain was first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces separate pollen and ovuliferous inflorescences or ears, which are fruits, yielding kernels or seeds. Maize has become a staple food in many parts of the world, with total production surpassing that of wheat or rice. However, not all of this maize is consumed directly by humans. Some of the maize production is used for corn ethanol, animal feed and other maize products, such as corn starch and corn syrup. The six major types of corn are dent corn, flint corn, pod corn, popcorn, flour corn, and sweet corn.
 
 ## Monohybrid Cross (Experiment 1)
-A [monohybrid cross](https://en.wikipedia.org/wiki/Monohybrid_cross) is a mating between two individuals with different variations at one genetic trait of interest. The character(s) being studied in a monohybrid cross are governed by two or multiple variations for a single locus. A cross between two parents possessing a pair of contrasting characters is known as monohybrid cross. To carry out such a cross, each parent is chosen to be homozygous or true breeding for a given trait (locus). When a cross satisfies the conditions for a monohybrid cross, it is usually detected by a characteristic distribution of second-generation (F2) offspring that is sometimes called the monohybrid ratio.
+A [monohybrid cross](https://en.wikipedia.org/wiki/Monohybrid_cross) is a mating between two individuals with different variations at one genetic trait of interest. For example, the gene for seed color in corn exists in two forms, one for purple and the other for yellow. These alternative "forms" are called alleles. For each biological trait, an organism inherits two alleles, one from each parent. These alleles may be the same or different. An organism that has two identical alleles for a gene is said to be homozygous for that gene (and is called a homozygote). An organism that has two different alleles for a gene is said be heterozygous for that gene (and is called a heterozygote).
+
+The character(s) being studied in a monohybrid cross are governed by two or multiple alleles of a single gene. A cross between two parents possessing a pair of different alleles is known as monohybrid cross. To carry out such a cross, each parent is chosen to be homozygous or true breeding for a given trait (allele). When a cross satisfies the conditions for a monohybrid cross, it is usually detected by a characteristic distribution of second-generation (F2) offspring that is sometimes called the monohybrid ratio.
 
 Generally, the monohybrid cross is used to determine the dominance relationship between two alleles. The cross begins with the parental (P) generation. One parent is homozygous for one allele, and the other parent is homozygous for the other allele. The offspring make up the first filial (F1) generation. Every member of the F1 generation is heterozygous and the phenotype of the F1 generation expresses the dominant trait. Crossing two members of the F1 generation produces the second filial (F2) generation. Probability theory predicts that three quarters of the F2 generation will have the dominant allele's phenotype. And the remaining quarter of the F2s will have the recessive allele's phenotype. This predicted 3:1 phenotypic ratio assumes Mendelian inheritance.
 
 In the first experiment, we will study the result obtained from a monohybrid cross. A strain of corn producing pure purple kernels (RR) is crossed with a strain producing pure yellow kernels (rr). Purple is dominant with the resulting F1 ears all bearing purple kernels. These plants that are heterozygous for a single trait are called monohybrids. When the F1 is self-pollinated, the resulting F2 ears bear both purple and yellow kernels (Figure \@ref(fig:monohybrid)).
+
+## Punnett Square
+The [Punnett square](https://en.wikipedia.org/wiki/Punnett_square) (Figures \@ref(fig:punnett) and \@ref(fig:punnettF1)) is a visual representation of Mendelian inheritance and used to predict an outcome of a particular cross or breeding experiment. It is named after [Reginald C. Punnett](https://en.wikipedia.org/wiki/Reginald_Punnett), who devised the approach. In our first experiment, both parents are homozygous, one carrying two copies of the dominant allele (R), the other two copies of the recessive (r) allele. Each parent can only make gametes that have either the R (purple) or r (yellow) allele. The Punnett square for the parental cross is shown in Figure \@ref(fig:punnett)
+
+```{r punnett, fig.cap='Punnett square for homozygous cross.', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/mendel/Punnett.svg")
+```
+The squares containing the single letters represent the possible gametes. The squares with two letters represent the zygotes resulting from the combination of the respective gametes. It can be easily seen that all offspring will be heterozygous (Rr) and therefore purple. The Punnett square for the F1 cross is depicted in Figure \@ref(fig:punnettF1)
+
+```{r punnettF1, fig.cap='Punnett square for heterozygous cross.', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/mendel/PunnettF1.svg")
+```
 
 ```{r monohybrid, fig.cap='Monohybrid cross', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/mendel/Monohybrid_cross.jpg")
@@ -33,6 +47,39 @@ Row #   |purple         |yellow  |
 8       |	        |        |
 9       |	        |        |
 Total   |	        |        |
+
+
+## Dihybrid Cross (Experiment 2)
+In the second experiment, we will study the result obtained from a [dihybrid cross](https://en.wikipedia.org/wiki/Dihybrid_cross). A dihybrid cross is a cross between two different lines (varieties, strains) that differ in two observed traits. In the name "Dihybrid cross", the "di" indicates that there are two traits involved (in our example designated R and Su), the "hybrid" means that each trait has two different alleles (in our example R and r, or Su and su), and "cross" means that there are two individuals who are combining or "crossing" their genetic information. In our example, a pure strain of corn producing purple-starchy kernels (RR SuSu) is crossed with a pure strain producing yellow-sweet (rr susu). The starchy seeds are smooth, the sweet seeds are wrinkled. The resulting F1 ears all bear purple-starchy (smooth) kernels. Plants that are heterozygous for two traits are called dihybrids. When the F1 is self-pollinated, the resulting F2 generation contains various combinations (Figure \@ref(fig:dihybrid)).
+
+```{r dihybrid, fig.cap='Dihybrid cross', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/mendel/Dihybrid_cross.jpg")
+```
+
+The rules of meiosis, as they apply to the dihybrid, are codified in Mendel's first law and Mendel's second law, which are also called the Law of Segregation and the Law of Independent Assortment, respectively (Table \@ref(tab:mendel)). For genes on separate chromosomes, each allele pair showed independent segregation. If the first filial generation (F1 generation) produces four identical offspring, the second filial generation, which occurs by crossing the members of the first filial generation, shows a phenotypic (appearance) ratio of **9:3:3:1**, where:
+
+*   the **9** represents the proportion of individuals displaying both dominant traits
+*   the first **3** represents the individuals displaying the first dominant trait and the second recessive trait
+*   the second **3** represents those displaying the first recessive trait and second dominant trait
+*   the **1** represents the homozygous, displaying both recessive traits.
+
+### Experimental Procedures
+1.  Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table \@ref(tab:di).
+
+Table: (\#tab:di) Dihybrid Cross.
+
+Row #  |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starchy (smooth)|yellow and sweet (wrinkled)|ratio|
+|:----:|---------------------------|---------------------------|---------------------------|---------------------------|-----|
+1      |			   |                           |                           |                           |     |
+2      |			   |                           |                           |                           |     |
+3      |			   |                           |                           |                           |     |
+4      |			   |                           |                           |                           |     |
+5      |			   |                           |                           |                           |     |
+6      |			   |                           |                           |                           |     |
+7      |			   |                           |                           |                           |     |
+8      |                           |                           |                           |                           |     |
+9      |	                   |                           |                           |                           |     |
+Total  |	                   |                           |                           |                           |     |
 
 ## Goodness Of Fit And Pearson's Chi-Squared ($\chi^2$) Test
 
@@ -83,7 +130,7 @@ ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
   scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
   scale_y_continuous(name = "Probability") +
   ggtitle("Chi-squared probability density function") +
-  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
+  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) # +
   # theme(axis.line = element_line(size=1, colour = "black"),
   #       panel.grid.major = element_blank(),
   #       panel.grid.minor = element_blank(),
@@ -93,81 +140,9 @@ ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
   #       text=element_text(size = 16, family="xkcd-Regular"),
   #       axis.text.x=element_text(colour="black", size = 12),
   #       axis.text.y=element_text(colour="black", size = 12)) +
-  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
-  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+ # stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
+ # stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
 ```
-
-
-(ref:datatable) Monohybrid cross data for Pearson's $\chi^2$ test.
-
-
-```{r chi-squared, echo=FALSE, message=FALSE, warning=FALSE}
-
-library(tidyverse)
-library(printr)        
-setwd("~/Dropbox/R/genetics-master")
-
-# Mono hybrid cross -------------------------------------------------------
-
-#load and sum data by category
-mono_data <- read.csv("./data/monohybrid_cross.csv")
-observed_mono <- c(sum(mono_data$Purple),sum(mono_data$Yellow))
-
-
-knitr::kable(mono_data, digits = 2, caption = '(ref:datatable)')
-
-# chi squared by hand
-expected_mono <- c(0.75*sum(mono_data), 0.25*sum(mono_data))
-chi_stat_mono <- sum((observed_mono-expected_mono)^2/expected_mono)
-p_value_mono <- 1-pchisq(chi_stat_mono,1)
-
-# chi squared using R function
-p_null_mono <- c(0.75,0.25)
-chisqu_mono <- chisq.test(observed_mono,p=p_null_mono)
-
-
-data_mono = tibble(Color=c(rep("Purple",length(mono_data$Purple)),
-               rep("Yellow",length(mono_data$Yellow))), Frequency=c(mono_data$Purple, mono_data$Yellow))
-               
-ggplot(data=data_mono) +
-  geom_col(mapping = aes(x = Color, y=Frequency, fill = Color),
-           show.legend = FALSE) +
-           scale_fill_manual("legend",
-           values = c("Purple" = "#42165b", "Yellow" = "gold"))
-```
-
-
-## Dihybrid Cross (Experiment 2)
-In the second experiment, we will study the result obtained from a [dihybrid cross](https://en.wikipedia.org/wiki/Dihybrid_cross). A dihybrid cross is a cross between two different lines (varieties, strains) that differ in two observed traits. In the name "Dihybrid cross", the "di" indicates that there are two traits involved (in our example designated R and Su), the "hybrid" means that each trait has two different alleles (in our example R and r, or Su and su), and "cross" means that there are two individuals who are combining or "crossing" their genetic information. In our example, a pure strain of corn producing purple-starchy kernels (RR SuSu) is crossed with a pure strain producing yellow-sweet (rr susu). The starchy seeds are smooth, the sweet seeds are wrinkled. The resulting F1 ears all bear purple-starchy (smooth) kernels. Plants that are heterozygous for two traits are called dihybrids. When the F1 is self-pollinated, the resulting F2 generation contains various combinations (Figure \@ref(fig:dihybrid)).
-
-```{r dihybrid, fig.cap='Dihybrid cross', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./figures/mendel/Dihybrid_cross.jpg")
-```
-
-The rules of meiosis, as they apply to the dihybrid, are codified in Mendel's first law and Mendel's second law, which are also called the Law of Segregation and the Law of Independent Assortment, respectively (Table \@ref(tab:mendel)). For genes on separate chromosomes, each allele pair showed independent segregation. If the first filial generation (F1 generation) produces four identical offspring, the second filial generation, which occurs by crossing the members of the first filial generation, shows a phenotypic (appearance) ratio of **9:3:3:1**, where:
-
-*   the **9** represents the proportion of individuals displaying both dominant traits
-*   the first **3** represents the individuals displaying the first dominant trait and the second recessive trait
-*   the second **3** represents those displaying the first recessive trait and second dominant trait
-*   the **1** represents the homozygous, displaying both recessive traits.
-
-### Experimental Procedures
-1.  Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table \@ref(tab:di).
-
-Table: (\#tab:di) Dihybrid Cross.
-
-Row #  |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starchy (smooth)|yellow and sweet (wrinkled)|ratio|
-|:----:|---------------------------|---------------------------|---------------------------|---------------------------|-----|
-1      |			   |                           |                           |                           |     |
-2      |			   |                           |                           |                           |     |
-3      |			   |                           |                           |                           |     |
-4      |			   |                           |                           |                           |     |
-5      |			   |                           |                           |                           |     |
-6      |			   |                           |                           |                           |     |
-7      |			   |                           |                           |                           |     |
-8      |                           |                           |                           |                           |     |
-9      |	                   |                           |                           |                           |     |
-Total  |	                   |                           |                           |                           |     |
 
 
 ## Review Questions
