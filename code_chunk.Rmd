@@ -1,0 +1,39 @@
+#
+#
+#Table: (\#tab:datatable) Monohybrid cross data for Pearson's $\chi^2$ test.
+#
+#
+#```{r chi-squared, echo=FALSE, message=FALSE, warning=FALSE}
+#
+#library(tidyverse)
+#library(printr)        
+#setwd("~/Dropbox/R/genetics-master")
+#
+## Mono hybrid cross -------------------------------------------------------
+#
+##load and sum data by category
+#mono_data <- read.csv("./data/monohybrid_cross.csv")
+#observed_mono <- c(sum(mono_data$Purple),sum(mono_data$Yellow))
+#
+#
+#knitr::kable(mono_data, digits = 2, caption = '(ref:datatable)')
+#
+## chi squared by hand
+#expected_mono <- c(0.75*sum(mono_data), 0.25*sum(mono_data))
+#chi_stat_mono <- sum((observed_mono-expected_mono)^2/expected_mono)
+#p_value_mono <- 1-pchisq(chi_stat_mono,1)
+#
+## chi squared using R function
+#p_null_mono <- c(0.75,0.25)
+#chisqu_mono <- chisq.test(observed_mono,p=p_null_mono)
+#
+#
+#data_mono = tibble(Color=c(rep("Purple",length(mono_data$Purple)),
+#               rep("Yellow",length(mono_data$Yellow))), Frequency=c(mono_data$Purple, mono_data$Yellow))
+#               
+#ggplot(data=data_mono) +
+#  geom_col(mapping = aes(x = Color, y=Frequency, fill = Color),
+#           show.legend = FALSE) +
+#           scale_fill_manual("legend",
+#           values = c("Purple" = "#42165b", "Yellow" = "gold"))
+#```
