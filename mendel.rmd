@@ -95,7 +95,7 @@ where:
 
 *E~i~* = expected number (frequency) of observations of type *i* according to the model
 
-In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using the data in Table \@ref(tab:data) that students have collected during a previous lab session. 
+In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using our data first from the monohybrid and then the dihybrid cross. 
 
 ### Calculating the chi-squared test statistic
 
