@@ -57,11 +57,4 @@ Mendel discovered that, when he crossed purebred white flower and purple flower 
 
 
 
-Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
-
-|Law|Definition|
-|:--|:---------|
-|Law of segregation|During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.|
-|Law of independent assortment|Genes for different traits can segregate independently during the formation of gametes.|
-|Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.|
 

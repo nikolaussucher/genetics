@@ -65,6 +65,14 @@ The rules of meiosis, as they apply to the dihybrid, are codified in Mendel's fi
 *   the second **3** represents those displaying the first recessive trait and second dominant trait
 *   the **1** represents the homozygous, displaying both recessive traits.
 
+Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
+
+|Law|Definition|
+|:--|:---------|
+|Law of segregation|During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.|
+|Law of independent assortment|Genes for different traits can segregate independently during the formation of gametes.|
+|Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.|
+
 ### Experimental Procedures
 1.  Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table \@ref(tab:di).
 
