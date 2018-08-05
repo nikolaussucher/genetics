@@ -156,7 +156,6 @@ ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
 ```
 
 ## Review Questions
-1.  What is a gene?
 2.  What is an allele?
 3.  What are dominant and recessive alleles?
 4.  What is the genotype of an organism?

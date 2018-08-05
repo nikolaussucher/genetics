@@ -1,8 +1,8 @@
 # Mendelian Genetics: Mendel in His Own Words
 
-The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century monk who formulated his ideas after conducting simple hybridization experiments with [pea plants](https://en.wikipedia.org/wiki/Pea) (*Pisum sativum*) he had planted in the garden of his monastery in [Moravia](https://en.wikipedia.org/wiki/Moravia). Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of [Brno](https://en.wikipedia.org/wiki/Brno) on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, [Hugo de Vries](https://en.wikipedia.org/wiki/Hugo_de_Vries), [Carl Correns](https://en.wikipedia.org/wiki/Carl_Correns), and [Erich von Tschermak](https://en.wikipedia.org/wiki/Erich_von_Tschermak).
+The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century monk who formulated his ideas after conducting hybridization experiments with [pea plants](https://en.wikipedia.org/wiki/Pea) (*Pisum sativum*) he had planted in the garden of his monastery in [Moravia](https://en.wikipedia.org/wiki/Moravia). Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of [Brno](https://en.wikipedia.org/wiki/Brno) on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, [Hugo de Vries](https://en.wikipedia.org/wiki/Hugo_de_Vries), [Carl Correns](https://en.wikipedia.org/wiki/Carl_Correns), and [Erich von Tschermak](https://en.wikipedia.org/wiki/Erich_von_Tschermak).
 
-In this laboratory session, we will critically read an [English translation] (http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the paper](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
+In this laboratory session, we will read an [English translation] (http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the paper](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
 
 ## Experimental Procedures
 
@@ -10,7 +10,7 @@ In this laboratory session, we will critically read an [English translation] (ht
 2. Read the first section entitled "INTRODUCTORY REMARKS".
 3. Notice that some terms are highlighted indicating that they are clickable. Clicking on a link will bring you to a glossary that gives some explanation of the term. You can go back to the main text by clicking on the back button of your browsers.
 4. After you have read the "INTRODUCTORY REMARKS", answer the following questions:
-    * What is the backgroundof Mendel's experiments?
+    * What is the background of Mendel's experiments?
     * What set Mendel out to do?
     * How long did it take Mendel to conduct the experiments ?
 5. Now, read the second section of the paper entitled "SELECTION OF THE EXPERIMENTAL PLANTS".
@@ -19,7 +19,7 @@ In this laboratory session, we will critically read an [English translation] (ht
     * What criteria did Mendel use to select the plants for his experiments?
     * Which plants did Mendel choose for his experiments?
     * How many varieties did Mendel obtain originally and how many of those did he select and cultivate for the entire length of his experiments?
-    * What is the definition of "species" that Mendel quotes? What does Mendel think of the applocability of this definition in relation to his experiments?
+    * What is the definition of "species" that Mendel quotes? What does Mendel think of the applicability of this definition in relation to his experiments?
 7. Continue and read the section entitled "DIVISION AND ARRANGEMENT OF THE EXPERIMENTS".
 8. Answer the following questions:
     * According to Mendel, what was the object(ive) of the experiment?
@@ -37,7 +37,7 @@ In this laboratory session, we will critically read an [English translation] (ht
 12. Answer the following questions:
     * What does Mendel observe in the first generation obtained by crossing the hybrids?
     * What did Mendel** *****not*** observe? Why do you think does he mention and even emphasize a negative observation?
-    * How did Mendel quantitatively analyze the data? Which nmbers are observed and which number is computed from the observed numbers? According to Mendel, what factors complicated the quantitative analysis and how did Mendel deal with them? 
+    * How did Mendel quantitatively analyze the data? Which numbers are observed and which number is computed from the observed numbers? According to Mendel, what factors complicated the quantitative analysis and how did Mendel deal with them? 
     * Mendel explains that the observation of a dominant character in the first generation from the hybrids can have a "double signification"? What does he mean and how can the two "significations" be distinguished?
 13. Read the next section entitled "THE SECOND GENERATION FROM THE HYBRIDS".
 14. Answer the following questions:
@@ -47,14 +47,5 @@ In this laboratory session, we will critically read an [English translation] (ht
 16. Answer the following questions:
     * What was the task Mendel set himself in the experiments described in this section?
     * What experiments did Mendel conduct?  
-    * What was the observed oucome of these experiments?
-
-
-
-
-Mendel discovered that, when he crossed purebred white flower and purple flower pea plants (the parental or P generation), the result was not a blend. Rather than being a mix of the two, the offspring (known as the F1 generation) was purple-flowered. When Mendel self-fertilized the F1 generation pea plants, he obtained a purple flower to white flower ratio in the F2 generation of 3 to 1. In the first experiment, we will examine the F2 generation resulting from the F1 generation obtained from a parental generation of yellow and purple corn.
-
-
-
-
+    * What was the observed outcome of these experiments?
 
