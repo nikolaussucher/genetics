@@ -37,18 +37,18 @@ knitr::include_graphics("./figures/mendel/Monohybrid_cross.jpg")
 
 Table: (\#tab:mono) Monohybrid Cross.
 
-Row #   |purple         |yellow  |
-|:-----:|:-------------:|:------:|
-1       |	        |        |
-2       |	        |        |
-3       |	        |        |
-4       |	        |        |
-5       |	        |        |
-6       |	        |        |
-7       |	        |        |
-8       |	        |        |
-9       |	        |        |
-Total   |	        |        |
+|Row #  |purple |yellow |
+|:-----:|:-----:|:-----:|
+|1      |	|       |
+|2      |	|       |
+|3      |	|       |
+|4      |	|       |
+|5      |	|       |
+|6      |	|       |
+|7      |	|       |
+|8      |	|       |
+|9      |	|       |
+|Total  |	|       |
 
 
 ## Dihybrid Cross (Experiment 2)
@@ -78,20 +78,19 @@ Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
 
 Table: (\#tab:di) Dihybrid Cross.
 
-Row #  |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starchy (smooth)|yellow and sweet (wrinkled)|ratio|
+|Row # |purple and starchy (smooth)|purple and sweet (wrinkled)|yellow and starchy (smooth)|yellow and sweet (wrinkled)|ratio|
 |:----:|---------------------------|---------------------------|---------------------------|---------------------------|-----|
-1      |			   |                           |                           |                           |     |
-2      |			   |                           |                           |                           |     |
-3      |			   |                           |                           |                           |     |
-4      |			   |                           |                           |                           |     |
-5      |			   |                           |                           |                           |     |
-6      |			   |                           |                           |                           |     |
-7      |			   |                           |                           |                           |     |
-8      |                           |                           |                           |                           |     |
-9      |	                   |                           |                           |                           |     |
-Total  |	                   |                           |                           |                           |     |
+|1     |			   |                           |                           |                           |     |
+|2     |			   |                           |                           |                           |     |
+|3     |			   |                           |                           |                           |     |
+|4     |			   |                           |                           |                           |     |
+|5     |			   |                           |                           |                           |     |
+|6     |			   |                           |                           |                           |     |
+|7     |			   |                           |                           |                           |     |
+|9     |	                   |                           |                           |                           |     |
+|Total |	                   |                           |                           |                           |     |
 
-## Goodness Of Fit And Pearson's Chi-Squared ($\chi^2$) Test
+## Pearson's Chi-Squared ($\chi^2$) And Goodness Of Fit Test 
 
 Now that we have obtained our data, we can ask how well the Mendelian model of inheritance actually fits our data. We will use Pearson's $\chi^2$ test as a measure of goodness of fit. The [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Pearson's chi-squared test is a statistical test applied to sets of categorical data (like in our case, where we simply observe if a kernel is purple or yellow) to evaluate how likely it is that any observed difference between the sets arose by chance. It tests a null hypothesis stating that the frequency distribution of certain events observed in a sample is consistent with a particular theoretical distribution. The events considered must be mutually exclusive and have total probability 1. In our case, the "events" correspond to observing either purple or yellow kernels. The theoretical distribution of these events is 3:1 (we expect to observe three purple kernels for every yellow one) as predicted by Mendel's laws of inheritance. Chi-squared ($\chi^2$) is the sum of the squared differences between the observed and expected outcome frequencies (that is, counts of observations) divided by the expectation:
 
@@ -103,9 +102,11 @@ where:
 
 *E~i~* = expected number (frequency) of observations of type *i* according to the model
 
-In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using our data first from the monohybrid and then the dihybrid cross. 
+In our experiment, *i* is two, since we have two types of observations (purple and yellow). Let's calculate $\chi^2$ using our data first from the monohybrid and then the dihybrid cross.
 
-### Calculating the chi-squared test statistic
+The $\chi^2$ statistic can be used to calculate a p-value by comparing the value of the statistic to a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with *k* degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore *k* = 1). The p-value tells us how likely it would be to make the observations that we made, assuming the null hypothesis is true. The null hypothesis in our case is that the ratio of purple to yellow kernels is in fact 3:1. A low p-value, below the chosen significance level, indicates statistical significance, i.e., sufficient evidence to reject the null hypothesis. A significance level of 0.05 is often used as the cutoff between significant and not-significant results.
+
+### Calculating $\chi^2$ Using The Monohybrid Cross Data
 
 1. Add the nubers of observations in each row of the "Purple" column. This number corresponds to *O~purple~*.  
 2. Add the numbers of observations in each row of the "Yellow" column. This number corresponds to *O~yellow~*.  
@@ -115,44 +116,41 @@ In our experiment, *i* is two, since we have two types of observations (purple a
 6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. The result is $\chi^2_{purple}$.
 7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. The result is $\chi^2_{yellow}$.
 8. Obviously, our data does not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided. 
-9. The chi-squared statistic can be used to calculate a p-value by comparing the value of the statistic to a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with *k* degrees of freedom. The number of degrees of freedom is equal to the number of categories minus 1 (in our case, we have to categories and therefore *k* = 1).
 
-(ref:chisqdist) Chi-squared probability density function.
+### Testing Goodness Of Fit
+
+1. State the null hypothesis (*H*~0~). Our *H*~0~ is that kernels with purple color will be 3 times more frequent than kernels with yellow color.
+2. Select a desired level of confidence (significance level, p-value or alpha level) for the result of the test. It is common in many scientific investigations to use p < 0.05. This essentially means that we will reject the null hypothesis (*H*~0~), i.e. that our observations are consistent with a 3:1 ratio, if the p-value in our experiments is less than 0.05. In other words, a p-value less than 0.05 would indicate that there is less than a 5% (1 in 20) chance that we would have observed the numbers we did, if the Mendelian model of inheritance is in fact applicable in our case.
+3. Determine the p-value corresponding to our $\chi^2$ value. The blue curve shown in Figure \@ref(fig:chisqdist) is called the probability density function of $\chi^2$ with one degree of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=3.84$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 3.84 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
+4. Reject *H*~0~ if $\chi^2$ is greater than 3.84.
+
+(ref:chisqdist) $\chi^2$ probability density function.
 
 ```{r chisqdist, fig.cap='(ref:chisqdist)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(printr)        
 setwd("~/Dropbox/R/genetics-master")
-#function to add area under the curve
-#funcShaded_1 <- function(x) {
-#  y <- dchisq(x, df=1)
-#  y[x < 3.841459 ] <- NA
-#  return(y)
-#}
-#
-#funcShaded_3 <- function(x) {
-#  y <- dchisq(x, df=3)
-#  y[x < 7.814728 ] <- NA
-#  return(y)
-#}
-ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
-  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1.5) +
-  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
-  scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
-  scale_y_continuous(name = "Probability")  +
-  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) # +
-#  ggtitle("Chi-squared probability density function") +
-  # theme(axis.line = element_line(size=1, colour = "black"),
-  #       panel.grid.major = element_blank(),
-  #       panel.grid.minor = element_blank(),
-  #       panel.border = element_blank(),
-  #       panel.background = element_blank(),
-  #       plot.title=element_text(size = 20, family="xkcd-Regular"),
-  #       text=element_text(size = 16, family="xkcd-Regular"),
-  #       axis.text.x=element_text(colour="black", size = 12),
-  #       axis.text.y=element_text(colour="black", size = 12)) +
- # stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
- # stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+#function to add p>0.05 area under the curve
+funcShaded_1 <- function(x) {
+  y <- dchisq(x, df=1)
+  y[x >= 3.841459 ] <- NA
+  return(y)
+}
+
+#function to add p<0.05 area under the curve
+funcShaded_2 <- function(x) {
+  y <- dchisq(x, df=1)
+  y[x < 3.841459 ] <- NA
+  return(y)
+}
+
+ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
+  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1, show.legend = FALSE) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 10, 0.5)) +
+  scale_y_continuous(name = "f(x)") +
+  scale_colour_manual("Degrees of freedom", values = "blue") +
+  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_2, geom="area", fill="red", alpha=0.2) 
 ```
 
 ## Review Questions

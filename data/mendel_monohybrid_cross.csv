@@ -1,0 +1,15 @@
+﻿experiment,differentiating_character,forms,counts,character
+1,form of seed,round,5474,dominant
+1,form of seed,angular,1850,recessive
+2,color of albumen,yellow,6022,dominant
+2,color of albumen,green,2001,recessive
+3,color of seed coat,grey-brown,705,dominant
+3,color of seed coat,white,224,recessive
+4,form of pods,inflated,882,dominant
+4,form of pods,constricted,299,recessive
+5,color of unripe pods,green_pods,428,dominant
+5,color of unripe pods,yellow_pods,152,recessive
+6,position of flowers,axial,651,dominant
+6,position of flowers,terminal,207,recessive
+7,length of stem,long,787,dominant
+7,length of stem,short,277,recessive

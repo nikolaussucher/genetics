@@ -2,7 +2,46 @@ library(tidyverse)
 library(printr)
 setwd("~/Dropbox/R/genetics-master")
 
-# Mono hybrid cross -------------------------------------------------------
+
+# Mono hybrid cross Mendel data-------------------------------------------------------
+
+mendel_data <-  as.tibble(read.csv("data/mendel_monohybrid_cross.csv"))
+
+knitr::kable(mendel_data, digits = 2, caption = "Mendel's monohybrid cross data for Pearson's chi-squared test.")
+
+
+observed_dom <- mendel_data %>% filter(character == "dominant") %>% select(counts)
+observed_rec <- mendel_data %>% filter(character == "recessive") %>% select(counts)
+observed_total <- mendel_data %>% group_by(experiment) %>% summarise(total = (sum(counts))) %>% select(total)
+
+expected_dom <- as.tibble(observed_total * 0.75)
+expected_rec <- as.tibble(observed_total * 0.25)
+
+chi_squared <- as.tibble((observed_dom-expected_dom)^2/expected_dom +
+                (observed_rec-expected_rec)^2/expected_rec)
+
+#transform the tibble of chi_squared values into a vector
+vec <- pull(chi_squared, counts)
+p_value <- 1-pchisq(vec,1)
+
+p_value <- 1-pchisq(sum(vec),7)
+
+# chi squared using R function
+p_null_mono <- c(0.75,0.25)
+chisqu <- chisq.test(cbind(observed_dom[1,1], observed_rec[1,1]),p=p_null_mono)
+
+# make forms and differentiating characters ordered factors to avoid reordering by ggplot
+mendel_data$forms <- factor(mendel_data$forms, levels = mendel_data$forms)
+mendel_data$differentiating_character <- factor(mendel_data$differentiating_character, levels = mendel_data$differentiating_character)
+
+ggplot(data=mendel_data) +
+  geom_col(mapping = aes(x = differentiating_character, y=counts, fill = forms),
+           show.legend = TRUE, position = "stack") +
+           scale_fill_discrete(name = "Forms") +
+           labs(y = "Counts", x = "Differentiating Characters")
+
+
+# Mono hybrid cross student data-------------------------------------------------------
 
 #load and sum data by category
 mono_data <- read.csv("data/monohybrid_cross.csv")
@@ -26,10 +65,10 @@ data_mono = tibble(Color=c(rep("Purple",length(mono_data$Purple)),
 ggplot(data=data_mono) +
   geom_col(mapping = aes(x = Color, y=Frequency, fill = Color),
            show.legend = FALSE) +
-           scale_fill_manual("legend",
+           scale_fill_manual("Forms",
            values = c("Purple" = "#42165b", "Yellow" = "gold"))
 
-# Dihybrid cross ----------------------------------------------------------
+# Dihybrid cross student data ----------------------------------------------------------
 
 #load and sum data by category
 di_data <- read.csv("data/dihybrid_cross.csv")
@@ -75,21 +114,31 @@ qchisq(0.95, df=1)
 #function to add area under the curve
 funcShaded_1 <- function(x) {
   y <- dchisq(x, df=1)
+  y[x >= 3.841459 ] <- NA
+  return(y)
+}
+
+
+# same using ggplot
+#function to add area under the curve
+funcShaded_2 <- function(x) {
+  y <- dchisq(x, df=1)
   y[x < 3.841459 ] <- NA
   return(y)
 }
 
-funcShaded_3 <- function(x) {
-  y <- dchisq(x, df=3)
-  y[x < 7.814728 ] <- NA
-  return(y)
-}
+
+# funcShaded_3 <- function(x) {
+#   y <- dchisq(x, df=3)
+#   y[x < 7.814728 ] <- NA
+#   return(y)
+# }
 
 
-ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
-  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1.5) +
-  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
-  scale_x_continuous(name = "chi-squared", breaks = seq(0, 40, 1)) +
+ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
+  stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1, show.legend = FALSE) +
+#  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 10, 0.5)) +
   scale_y_continuous(name = "Probability") +
   ggtitle("Chi-squared distribution") +
   scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
@@ -102,5 +151,6 @@ ggplot(data.frame(x = c(0, 15)), aes(x = x)) +
   #       text=element_text(size = 16, family="xkcd-Regular"),
   #       axis.text.x=element_text(colour="black", size = 12),
   #       axis.text.y=element_text(colour="black", size = 12)) +
-  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2) +
-  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+  stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_2, geom="area", fill="red", alpha=0.2) # +
+#  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
