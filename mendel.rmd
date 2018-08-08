@@ -115,7 +115,7 @@ The $\chi^2$ statistic can be used to calculate a p-value by comparing the value
 5. Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is *E~yellow~*.
 6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. The result is $\chi^2_{purple}$.
 7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. The result is $\chi^2_{yellow}$.
-8. Obviously, our data does not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. random errors that can never be competely avoided. 
+8. Obviously, our data do not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. due to random errors that can never be competely avoided. 
 
 ### Testing Goodness Of Fit
 
@@ -151,6 +151,75 @@ ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
   scale_colour_manual("Degrees of freedom", values = "blue") +
   stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
   stat_function(fun=funcShaded_2, geom="area", fill="red", alpha=0.2) 
+```
+
+## A Look At Mendel's Monohybrid Cross Data
+
+(ref:mendelresults) Results of Mendel's monohybrid cross experiments with peas.
+
+```{r mendelfigure, fig.cap='(ref:mendelresults)', fig.asp = 0.8, fig.width = 6, fig.align = "center", echo=FALSE, message=FALSE, warning=FALSE, dev = "cairo_pdf"}
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+
+mendel_data <-  as.tibble(read.csv("data/mendel_monohybrid_cross.csv"))
+
+mendel_data$forms <- factor(mendel_data$forms, levels = mendel_data$forms)
+mendel_data$differentiating_character <- factor(mendel_data$differentiating_character, levels = unique(mendel_data$differentiating_character))
+
+ggplot(data=mendel_data) +
+  geom_col(mapping = aes(x = differentiating_character, y=counts, fill = forms),
+           show.legend = TRUE, position = "stack") +
+           scale_fill_discrete(name = "Forms") +
+           labs(y = "Counts", x = "Differentiating Characters") +
+           theme(axis.text.x=element_text(angle=60, hjust=1, family="sans"))
+```
+
+Compare your $\chi^2$ and p-values with Mendel's results (Fig. \@ref(fig:mendelfigure)) from his monohybrid cross experiments in peas (Chapter \@ref(mendelian-genetics-mendel-in-his-own-words)). Table \@ref(tab:mendeldata) summarizes the experimental results and Table \@ref(tab:mendelchisq) lists the calculated $\chi^2$ and p-values. 
+
+```{r mendeldata, out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+
+# Mono hybrid cross Mendel data-------------------------------------------------------
+
+mendel_data <-  as.tibble(read.csv("data/mendel_monohybrid_cross.csv"))
+
+knitr::kable(mendel_data, digits = 2, caption = "Mendel's monohybrid cross data for Pearson's chi-squared test.")
+```
+
+
+```{r mendelchisq, out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+
+mendel_data <-  as.tibble(read.csv("data/mendel_monohybrid_cross.csv"))
+
+observed_dom <- mendel_data %>% filter(character == "dominant") %>% select(counts)
+observed_rec <- mendel_data %>% filter(character == "recessive") %>% select(counts)
+observed_total <- mendel_data %>% group_by(experiment) %>% summarise(total = (sum(counts)))
+
+expected_dom <- as.tibble(observed_total$total * 0.75)
+expected_rec <- as.tibble(observed_total$total * 0.25)
+
+
+chi_squared <- (observed_dom-expected_dom)^2/expected_dom +
+                (observed_rec-expected_rec)^2/expected_rec
+colnames(chi_squared) <- "chisquared"
+
+
+#transform the tibble of chi_squared values into a vector
+vec <- pull(chi_squared, chisquared)
+
+p_value_for_each_experiment <- 1-pchisq(vec,1)
+p_value_all_experiments <- 1-pchisq(sum(vec),7)
+
+mendel_chisqu <- cbind(unique(mendel_data$experiment), chi_squared ,p_value_for_each_experiment)
+colnames(mendel_chisqu) <- c("Experiment", "chi_squared", "p-value")
+
+knitr::kable(mendel_chisqu, digits = 2, caption = "Pearson's chi-squared test results for Mendel's monohybrid cross data.")
 ```
 
 ## Review Questions

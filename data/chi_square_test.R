@@ -12,33 +12,42 @@ knitr::kable(mendel_data, digits = 2, caption = "Mendel's monohybrid cross data 
 
 observed_dom <- mendel_data %>% filter(character == "dominant") %>% select(counts)
 observed_rec <- mendel_data %>% filter(character == "recessive") %>% select(counts)
-observed_total <- mendel_data %>% group_by(experiment) %>% summarise(total = (sum(counts))) %>% select(total)
+observed_total <- mendel_data %>% group_by(experiment) %>% summarise(total = (sum(counts)))
 
-expected_dom <- as.tibble(observed_total * 0.75)
-expected_rec <- as.tibble(observed_total * 0.25)
+expected_dom <- as.tibble(observed_total$total * 0.75)
+expected_rec <- as.tibble(observed_total$total * 0.25)
 
-chi_squared <- as.tibble((observed_dom-expected_dom)^2/expected_dom +
-                (observed_rec-expected_rec)^2/expected_rec)
+
+chi_squared <- (observed_dom-expected_dom)^2/expected_dom +
+                (observed_rec-expected_rec)^2/expected_rec
+colnames(chi_squared) <- "chi-squared"
+
 
 #transform the tibble of chi_squared values into a vector
-vec <- pull(chi_squared, counts)
-p_value <- 1-pchisq(vec,1)
+vec <- pull(chi_squared, squared)
 
-p_value <- 1-pchisq(sum(vec),7)
+p_value_for_each_experiment <- 1-pchisq(vec,1)
+p_value_all_experiments <- 1-pchisq(sum(vec),7)
 
-# chi squared using R function
-p_null_mono <- c(0.75,0.25)
-chisqu <- chisq.test(cbind(observed_dom[1,1], observed_rec[1,1]),p=p_null_mono)
+mendel_chisqu <- cbind(unique(mendel_data$experiment), chi_squared, p_value_for_each_experiment)
+colnames(mendel_chisqu) <- c("Experiment", "chi_squared", "p-value")
+
+knitr::kable(mendel_chisqu, digits = 2, caption = "Pearson's chi-squared test results for Mendel's monohybrid cross data.")
+
 
 # make forms and differentiating characters ordered factors to avoid reordering by ggplot
 mendel_data$forms <- factor(mendel_data$forms, levels = mendel_data$forms)
-mendel_data$differentiating_character <- factor(mendel_data$differentiating_character, levels = mendel_data$differentiating_character)
+mendel_data$differentiating_character <- factor(mendel_data$differentiating_character, levels = unique(mendel_data$differentiating_character))
+
 
 ggplot(data=mendel_data) +
   geom_col(mapping = aes(x = differentiating_character, y=counts, fill = forms),
            show.legend = TRUE, position = "stack") +
            scale_fill_discrete(name = "Forms") +
-           labs(y = "Counts", x = "Differentiating Characters")
+           labs(y = "Counts", x = "Differentiating Characters") +
+ # coord_flip()
+  theme(axis.text.x=element_text(angle=45, vjust = 1, hjust=1, family="sans"))
+ 
 
 
 # Mono hybrid cross student data-------------------------------------------------------

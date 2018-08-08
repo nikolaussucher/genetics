@@ -2,11 +2,11 @@
 
 The principles of Mendelian inheritance were named for and first derived by [Gregor Johann Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a nineteenth-century monk who formulated his ideas after conducting hybridization experiments with [pea plants](https://en.wikipedia.org/wiki/Pea) (*Pisum sativum*) he had planted in the garden of his monastery in [Moravia](https://en.wikipedia.org/wiki/Moravia). Between 1856 and 1863, Mendel cultivated and tested some 5,000 pea plants. From these experiments, he induced two generalizations which later became known as Mendel's Principles of Heredity or Mendelian inheritance (Table \@ref(tab:mendel)). He described these principles in a two-part paper, Versuche über Pflanzen-Hybriden (Experiments on Plant Hybridization), that he read to the Natural History Society of [Brno](https://en.wikipedia.org/wiki/Brno) on 8 February and 8 March 1865, and which was published in 1866. Mendel's conclusions were largely ignored by the vast majority of scientists at the time. In 1900, however, his work was "re-discovered" by three European scientists, [Hugo de Vries](https://en.wikipedia.org/wiki/Hugo_de_Vries), [Carl Correns](https://en.wikipedia.org/wiki/Carl_Correns), and [Erich von Tschermak](https://en.wikipedia.org/wiki/Erich_von_Tschermak).
 
-In this laboratory session, we will read an [English translation] (http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the paper](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
+In this laboratory session, we will read an [English translation](http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the English translation](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
 
 ## Experimental Procedures
 
-1. Right-click on the link to the [English translation] (http://www.mendelweb.org/Mendel.html) to open a new browser tab showing an HTML version of Mendel's paper.
+1. Right-click on the link to the [English translation](http://www.mendelweb.org/Mendel.html) to open a new browser tab showing an HTML version of Mendel's paper.
 2. Read the first section entitled "INTRODUCTORY REMARKS".
 3. Notice that some terms are highlighted indicating that they are clickable. Clicking on a link will bring you to a glossary that gives some explanation of the term. You can go back to the main text by clicking on the back button of your browsers.
 4. After you have read the "INTRODUCTORY REMARKS", answer the following questions:
