@@ -16,6 +16,7 @@ rmd_files:   [ "index.Rmd",
                "ligation_transformation.Rmd",
                "sequencing.Rmd",
                "bioinformatics.Rmd",
+               "human_genome.Rmd"
              ]
 output_dir: docs
 before_chapter_script:  "_common.R"
