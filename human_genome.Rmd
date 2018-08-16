@@ -120,7 +120,7 @@ Table: (\#tab:thousand) Populations represented in the 1000 genomes collection.
 
 
 
-Some basic statistics about the variant sites on the autosomes (chromosomes 1 to 22) and the X chromosome in phase 3 release version 5a from Feb. 20th, 2015 are listed in Table \@ref(tab:stats).	
+Some basic statistics about the variant sites on the autosomes (chromosomes 1 to 22) and the X chromosome in phase 3 release version 5a from Feb. 20th, 2015 are listed in Table \@ref(tab:stats). The numbering of chromosome	locations is based on [Genome Reference Consortium Human Build 37 patch release 13](https://www.ebi.ac.uk/ena/data/view/GCA_000001405.14) (GRCh37.p13).
 
 Table: (\#tab:stats) The types and numbers of sites with variations in the autosomes and X chromosome in the genomes of 2504 people examined in the 1000 genomes project (phase 3 v5a).
 
