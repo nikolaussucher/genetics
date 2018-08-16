@@ -54,6 +54,24 @@ HGP scientists used white blood cells from the blood of two male and two female 
 
 The "genome" of any given individual is unique; mapping the "human genome" involved sequencing a small number of individuals and then assembling these together to get a complete sequence for each chromosome. Therefore, the finished human genome is a mosaic, not representing any one individual. In fact, we now know that there is variation in the genomes of individual cells in any one human. The implications of this recent finding for human health will keep scientists busy for a long time.
 
+## International HapMap Project
+
+[The International HapMap Project](https://en.wikipedia.org/wiki/International_HapMap_Project) was an organization that aimed to develop a haplotype map (HapMap) of the human genome, to describe the common patterns of human genetic variation. HapMap is used to find genetic variants affecting health, disease and responses to drugs and environmental factors. The information produced by the project was made freely available for research.
+
+Four populations were selected for inclusion in the HapMap: 30 adult-and-both-parents Yoruba trios from Ibadan, Nigeria (YRI), 30 trios of Utah residents of northern and western European ancestry (CEU), 44 unrelated Japanese individuals from Tokyo, Japan (JPT) and 45 unrelated Han Chinese individuals from Beijing, China (CHB). 
+
+All samples were collected through a community engagement process with appropriate informed consent. The community engagement process was designed to identify and attempt to respond to culturally specific concerns and give participating communities input into the informed consent and sample collection processes.
+
+In phase III, 11 global ancestry groups were assembled: ASW (African ancestry in Southwest USA); CEU (Utah residents with Northern and Western European ancestry from the CEPH collection); CHB (Han Chinese in Beijing, China); CHD (Chinese in Metropolitan Denver, Colorado); GIH (Gujarati Indians in Houston, Texas); JPT (Japanese in Tokyo, Japan); LWK (Luhya in Webuye, Kenya); MEX (Mexican ancestry in Los Angeles, California); MKK (Maasai in Kinyawa, Kenya); TSI (Tuscans in Italy); YRI (Yoruba in Ibadan, Nigeria).
+
+The original mission statement of the International HapMap Project was to develop a haplotype map of the human genome, HapMap, which would describe the common patterns of human DNA sequence variation. Through this research millions of SNPs were discovered and many GWAS studies used this dataset in research for disease association. This project was a stepping stone for the 1000 genomes project which utilizes many of the same populations.
+
+## The Single Nucleotide Polymorphism Database (dbSNP) of Nucleotide Sequence Variation
+
+The [Single Nucleotide Polymorphism database](https://www.ncbi.nlm.nih.gov/books/NBK21088/) (dbSNP) is a public-domain archive for a broad collection of simple genetic polymorphisms. This collection of polymorphisms includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions (also called deletion insertion polymorphisms or DIPs), and retroposable element insertions and microsatellite repeat variations (also called short tandem repeats or STRs). Please note that in this chapter, you can substitute any class of variation for the term SNP. Each dbSNP entry includes the sequence context of the polymorphism (i.e., the surrounding sequence), the occurrence frequency of the polymorphism (by population or individual), and the experimental method(s), protocols, and conditions used to assay the variation.
+
+The Reference SNP cluster ID (rsid) is an accession number used to refer to specific SNPs in the database. 
+
 ## The 1000 Genomes Project
 
 The [1000 Genomes Project](https://en.wikipedia.org/wiki/1000_Genomes_Project) launched in January 2008, is an international research effort to establish by far the most detailed catalogue of human genetic variation (Table \@ref(tab:thousand)). Scientists planned to sequence the genomes of at least one thousand anonymous participants from a number of different ethnic groups within the following three years, using newly developed technologies which were faster and less expensive. In 2015, two papers in the journal Nature reported results and the completion of the project and opportunities for future research. Many rare variations, restricted to closely related groups, were identified, and eight structural-variation classes were analyzed.
@@ -98,6 +116,23 @@ Table: (\#tab:thousand) Populations represented in the 1000 genomes collection.
 |SAS	        |Indian Telugu in the UK	                                     |ITU       | 118   |	
 |SAS	        |Punjabi in Lahore, Pakistan	                                     |PJL       | 158   |	
 |SAS	        |Sri Lankan Tamil in the UK	                                     |STU       | 128   |	
+
+
+
+
+Some basic statistics about the variant sites on the autosomes (chromosomes 1 to 22) and the X chromosome in phase 3 release version 5a from Feb. 20th, 2015 are listed in Table \@ref(tab:stats).	
+
+Table: (\#tab:stats) The types and numbers of sites with variations in the autosomes and X chromosome in the genomes of 2504 people examined in the 1000 genomes project (phase 3 v5a).
+
+|Type                  |Autosomes|X chromosome|
+|:---------------------|--------:|-----------:|
+|SNPs	               |78136341 |3246232     |
+|indels	               |3135424  |227112      |
+|others	               |58671    |2040        |
+|multiallelic sites    |416023   |30994       |
+|multiallelic SNP sites|259370   |1505        |
+|Total                 |81271745 |3468087     |
+         
 
 ## Viewing The Human Genome
 
