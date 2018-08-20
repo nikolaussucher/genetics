@@ -8,9 +8,10 @@ Chromosomes are normally visible under a light microscope only when the cell is 
 
 (ref:chromosome) [Diagram of a replicated and condensed metaphase eukaryotic chromosome. (1) Chromatid – one of the two identical parts of the chromosome after S phase. (2) Centromere – the point where the two chromatids touch. (3) Short (p) arm. (4) Long (q) arm.](https://commons.wikimedia.org/wiki/File:Chromosome.svg) By derivative work: Tryphon (talk)*Chromosome-upright.png: Original version: Magnus Manske, this version with upright chromosome: User:Dietzel65 [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
 
+
 ```{r chromosome, fig.cap='(ref:chromosome)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Chromosome.svg")
-```
+```  
 
 Chromosomal recombination during meiosis and subsequent sexual reproduction play a significant role in genetic diversity. If these structures are manipulated incorrectly, through processes known as chromosomal instability and translocation, the cell may undergo mitotic catastrophe and die. Mutations in the cell can allow it to inappropriately evade apoptosis and lead to the progression of cancer.
 
@@ -37,6 +38,7 @@ Karyotypes describe the chromosome count of an organism and what these chromosom
 The study of whole sets of chromosomes is sometimes known as karyology. The chromosomes are depicted (by rearranging a photomicrograph) in a standard format known as a karyogram or idiogram: in pairs, ordered by size and position of centromere for chromosomes of the same size as shown in Figure \@ref(fig:karyo).
 
 (ref:karyo) [Karyogram of human male using Giemsa staining](https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png)
+
 
 ```{r karyo, fig.cap='(ref:karyo)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/human_male_karyotype.jpg")

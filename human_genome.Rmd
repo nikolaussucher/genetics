@@ -18,7 +18,7 @@ A chromosome assembly represents a relatively complete pseudo-molecule assembled
 
 Assemblies are built from components, which in turn are joined to form contigs, which are used to build scaffolds (definitions of these and other relevant terms can be found on the [GRC web site](https://www.ncbi.nlm.nih.gov/grc/help/definitions/#ALTERNATE)).
 
-Table: (\#tab:chr) Human Genome Assembly GRCh38.p12 (Release date: 2017-12-21). Length of DNA sequence of each human chromosome. Total lengths are calculated by summing the length of the sequenced bases and estimated gaps. Ungapped lengths are calculated by summing the length of sequenced bases only. 'Ns' are excluded.
+Table: (\#tab:chr) [Human Genome Assembly GRCh38.p12](https://www.ncbi.nlm.nih.gov/grc/human/data) (Release date: 2017-12-21). Length of DNA sequence of each human chromosome. Total lengths are calculated by summing the length of the sequenced bases and estimated gaps. Ungapped lengths are calculated by summing the length of sequenced bases only. 'Ns' are excluded.
 
 |Chromosome|Total length |Ungapped length| 
 |:--------:|------------:|--------------:|
@@ -46,13 +46,61 @@ Table: (\#tab:chr) Human Genome Assembly GRCh38.p12 (Release date: 2017-12-21). 
 |22	   | 50,818,468  | 40,181,019	 |
 |X	   | 156,040,895 | 154,893,034	 |	     
 |Y	   | 57,227,415  | 26,452,288	 |
+|MT        | 16,569      |               |
 |Unplaced  | 4,485,509   | 4,328,403	 |
 |Genome    |3,099,734,149| 2,948,611,470 |
 
 
-HGP scientists used white blood cells from the blood of two male and two female donors (randomly selected from 20 of each) each donor yielding a separate DNA library. One of these libraries (RP11) was used considerably more than others, due to quality considerations. More than 70% of the reference genome produced by the public HGP came from RP11, a single anonymous male donor from Buffalo, New York (code name RP11).
+Table: (\#tab:gene) Human Genome Assembly GRCh38.p12 (Release date: 2017-12-21). GC content (%) and number of proteins, ribosomal RNA (rRNA), transfer RNA (tRNA), other RNA, genes and pseudogenes on each chromosome. Retrieved on August 10, 2018 at https://www.ncbi.nlm.nih.gov/genome/?term=txid9606[orgn]
 
-The "genome" of any given individual is unique; mapping the "human genome" involved sequencing a small number of individuals and then assembling these together to get a complete sequence for each chromosome. Therefore, the finished human genome is a mosaic, not representing any one individual. In fact, we now know that there is variation in the genomes of individual cells in any one human. The implications of this recent finding for human health will keep scientists busy for a long time.
+|Name  |GC (%) |Protein|rRNA|tRNA|Other RNA|Gene  |Pseudogene|
+|:-----|------:|------:|---:|---:|--------:|-----:|---------:|
+|Chr 1 |42.3   |11,321 | 17 |90  |4,457    |5,109 |1,386     |
+|Chr 2 |40.3   |8,291  | -  |7   |3,728    |3,871 |1,181     |
+|Chr 3 |39.7   |7,150  | -  |4   |2,782    |2,990 |900       |
+|Chr 4 |38.3   |4,599  | -  |1   |2,193    |2,441 |803       |
+|Chr 5 |39.5   |4,729  | -  |17  |2,194    |2,592 |778       |
+|Chr 6 |39.6   |5,522  | -  |138 |2,453    |3,005 |882       |
+|Chr 7 |40.7   |5,112  | -  |22  |2,330    |2,792 |911       |
+|Chr 8 |40.2   |4,199  | -  |4   |2,011    |2,165 |671       |
+|Chr 9 |42.3   |4,699  | -  |3   |2,222    |2,270 |706       |
+|Chr 10|41.6   |5,429  | -  |3   |2,133    |2,179 |640       |
+|Chr 11|41.6   |6,394  | -  |13  |2,336    |2,924 |829       |
+|Chr 12|40.8   |5,975  | -  |9   |2,457    |2,526 |691       |
+|Chr 13|40.2   |2,056  | -  |4   |1,243    |1,385 |475       |
+|Chr 14|42.2   |3,501  | -  |18  |1,704    |2,065 |585       |
+|Chr 15|43.4   |3,623  | -  |9   |1,810    |1,824 |554       |
+|Chr 16|45.1   |4,625  | -  |27  |1,761    |1,938 |469       |
+|Chr 17|45.3   |6,226  | -  |33  |2,243    |2,450 |556       |
+|Chr 18|39.8   |2,029  | -  |1   |996      |984   |295       |
+|Chr 19|47.9   |6,750  | -  |6   |1,877    |2,499 |523       |
+|Chr 20|43.9   |2,904  | -  |-   |1,308    |1,358 |338       |
+|Chr 21|42.2   |1,297  | 12 |1   |707      |77    |207       |
+|Chr 22|47.7   |2,582  | -  |-   |1,014    |1,189 |354       |
+|Chr X |39.6   |3,801  | -  |4   |1,265    |2,186 |875       |
+|Chr Y |45.4   |324    | -  |-   |311      |580   |392       |
+|MT    |44.4   |13     | 2  |22  |-	       |37    | -        |
+|Un    |44.3   |6,143  | 17 |161 |3,437    |6,543 |1,878     |
+
+
+HGP sc ientists used white blood cells from the blood of two male and two female donors (randomly selected from 20 of each) each donor yielding a separate DNA library. One of these libraries (RP11) was used considerably more than others, due to quality considerations. More than 70% of the reference genome produced by the public HGP came from RP11, a single anonymous male donor from Buffalo, New York (code name RP11).
+
+The "g enome" of any given individual is unique; mapping the "human genome" involved sequencing a small number of individuals and then assembling these together to get a complete sequence for each chromosome. Therefore, the finished human genome is a mosaic, not representing any one individual. In fact, we now know that there is variation in the genomes of individual cells in any one human. The implications of this recent finding for human health will keep scientists busy for a long time.
+
+Annota tion of genes (coding sequences, CDS) is provided by multiple public resources, using different methods, and resulting in information that is similar but not always identical. The [Consensus CDS (CCDS) project](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi) is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality and support convergence towards a standard set of gene annotations.
+
+Table: (\#tab:cds) Gene counts based on the [Ensembl human genome annotations](http://useast.ensembl.org/Homo_sapiens/Info/Annotation) of the primary assembly of GRCh38.p12 (Genome Reference Consortium Human Build 38).
+
+|Coding sequence type     | Count                         |
+|:------------------------|------------------------------:|
+|**Coding genes**         | 20,376 (incl 612 readthrough) |
+|**Non coding genes**     | 22,305                        |
+|  Small non coding genes | 5,363                         |
+|  Long non coding genes  | 14,720 (incl 256 readthrough) |
+|  Misc non coding genes  | 2,222                         |
+|**Pseudogenes**          | 14,692 (incl 7 readthrough)   |
+|**Gene transcripts**     | 203,903                       |
+
 
 ## International HapMap Project
 
@@ -118,8 +166,6 @@ Table: (\#tab:thousand) Populations represented in the 1000 genomes collection.
 |SAS	        |Sri Lankan Tamil in the UK	                                     |STU       | 128   |	
 
 
-
-
 Some basic statistics about the variant sites on the autosomes (chromosomes 1 to 22) and the X chromosome in phase 3 release version 5a from Feb. 20th, 2015 are listed in Table \@ref(tab:stats). The numbering of chromosome	locations is based on [Genome Reference Consortium Human Build 37 patch release 13](https://www.ebi.ac.uk/ena/data/view/GCA_000001405.14) (GRCh37.p13).
 
 Table: (\#tab:stats) The types and numbers of sites with variations in the autosomes and X chromosome in the genomes of 2504 people examined in the 1000 genomes project (phase 3 v5a).
@@ -132,12 +178,75 @@ Table: (\#tab:stats) The types and numbers of sites with variations in the autos
 |multiallelic sites    |416023   |30994       |
 |multiallelic SNP sites|259370   |1505        |
 |Total                 |81271745 |3468087     |
-         
+
+
+(ref:pcaplot) Principle component analysis (PCA) of genetic variation in the 1000 genomes project reveals population stratification. PCA is based on 473,964 autosomal variants with a minor allele frequency greater than 10% in 2504 people from 5 superpopulations.
+
+```{r pca, fig.cap='(ref:pcaplot)', fig.asp = 0.8, fig.width = 6, fig.align = "center", echo=FALSE, message=FALSE, warning=FALSE, dev = "cairo_pdf"}
+
+library("tidyverse")
+library(printr)        
+
+setwd("~/Dropbox/R/genetics-master")
+
+#options(scipen=100, digits=3)
+
+#Read in the eigenvectors generated by plink
+eigenvec <- data.frame(read.table("data/plink.eigenvec", header=FALSE, skip=0, sep=" "))
+rownames(eigenvec) <- eigenvec[,2]
+eigenvec <- eigenvec[,3:ncol(eigenvec)]
+
+#Read the ethnicity
+ethnicity <- as.tibble(read.csv("data/ethnic_id.csv"))
+#Read superpopulations
+super <- as.tibble(read_csv("data/superpopulations.csv"))
+
+#Combine eigenvec with ethnicity on ID
+eigen_tibble <- as.tibble(eigenvec, rownames = "ID")
+eigen_tibble <- ethnicity %>% inner_join(eigen_tibble)
+pop_vec <- inner_join(eigen_tibble, super)
+
+#Plot first component vs. second
+ggplot2::ggplot(data = pop_vec) +
+  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,2], color = Superpopulation)) +
+  labs(x = "Principle component 1", y = "Principle component 2") +
+  theme(axis.text.x=element_text(family="sans"))
+
+#ggplot2::ggplot(data = pop_vec) +
+#  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,2], shape = Superpopulation, color = Name))
+
+#ggplot2::ggplot(data = pop_vec) +
+#  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,2], shape = as.factor(Gender), color = Name))
+
+#Plot first component vs. third
+ggplot2::ggplot(data = pop_vec) +
+  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,3], color = Superpopulation)) +
+  labs(x = "Principle component 1", y = "Principle component 3") +
+  theme(axis.text.x=element_text(family="sans"))
+
+#ggplot2::ggplot(data = pop_vec) +
+#  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,3], shape = as.factor(Gender), color = Name))
+```
 
 ## Viewing The Human Genome
 
-The Integrative Genomics Viewer (IGV) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets. It supports a wide variety of data types, including array-based and next-generation sequence data, and genomic annotations. It can be downloaded [here](http://software.broadinstitute.org/software/igv/download).
+### Experimental Procedures
+
+1. Open a web browser and go to the [Ensemble genome browser](http://useast.ensembl.org/Homo_sapiens/Info/Index) (Fig. \@ref(fig:genomebrowser)). This site provides a data set based on the December 2013 Homo sapiens high coverage assembly GRCh38 from the Genome Reference Consortium.
+
+(ref:genomebrowser) The Ensembl genome browser web page.
+
+```{r ensembl, fig.cap='(ref:genomebrowser)', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/human_genome/ensembl_browser.png")
+`````
+
+
+
 
 ## Experimental Procedures
 
 1. 
+
+## Review Questions
+1. 
+

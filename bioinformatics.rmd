@@ -40,9 +40,39 @@ knitr::include_graphics("./figures/sequencing/chromatogram.png")
 
 ## Experimental procedures
 
-1. Open a web browser on your computer. If you are reading this in your browser, right click on the highlighted link to open the web site of the [U.S. National Library of Medicine](https://www.nlm.nih.gov) in a new tab. Otherwise enter the link in your browser manually. 
-2. On the next page, click on the right most square with the DNA icon and BLAST (Basic Local Alignment Tool) written on it.
-3. On the newly opened page, you will see a row of squares displaying various titles. Click on the left most square that has Nucleotide Blast written on it.
-4. A new page will open. Paste your DNA sequence into the white box on the top left. Leave the default values unchanged and click on the oval blue button at the lower left that has BLAST written on it. This will upload your sequence (referred
-   to from now on as the **Query** sequence) to the server where it will be compared to all sequences on record. A new page will open that will be updated every 2 seconds while your query is being processed. Once the search has completed, a new page will open.
+1. Open a web browser on your computer. If you are reading this in your browser, right click on the highlighted link to open the web site of the [U.S. National Library of Medicine](https://www.nlm.nih.gov) in a new tab (Fig. \@ref(fig:nlm)). Otherwise enter the link in your browser manually. 
+
+(ref:nlm) The web page of the U.S. National Library of Medicine.
+
+```{r , fig.cap='(ref:nlm)', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/bioinformatics/nlm.png")
+`````
+
+2. On the U.S. National Library of Medicine web page (Fig. \@ref(fig:nlm)), click on the right most square with the DNA icon and BLAST (Basic Local Alignment Tool) written on it.
+3. On the newly opened page (Fig. \@ref(fig:blast)), you will see a row of squares displaying various titles. Click on the left most square that has Nucleotide Blast written on it.
+
+(ref:blast) The Basic Local Alignment Search Tool (BLAST) start page.
+
+```{r blast, fig.cap='(ref:blast)', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/bioinformatics/blast.png")
+`````
+
+4. A new page will open. Paste your DNA sequence into the white box on the top left (Fig. \@ref(fig:sequence)). Leave the default values unchanged and click on the oval blue button at the lower left that has BLAST written on it (Fig. \@ref(fig:click)). This will upload your sequence (referred to from now on as the **Query** sequence) to the server where it will be compared to all sequences on record. A new page will open that will be updated every 2 seconds while your query is being processed. Once the search has completed, a new page will open.
+
+(ref:sequence) Nucleotide BLAST (BLASTN) sequence entry form.
+
+```{r sequence, fig.cap='(ref:sequence)', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/bioinformatics/sequence_entry.png")
+`````
+
+```{r click, fig.cap='After you have pasted your sequence into the sequence entry field, click the BLAST button at the lower left of the page.', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("./figures/bioinformatics/click_blast.png")
+`````
+
+
+
+
+
+
+
 5.     

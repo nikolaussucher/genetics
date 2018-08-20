@@ -1,0 +1,27 @@
+﻿Population,Name,Description,Code,Superpopulation
+ACB,African-Caribbean,African Caribbean in Barbados,AFR,African
+ASW,African-American SW,African Ancestry in Southwest US,AFR,African
+ESN,Esan,Esan in Nigeria,AFR,African
+GWD,Gambian Mandinka,"Gambian in Western Division, The Gambia - Mandinka",AFR,African
+LWK,Luhya,"Luhya in Webuye, Kenya",AFR,African
+MSL,Mende,Mende in Sierra Leone,AFR,African
+YRI,Yoruba,"Yoruba in Ibadan, Nigeria",AFR,African
+CLM,Colombian,"Colombian in Medellin, Colombia",AMR,American
+MXL,Mexican-American,"Mexican Ancestry in Los Angeles, California",AMR,American
+PEL,Peruvian,"Peruvian in Lima, Peru",AMR,American
+PUR,Puerto Rican,Puerto Rican in Puerto Rico,AMR,American
+CDX,Dai Chinese,"Chinese Dai in Xishuangbanna, China",EAS,East Asian
+CHB,Han Chinese,"Han Chinese in Beijing, China",EAS,East Asian
+CHS,Southern Han Chinese,Han Chinese South,EAS,East Asian
+JPT,Japanese,"Japanese in Tokyo, Japan",EAS,East Asian
+KHV,Kinh Vietnamese,"Kinh in Ho Chi Minh City, Vietnam",EAS,East Asian
+CEU,CEPH,Utah residents (CEPH) with Northern and Western European ancestry,EUR,European
+FIN,Finnish,Finnish in Finland,EUR,European
+GBR,British,British in England and Scotland,EUR,European
+IBS,Spanish,Iberian populations in Spain,EUR,European
+TSI,Tuscan,Toscani in Italy,EUR,European
+BEB,Bengali,Bengali in Bangladesh,SAS,South Asian
+GIH,Gujarati,"Gujarati Indian in Houston, TX",SAS,South Asian
+ITU,Indian,Indian Telugu in the UK,SAS,South Asian
+PJL,Punjabi,"Punjabi in Lahore, Pakistan",SAS,South Asian
+STU,Sri Lankan,Sri Lankan Tamil in the UK,SAS,South Asian
