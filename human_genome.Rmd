@@ -228,11 +228,22 @@ ggplot2::ggplot(data = pop_vec) +
 #  geom_point(mapping = aes(x = eigenvec[,1], y= eigenvec[,3], shape = as.factor(Gender), color = Name))
 ```
 
+## Personal genomics
+
+[Personal genomics](https://en.wikipedia.org/wiki/Personal_genomics) or consumer genetics is the branch of genomics concerned with the sequencing, analysis and interpretation of the genome of an individual. The genotyping stage employs different techniques, including single-nucleotide polymorphism (SNP) analysis chips (typically 0.02% of the genome), or partial or full genome sequencing. Once the genotypes are known, the individual's variations can be compared with the published literature to determine likelihood of trait expression, ancestry inference and disease risk.
+
+Automated high-throughput sequencers have increased the speed and reduced the cost of sequencing, making it possible to offer genetic testing to consumers for less than \$1,000. The emerging market of direct-to-consumer genome sequencing services has brought new questions about both the medical efficacy and the ethical dilemmas associated with widespread knowledge of individual genetic information.
+
+Starting in 2005 as a pilot experiment with 10 individuals, the [Harvard Personal Genome Project](https://pgp.med.harvard.edu) (Harvard PGP) pioneered a new form of genomics research. The main goal of the project is to allow scientists to connect human genetic information (human DNA sequence, gene expression, associated microbial sequence data, etc) with human trait information (medical information, biospecimens and physical traits) and environmental exposures.
+
+PGP participants consent to publicly share their genomic and trait data in a free and open manner to be used for unimpeded research and other scientific, patient care and commercial purposes worldwide. Consistent with this consent, the project organizers seek to lower as many barriers as possible to access PGP data and cells to empower and engage the scientific community to drive new knowledge about human biology. The project now has over 5,000 participants.
+
+
 ## Viewing The Human Genome
 
 ### Experimental Procedures
 
-1. Open a web browser and go to the [Ensemble genome browser](http://useast.ensembl.org/Homo_sapiens/Info/Index) (Fig. \@ref(fig:genomebrowser)). This site provides a data set based on the December 2013 Homo sapiens high coverage assembly GRCh38 from the Genome Reference Consortium.
+1. Open a web browser and go to the [Ensemble genome browser](http://useast.ensembl.org/Homo_sapiens/Info/Index) (Fig. \@ref(fig:ensembl)). This site provides a data set based on the December 2013 Homo sapiens high coverage assembly GRCh38 from the Genome Reference Consortium.
 
 (ref:genomebrowser) The Ensembl genome browser web page.
 
