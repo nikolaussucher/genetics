@@ -14,6 +14,10 @@ The most recent official version of the human genome sequence is the Dec. 2013 (
 
 An assembly is a set of chromosomes, unlocalized and unplaced (random) sequences and alternate loci used to represent an organism's genome. Most current assemblies are a haploid representation of an organism's genome, although some loci may be represented more than once. The human genome reference assembly has been obtained from multiple individuals. The haploid assembly does not represent a single haplotype, but rather a mixture of haplotypes. As sequencing technology evolves, it is anticipated that diploid sequences representing an individual's genome will become available.
 
+A haplotype (haplo: from Ancient Greek ὰπλόος (haplos, single, simple)) is a contiguous section of closely linked segments of DNA within the larger genome that tend to be inherited together as a unit on a single chromosome. Haplotypes have no defined size and can refer to anything from a few closely linked loci up to an entire chromosome. The term is also used to describe groups of single-nucleotide polymorphisms (SNPs) that are statistically associated. 
+
+The term 'haplogroup' refers to the SNP/unique-event polymorphism (UEP) mutations that represent the clade to which a collection of particular human haplotypes belong. (Clade here refers to a set of haplotypes sharing a common ancestor.) A haplogroup is a group of similar haplotypes that share a common ancestor with a single-nucleotide polymorphism mutation. Mitochondrial DNA passes along a maternal lineage hat can date back thousands of years. Similarly, the Y-chromosome passes along the paternal lineage.
+
 A chromosome assembly represents a relatively complete pseudo-molecule assembled from smaller sequences (components) that represent a biological chromosome. Relatively complete implies that some gaps may still be present in the assembly (e.g. there are still gaps in the human genome assembly), but independent measures suggest that most of the sequence is represented by sequenced bases. An unlocalized sequence is a sequence found in an assembly that is associated with a specific chromosome but cannot be ordered or oriented on that chromosome. An unplaced sequence is a sequence found in an assembly that is not associated with any chromosome.
 
 Assemblies are built from components, which in turn are joined to form contigs, which are used to build scaffolds (definitions of these and other relevant terms can be found on the [GRC web site](https://www.ncbi.nlm.nih.gov/grc/help/definitions/#ALTERNATE)).
@@ -50,6 +54,27 @@ Table: (\#tab:chr) [Human Genome Assembly GRCh38.p12](https://www.ncbi.nlm.nih.g
 |Unplaced  | 4,485,509   | 4,328,403	 |
 |Genome    |3,099,734,149| 2,948,611,470 |
 
+HGP scientists used white blood cells from the blood of two male and two female donors (randomly selected from 20 of each) each donor yielding a separate DNA library. One of these libraries (RP11) was used considerably more than others, due to quality considerations. More than 70% of the reference genome produced by the public HGP came from RP11, a single anonymous male donor from Buffalo, New York (code name RP11).
+
+The genome was broken into smaller pieces; approximately 150,000 base pairs in length. These pieces were then ligated into a type of vector known as "bacterial artificial chromosomes", or BACs, which are derived from bacterial chromosomes which have been genetically engineered. The vectors containing the genes can be introduced into bacteria where they are copied by the bacterial DNA replication machinery. Each of these pieces was then sequenced separately as a small "shotgun" project and then assembled. The larger, 150,000 base pairs go together to create chromosomes. This is known as the "hierarchical shotgun" approach, because the genome is first broken into relatively large chunks, which are then mapped to chromosomes before being selected for sequencing.
+
+The "genome" of any given individual is unique; mapping the "human genome" involved sequencing a small number of individuals and then assembling these together to get a complete sequence for each chromosome. Therefore, the finished human genome is a mosaic, not representing any one individual. In fact, we now know that there is variation in the genomes of individual cells in any one human. The implications of this recent finding for human health will keep scientists busy for a long time.
+
+## Public-Private Competition Around The Human Genome Project
+
+In 1998, a privately funded quest to sequence the human genome was launched by the American researcher [Craig Venter](https://en.wikipedia.org/wiki/Craig_Venter), and his firm [Celera Genomics](https://en.wikipedia.org/wiki/Celera_Corporation). Venter was a scientist at the NIH during the early 1990s when the project was initiated. The \$300,000,000 Celera effort was intended to proceed at a faster pace and at a fraction of the cost of the roughly \$3 billion publicly funded project. The Celera approach was able to proceed at a much more rapid rate, and at a lower cost than the public project because it relied upon data made available by the publicly funded project.
+
+Celera used a technique called whole genome shotgun sequencing, employing pairwise end sequencing, which had been used to sequence bacterial genomes of up to six million base pairs in length, but not for anything nearly as large as the three billion base pair human genome.
+
+Celera initially announced that it would seek patent protection on "only 200-300" genes, but later amended this to seeking "intellectual property protection" on "fully-characterized important structures" amounting to 100-300 targets. The firm eventually filed preliminary ("place-holder") patent applications on 6,500 whole or partial genes. Celera also promised to publish their findings in accordance with the terms of the 1996 "Bermuda Statement", by releasing new data annually (the HGP released its new data daily), although, unlike the publicly funded project, they would not permit free redistribution or scientific use of the data. The publicly funded competitors were compelled to release the first draft of the human genome before Celera for this reason. On July 7, 2000, the UCSC Genome Bioinformatics Group released a first working draft on the web. The scientific community downloaded about 500 GB of information from the UCSC genome server in the first 24 hours of free and unrestricted access.
+
+In March 2000, US President Clinton announced that the genome sequence could not be patented, and should be made freely available to all researchers. The statement sent Celera's stock plummeting and dragged down the biotechnology-heavy Nasdaq. The biotechnology sector lost about \$50 billion in market capitalization in two days.
+
+Although the working draft was announced in June 2000, it was not until February 2001 that Celera and the HGP scientists published details of their drafts. Special issues of Nature (which published the publicly funded project's scientific paper)[43] and Science (which published Celera's paper) described the methods used to produce the draft sequence and offered analysis of the sequence. These drafts covered about 83% of the genome (90% of the euchromatic regions with 150,000 gaps and the order and orientation of many segments not yet established). In February 2001, at the time of the joint publications, press releases announced that the project had been completed by both groups. Improved drafts were announced in 2003 and 2005, filling in to approximately 92% of the sequence currently.
+
+## Genome Annotation
+
+The process of identifying the boundaries between genes and other features in a raw DNA sequence is called genome annotation and is in the domain of bioinformatics. Annotation of genes (coding sequences, CDS) is provided by multiple public resources, using different methods, and resulting in information that is similar but not always identical. The [Consensus CDS (CCDS) project](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi) is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality and support convergence towards a standard set of gene annotations. While expert biologists make the best annotators, their work proceeds slowly, and computer programs are increasingly used to meet the high-throughput demands of genome sequencing projects. Beginning in 2008, a new technology known as [RNA-seq](https://en.wikipedia.org/wiki/RNA-Seq) was introduced that allowed scientists to directly sequence the messenger RNA in cells. This replaced previous methods of annotation, which relied on inherent properties of the DNA sequence, with direct measurement, which was much more accurate. Today, annotation of the human genome and other genomes relies primarily on deep sequencing of the transcripts in every human tissue using RNA-seq. These experiments have revealed that over 90% of genes contain at least one and usually several alternative splice variants, in which the exons are combined in different ways to produce 2 or more gene products from the same locus.
 
 Table: (\#tab:gene) Human Genome Assembly GRCh38.p12 (Release date: 2017-12-21). GC content (%) and number of proteins, ribosomal RNA (rRNA), transfer RNA (tRNA), other RNA, genes and pseudogenes on each chromosome. Retrieved on August 10, 2018 at https://www.ncbi.nlm.nih.gov/genome/?term=txid9606[orgn]
 
@@ -83,12 +108,6 @@ Table: (\#tab:gene) Human Genome Assembly GRCh38.p12 (Release date: 2017-12-21).
 |Un    |44.3   |6,143  | 17 |161 |3,437    |6,543 |1,878     |
 
 
-HGP sc ientists used white blood cells from the blood of two male and two female donors (randomly selected from 20 of each) each donor yielding a separate DNA library. One of these libraries (RP11) was used considerably more than others, due to quality considerations. More than 70% of the reference genome produced by the public HGP came from RP11, a single anonymous male donor from Buffalo, New York (code name RP11).
-
-The "g enome" of any given individual is unique; mapping the "human genome" involved sequencing a small number of individuals and then assembling these together to get a complete sequence for each chromosome. Therefore, the finished human genome is a mosaic, not representing any one individual. In fact, we now know that there is variation in the genomes of individual cells in any one human. The implications of this recent finding for human health will keep scientists busy for a long time.
-
-Annota tion of genes (coding sequences, CDS) is provided by multiple public resources, using different methods, and resulting in information that is similar but not always identical. The [Consensus CDS (CCDS) project](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi) is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality and support convergence towards a standard set of gene annotations.
-
 Table: (\#tab:cds) Gene counts based on the [Ensembl human genome annotations](http://useast.ensembl.org/Homo_sapiens/Info/Annotation) of the primary assembly of GRCh38.p12 (Genome Reference Consortium Human Build 38).
 
 |Coding sequence type     | Count                         |
@@ -112,7 +131,7 @@ All samples were collected through a community engagement process with appropria
 
 In phase III, 11 global ancestry groups were assembled: ASW (African ancestry in Southwest USA); CEU (Utah residents with Northern and Western European ancestry from the CEPH collection); CHB (Han Chinese in Beijing, China); CHD (Chinese in Metropolitan Denver, Colorado); GIH (Gujarati Indians in Houston, Texas); JPT (Japanese in Tokyo, Japan); LWK (Luhya in Webuye, Kenya); MEX (Mexican ancestry in Los Angeles, California); MKK (Maasai in Kinyawa, Kenya); TSI (Tuscans in Italy); YRI (Yoruba in Ibadan, Nigeria).
 
-The original mission statement of the International HapMap Project was to develop a haplotype map of the human genome, HapMap, which would describe the common patterns of human DNA sequence variation. Through this research millions of SNPs were discovered and many GWAS studies used this dataset in research for disease association. This project was a stepping stone for the 1000 genomes project which utilizes many of the same populations.
+Through this research millions of SNPs were discovered and many GWAS studies used this dataset in research for disease association. This project was a stepping stone for the 1000 genomes project which utilizes many of the same populations.
 
 ## The Single Nucleotide Polymorphism Database (dbSNP) of Nucleotide Sequence Variation
 
@@ -232,7 +251,7 @@ ggplot2::ggplot(data = pop_vec) +
 
 [Personal genomics](https://en.wikipedia.org/wiki/Personal_genomics) or consumer genetics is the branch of genomics concerned with the sequencing, analysis and interpretation of the genome of an individual. The genotyping stage employs different techniques, including single-nucleotide polymorphism (SNP) analysis chips (typically 0.02% of the genome), or partial or full genome sequencing. Once the genotypes are known, the individual's variations can be compared with the published literature to determine likelihood of trait expression, ancestry inference and disease risk.
 
-Automated high-throughput sequencers have increased the speed and reduced the cost of sequencing, making it possible to offer genetic testing to consumers for less than \$1,000. The emerging market of direct-to-consumer genome sequencing services has brought new questions about both the medical efficacy and the ethical dilemmas associated with widespread knowledge of individual genetic information.
+Automated high-throughput sequencers have increased the speed and reduced the cost of sequencing, making it possible to offer genetic testing to consumers for less than \$1,000. The emerging market of direct-to-consumer genome sequencing services has brought new questions about both the medical efficacy and the ethical dilemmas associated with widespread knowledge of individual genetic information. Companies like [Ancestry](https://www.ancestry.com) and [23andMe](https://www.23andme.com), however, do not sequence your DNA but perform "genotyping" using DNA microarrays ("genotyping chips") to determine SNPs at hundreds of thousands of locations in your genome. Ancestry, for example state that they examine some 700,000 SNPs. 
 
 Starting in 2005 as a pilot experiment with 10 individuals, the [Harvard Personal Genome Project](https://pgp.med.harvard.edu) (Harvard PGP) pioneered a new form of genomics research. The main goal of the project is to allow scientists to connect human genetic information (human DNA sequence, gene expression, associated microbial sequence data, etc) with human trait information (medical information, biospecimens and physical traits) and environmental exposures.
 
@@ -245,7 +264,7 @@ PGP participants consent to publicly share their genomic and trait data in a fre
 
 1. Open a web browser and go to the [Ensemble genome browser](http://useast.ensembl.org/Homo_sapiens/Info/Index) (Fig. \@ref(fig:ensembl)). This site provides a data set based on the December 2013 Homo sapiens high coverage assembly GRCh38 from the Genome Reference Consortium.
 
-(ref:genomebrowser) The Ensembl genome browser web page.
+(ref:genomebrowser) [The Ensembl genome browser web page](http://useast.ensembl.org/Homo_sapiens/Info/Index).
 
 ```{r ensembl, fig.cap='(ref:genomebrowser)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/human_genome/ensembl_browser.png")
