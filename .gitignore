@@ -6,7 +6,6 @@ _main.epub
 *.swp
 *.*~
 .*~
-*.pdf
 *.idx
 *.out
 *.log
