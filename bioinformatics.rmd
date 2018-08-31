@@ -113,6 +113,10 @@ knitr::include_graphics("./figures/bioinformatics/results_description.png")
 knitr::include_graphics("./figures/bioinformatics/alignment.png")
 `````
 
-11. 
+11. Which sequence matches yours? How good is the alignment?
 
+## Review Questions
 
+1. What are the ingredients of a sequencing reaction based on the chain-termination method (Sanger sequencing)?
+2. What is GenBank?
+2. What is BLAST?

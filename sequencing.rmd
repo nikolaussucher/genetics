@@ -38,3 +38,9 @@ Table: (\#tab:seq) DNA Sequencing Reactions
 |                 |              |
 |                 |              |
 
+## Review Questions
+
+1. What is DNA sequencing?
+2. What is Sanger sequencing?
+3. What are dNTPs?
+

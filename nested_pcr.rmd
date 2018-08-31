@@ -43,3 +43,9 @@ Table: (\#tab:nestedpcr) PCR protocol for second round (nested) GAPDH amplificat
 |Extension           |72 °C       |2 min |40
 |Final extension     |72 °C       |6 min |1
 |Hold                |15 °C       |hold  |
+
+## Review Questions
+
+1. What is an exonuclease?
+2. What is nested PCR?
+

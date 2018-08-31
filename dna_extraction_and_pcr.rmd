@@ -116,3 +116,8 @@ Table: (\#tab:pcr) PCR protocol for GAPDH amplification.
 |Hold                |15 °C       |hold  |
 
 
+## Review Questions
+
+1. What is PCR?
+2. What are the components of a PCR?
+3. What is a thermocycler (PCR machine)?

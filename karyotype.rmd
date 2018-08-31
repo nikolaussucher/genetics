@@ -8,7 +8,6 @@ Chromosomes are normally visible under a light microscope only when the cell is 
 
 (ref:chromosome) [Diagram of a replicated and condensed metaphase eukaryotic chromosome. (1) Chromatid – one of the two identical parts of the chromosome after S phase. (2) Centromere – the point where the two chromatids touch. (3) Short (p) arm. (4) Long (q) arm.](https://commons.wikimedia.org/wiki/File:Chromosome.svg) By derivative work: Tryphon (talk)*Chromosome-upright.png: Original version: Magnus Manske, this version with upright chromosome: User:Dietzel65 [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
 
-
 ```{r chromosome, fig.cap='(ref:chromosome)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/Chromosome.svg")
 ```  
@@ -38,7 +37,6 @@ Karyotypes describe the chromosome count of an organism and what these chromosom
 The study of whole sets of chromosomes is sometimes known as karyology. The chromosomes are depicted (by rearranging a photomicrograph) in a standard format known as a karyogram or idiogram: in pairs, ordered by size and position of centromere for chromosomes of the same size as shown in Figure \@ref(fig:karyo).
 
 (ref:karyo) [Karyogram of human male using Giemsa staining](https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png)
-
 
 ```{r karyo, fig.cap='(ref:karyo)', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("./figures/karyotyping/human_male_karyotype.jpg")
@@ -106,7 +104,7 @@ Chromosome abnormalities can be numerical, as in the presence of extra or missin
 
 ### Chromosomal abnormalities that lead to disease in humans include
 
-* Turner syndrome (Figure \@ref(fig:Turner))results from a single X chromosome (45,X or 45,X0).
+* Turner syndrome (Figure \@ref(fig:Turner)) results from a single X chromosome (45,X or 45,X0).
 * [Klinefelter syndrome](https://en.wikipedia.org/wiki/Klinefelter_syndrome) (Figure \@ref(fig:Klinefelter)), the most common male chromosomal disease, otherwise known as 47,XXY, is caused by an extra X chromosome.
 * [Edwards syndrome](https://en.wikipedia.org/wiki/Edwards_syndrome) is caused by trisomy (three copies) of chromosome 18.
 * Down syndrome (Figure \@ref(fig:Down)), a common chromosomal disease, is caused by trisomy of chromosome 21.
@@ -186,4 +184,11 @@ knitr::include_graphics("./figures/karyotyping/Spectralkaryotype98-300.jpg")
 
 ## Review Questions
 
-1.
+1. What are chromosomes?
+2. How many chromosomes are found in somatic cells in humans?
+3. How many chromosomes are found in human gametes?
+4. What is a karyotype?
+5. What are examples of abnormal karyotypes in humans?
+6. What is Down syndrome?
+7. What is Turner syndrome?
+8. What is Klinefelter syndrome?
