@@ -271,12 +271,6 @@ knitr::include_graphics("./figures/human_genome/ensembl_browser.png")
 `````
 
 
-
-
-## Experimental Procedures
-
-1. 
-
 ## Review Questions
 
 1. What is the length of the human genome (in base pairs)?
