@@ -277,5 +277,3 @@ knitr::include_graphics("./figures/human_genome/ensembl_browser.png")
 2. What is a genome assembly?
 2. What is genome annotation?
 2. How many genes are in the human genome?
-
-
