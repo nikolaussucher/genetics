@@ -14,6 +14,7 @@ rmd_files:   [ "index.Rmd",
                "dna_extraction_and_pcr.Rmd",
                "nested_pcr.Rmd",
                "ligation_transformation.Rmd",
+               "plasmid_prep_restriction_digest.Rmd",
                "sequencing.Rmd",
                "bioinformatics.Rmd",
                "human_genome.Rmd"

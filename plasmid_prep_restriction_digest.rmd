@@ -1,6 +1,22 @@
 # Plasmid Purification And Restriction Digest
 
-## Plasmid Purification 
+## Plasmid Purification
+
+A plasmid preparation is a method of DNA extraction and purification for [plasmid DNA](https://en.wikipedia.org/wiki/Plasmid). Many methods have been developed to purify plasmid DNA from bacteria. These methods invariably involve three steps
+
+* Growth of the bacterial culture
+* Harvesting and lysis of the bacteria
+* Purification of plasmid DNA
+
+## Plasmid
+
+A plasmid is a small DNA molecule within a cell that is physically separated from a chromosomal DNA and can replicate independently. They are most commonly found as small circular, double-stranded DNA molecules in bacteria; however, plasmids are sometimes present in archaea and eukaryotic organisms. In nature, plasmids often carry genes that may benefit the survival of the organism, for example antibiotic resistance. While the chromosomes are big and contain all the essential genetic information for living under normal conditions, plasmids usually are very small and contain only additional genes that may be useful to the organism under certain situations or particular conditions. Artificial plasmids are widely used as vectors in molecular cloning, serving to drive the replication of recombinant DNA sequences within host organisms. In the laboratory, plasmids may be introduced into a cell via transformation.
+
+Plasmids are considered replicons, units of DNA capable of replicating autonomously within a suitable host. However, plasmids, like viruses, are not generally classified as life. Plasmids are transmitted from one bacterium to another (even of another species) mostly through conjugation. This host-to-host transfer of genetic material is one mechanism of horizontal gene transfer, and plasmids are considered part of the mobilome. Unlike viruses (which encase their genetic material in a protective protein coat called a capsid), plasmids are "naked" DNA and do not encode genes necessary to encase the genetic material for transfer to a new host. However, some classes of plasmids encode the conjugative "sex" pilus necessary for their own transfer. The size of the plasmid varies from 1 to over 200 kbp, and the number of identical plasmids in a single cell can range anywhere from one to thousands under some circumstances.
+
+The relationship between microbes and plasmid DNA is neither parasitic nor mutualistic, because each implies the presence of an independent species living in a detrimental or commensal state with the host organism. Rather, plasmids provide a mechanism for horizontal gene transfer within a population of microbes and typically provide a selective advantage under a given environmental state. Plasmids may carry genes that provide resistance to naturally occurring antibiotics in a competitive environmental niche, or the proteins produced may act as toxins under similar circumstances, or allow the organism to utilize particular organic compounds that would be advantageous when nutrients are scarce.
+
+The term plasmid was introduced in 1952 by the American molecular biologist Joshua Lederberg to refer to "any extrachromosomal hereditary determinant." The term's early usage included any bacterial genetic material that exists extrachromosomally for at least part of its replication cycle, but because that description includes bacterial viruses, the notion of plasmid was refined over time to comprise genetic elements that reproduce autonomously. Later in 1968, it was decided that the term plasmid should be adopted as the term for extrachromosomal genetic element, and to distinguish it from viruses, the definition was narrowed to genetic elements that exist exclusively or predominantly outside of the chromosome and can replicate autonomously.
 
 ## Experimental Procedures
 
