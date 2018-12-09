@@ -32,11 +32,11 @@ In this laboratory session, we will read an [English translation](http://www.men
     * What did Mendel observe when he compared the characters of the hybrids to those of their parents?
     . Which characters did he call dominant? Which did he term recessive?
     * What "interesting" fact about the transmission of the dominant characters from parent to hybrid does Mendel mention in a separate paragraph?
-    . List the pairs of dominant and recessive characters observed in these experiments.
+    * List the pairs of dominant and recessive characters observed in these experiments.
 11. Continue reading the next section entitled "THE FIRST GENERATION FROM THE HYBRIDS".
 12. Answer the following questions:
     * What does Mendel observe in the first generation obtained by crossing the hybrids?
-    * What did Mendel** *****not*** observe? Why do you think does he mention and even emphasize a negative observation?
+    * What did Mendel **not** observe? Why do you think does he mention and even emphasize a negative observation?
     * How did Mendel quantitatively analyze the data? Which numbers are observed and which number is computed from the observed numbers? According to Mendel, what factors complicated the quantitative analysis and how did Mendel deal with them? 
     * Mendel explains that the observation of a dominant character in the first generation from the hybrids can have a "double signification"? What does he mean and how can the two "significations" be distinguished?
 13. Read the next section entitled "THE SECOND GENERATION FROM THE HYBRIDS".
