@@ -173,11 +173,13 @@ knitr::include_graphics("./figures/karyotyping/Spectralkaryotype98-300.jpg")
 ### Experimental procedures
 
 1. Obtain a photomicrograph of a metaphase chromosome spread.
-2. Write down the code associated with the photomicrograph.
-3. Using scissors carefully cut out the largest chromosome on the page and paste it onto the “data page”.
-4. Find the  matching chromosome and paste it next to the first chromosome.
-5. Repeat these steps until all chromosomes have been pasted onto the data page by decreasing size (as shown in  Figure \@ref(fig:karyo)). **Cut out only one chromosome at a time or you will get confused and likely lose chromosomes.**
-6. Determine the number of chromosomes on the data page. Any extra chromosome(s) are indication of an aneuploidy.
+1. Use a blank sheet of paper as your data page on which you will assemble the karyogram.
+2. Write the code associated with the photomicrograph on the top left corner of the data page.
+2. Count the chromosomes on the photomicrograph. As you count, use a pencil to write the number next to each counted chromosome. Write the number of chromosomes on the top right corner of the data page. A number other than 46 is an indication of an aneuploidy.
+3. Using scissors carefully cut out (one by one) the chromosomes of the photomicrograph. One by one, lay out the cut-out chromomosomes on the data page. 
+3. Rearrange the cut out chromomosomes sorted by size and matching banding patterns (as shown in  Figure \@ref(fig:karyo)). 
+6. Make sure that the number of chromosomes on the data page is equal to the number of chromosomes that you wrote on the top right corner of the data page. 
+6. When you are confident that you have correctly identified each chromosome, use a glue stick to glue them onto the data page.
 7. Determine the type of sex chromosomes on the data page.
 8. Write down the karyotype.
 9. Write down the suggested diagnosis.
