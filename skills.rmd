@@ -173,14 +173,12 @@ All centrifuges must be balanced or they will be unstable and will not spin at t
 
 1. Obtain an empty microcentrifuge tube.
 2. Label your tube.
-2. Transfer 200 µL of xxx to the microcentrifuge tube.
-5. Put your tubes into the centrifuge with the hinge facing outward.
+2. Transfer 200 µL of distilled water to the microcentrifuge tube.
+5. One by one, put your tubes into the centrifuge with the hinge facing outward.
 6. Make sure that the centrifuge is properly balanced.
-7. Spin the tubes at 10,000 rpm for 30 seconds,
-6. Use a pipette to transfer the supernatant to a new tube, being sure to leave the pellet untouched.
-6. Eject the tip into container provided for discarded tubes, by pressing the tip ejector button.
-7. Show your instructor the two tubes - one with supernatant, one with the silica resin pellet.
-8. Your instructor will keep the tube with the silica resin. Discard the tube with the supernatant.
+7. Spin the tubes at 10,000 rpm for 30 seconds.
+8. Open the microcentrifuge and remove your tube.
+9. Discard your tube and clean up your bench.
 
 ## Review Questions
 
