@@ -48,16 +48,22 @@ All adjustable pipettes should be calibrated and checked periodically. The simpl
 ## Exercise 1: using graduated (serological) macropipettes
 ### Experimental procedures
 
+1.  Obtain a small beaker and fill it with distilled water.
+1.  Obtain a weigh boat.
+1.  Turn on the microbalance.
+1.  Put the empty weigh boat on the microbalance and and set the scale to zero.
 1.  Obtain a graduated pipette.
 2.  Notice that the  tapered delivery tip at one end of the pipette.
-3.  Always hold the pipette upright.
+3.  Always hold the pipette upright and straight.
+3.  Remove the pipette from the plastic wrapper by pulling apart the wrapper at the top (blunt) end of the pipette.
 4.  Attach the rubber bulb or mechanical pipetter to the other (blunt) end of the pipette.
-5. Dip the pipette into the solution without touching the bottom of the vessel containing the liquid you want to draw up.
-6. Draw up the liquid until the meniscus reaches the position on the scale printed on the pipette corresponding to the desired volume.
-7. Dispense the liquid into a weigh boat.
-8. Determine the mass of the dispensed volume and record your result in Table \@ref(tab:graduated).
-9. Empty the weigh boat, put it on the balance and set the balance to zero.
-10. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:graduated).
+5. Dip the pipette into the water in the small beaker. Don't touch the bottom of the beaker.
+6. Draw up the water until the meniscus reaches the position on the scale printed on the pipette corresponding to the desired volume.
+7. Dispense the water into a weigh boat.
+8. Determine the mass of the dispensed water and record your result in Table \@ref(tab:graduated).
+9. Empty the weigh boat, put it on the balance and set the balance to zero again.
+10. Repeat this procedure twice for each pipette size and volume listed in Table \@ref(tab:graduated). 
+10. After you have completed all measurements, calculate the average for each triplicate set, and the percentage error (relative to the average value) for each set of measurements and enter your results in Table \@ref(tab:graduated).
 
 
 $$ Error (\%) = \frac{expected\ mass - experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
@@ -97,14 +103,14 @@ Shaft
 4. Set the pipetting volume. Do not adjust the volume beyond the maximum setting! This will damage the pipettor.
 5. Attach a tip to the pipette.
 6. Hold the pipette vertically and press the plunger button to the first stop.
-7. Dip the tip into the sample and slowly release it, moving the plunger button to the home position.
+7. Dip the tip into the beaker with water and slowly release it, moving the plunger button to the home position.
 8. Press the plunger button all the way to the second stop to dispense the sample.
 9. Now, carefully draw up and dispense the volumes of distilled water listed in Table \@ref(tab:micro) with the indicated micropipette into the weigh boat. Always keep an eye on the tip and watch the sample: note when it enters the tip and enters the final location. Do not assume some “got in”, especially with small volumes and clear solutions. Remember the approximate levels that particular volumes fill the tip – this will allow you to check your pipetting visually.
 10. Record the value of the mass of the dispensed water.
 11. Set the balance back to zero.
 11. Repeat twice.
 12. Eject the tip.
-13. Calculate the average for each triplicate set, and the percentage error (relative to the average value) for each measurement and enter your results in Table \@ref(tab:micro).
+13. After you have completed all measurements, calculate the average for each triplicate set, and the percentage error (relative to the average value) for each set of measurements and enter your results in Table \@ref(tab:micro).
 
 $$ Error (\%) = \frac{expected\ mass - experimentally\ determined\ mass}{expected\ mass} \times 100\% $$
 
