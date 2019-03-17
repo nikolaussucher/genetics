@@ -91,7 +91,7 @@ Table: (\#tab:graduated) Experimental determination of graduated pipette volumes
 
 ### Experimental procedures
 
-1. Your laboratory instructor will demonstrate the use of the micropipette and analytical balance before you begin your own experiment.
+1. Your laboratory instructor will demonstrate the use of the micropipette before you begin your own experiment.
 2. Obtain a micropipette.
 3. Identify the main parts of the micropipette (Figure \@ref(fig:micropipette))
     + Plunger button
@@ -132,6 +132,36 @@ P1000  |200    |       |       |       |       |
 P1000  |500    |       |       |       |       |
 P1000  |1000   |       |       |       |       |
 
+(ref:pipetteerror) Graphical representation of the results obtained by the students performing Experiments 1 and 2 in the Genetics course in the spring term 2019.
+
+```{r pipetteerror, fig.cap='(ref:pipetteerror)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(printr)
+setwd("~/Dropbox/R/genetics-master")
+
+# Load data ---------------------------------------------------------------
+
+data <-  as.tibble(read.csv("data/pipetting.csv"))
+
+# Add error column --------------------------------------------------------
+
+data <- data %>% mutate(error = (actual_volume-target_volume)/target_volume*100, fractional_volume = target_volume/(pipette_size*10^(-3))*100)
+
+# Plot data ---------------------------------------------------------------
+
+# order the pipette names for plotting by pipette size
+
+data$pipette_name <- factor(data$pipette_name, levels = c("1 ml", "5 ml", "10 ml", "20 ml","P10","P20","P200","P1000"))
+
+#Violin plot
+ggplot(data = data) +
+  geom_violin(mapping = aes(x = pipette_name, y = error, fill = student), 
+              draw_quantiles = c(0.25, 0.5, 0.75), 
+              adjust = .5, show.legend = TRUE, scale = "width") +
+  labs(y = "Error (%)", x = "Pipette size") +
+  scale_fill_discrete(name = "Student")
+```
 
 Obtain an empty microcentrifuge tube and perform the follwoing pipetting exercises transferring distilled water from a beaker to and from a microcentrifuge tube:
 
