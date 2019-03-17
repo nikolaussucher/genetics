@@ -69,9 +69,9 @@ Table: (\#tab:mendel) Mendel's Laws Of Inheritance.
 
 |Law|Definition|
 |:--|:---------|
-|Law of segregation|During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.|
+|Law of segregation|During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.||
 |Law of independent assortment|Genes for different traits can segregate independently during the formation of gametes.|
-|Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.|
+|Law of dominance|Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.||
 
 ### Experimental Procedures
 1.  Carefully count the number of kernels of each phenotype appearing on a row of F2 ear. Tabulate the results and determine the totals and total ratios in Table \@ref(tab:di).
@@ -121,12 +121,12 @@ The $\chi^2$ statistic can be used to calculate a p-value by comparing the value
 
 1. State the null hypothesis (*H*~0~). Our *H*~0~ is that kernels with purple color will be 3 times more frequent than kernels with yellow color.
 2. Select a desired level of confidence (significance level, p-value or alpha level) for the result of the test. It is common in many scientific investigations to use p < 0.05. This essentially means that we will reject the null hypothesis (*H*~0~), i.e. that our observations are consistent with a 3:1 ratio, if the p-value in our experiments is less than 0.05. In other words, a p-value less than 0.05 would indicate that there is less than a 5% (1 in 20) chance that we would have observed the numbers we did, if the Mendelian model of inheritance is in fact applicable in our case.
-3. Determine the p-value corresponding to our $\chi^2$ value. The blue curve shown in Figure \@ref(fig:chisqdist) is called the probability density function of $\chi^2$ with one degree of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=3.84$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 3.84 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
+3. Determine the p-value corresponding to our $\chi^2$ value. The blue curve shown in Figure \@ref(fig:chisqdist1df) is called the probability density function of $\chi^2$ with one degree of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=3.84$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 3.84 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
 4. Reject *H*~0~ if $\chi^2$ is greater than 3.84.
 
-(ref:chisqdist) $\chi^2$ probability density function.
+(ref:chisqdist1df) $\chi^2$ probability density function for one degree of freedom.
 
-```{r chisqdist, fig.cap='(ref:chisqdist)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r chisqdist1df, fig.cap='(ref:chisqdist1df)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(printr)        
 setwd("~/Dropbox/R/genetics-master")
@@ -152,6 +152,58 @@ ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
   stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
   stat_function(fun=funcShaded_2, geom="area", fill="red", alpha=0.2) 
 ```
+
+
+### Calculate $\chi^2$ For Your Dihybrid Cross Data
+
+1. Calculate the $\chi^2$ value for your dihybrid cross data.
+1. State the null hypothesis (*H*~0~). 
+2. Select p < 0.05 as your level of confidence, i. e. you will reject the null hypothesis (*H*~0~) if the p-value in your experiment is less than 0.05. The blue curve shown in Figure \@ref(fig:chisqdist3df) is the probability density function of $\chi^2$ with three degrees of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=7.81$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 7.81 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
+4. Reject *H*~0~ if $\chi^2$ is greater than 7.81.
+2. Calculate the goodness of fit of your data to the outcome predicted by Mendel's laws of inheritance applied to a dihybrid cross.
+3. What is the p-value corresponding to your $\chi^2$ value?
+4. Do you accept or reject your null hypothesis?
+
+
+```{r chisqdist3df, fig.cap='(ref:chisqdist3df)', out.width='75%', echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(printr)        
+setwd("~/Dropbox/R/genetics-master")
+#function to add p>0.05 area under the curve
+funcShaded_3 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x > 7.814728 ] <- NA
+  return(y)
+}
+
+funcShaded_4 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x < 7.814728 ] <- NA
+  return(y)
+}
+
+# Chi-squared for 3 degree of freedom
+ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
+ # stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1, show.legend = FALSE) +
+    stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1, show.legend = FALSE) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 10, 0.5)) +
+  scale_y_continuous(name = "f(x)") +
+  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
+  # theme(axis.line = element_line(size=1, colour = "black"),
+  #       panel.grid.major = element_blank(),
+  #       panel.grid.minor = element_blank(),
+  #       panel.border = element_blank(),
+  #       panel.background = element_blank(),
+  #       plot.title=element_text(size = 20, family="xkcd-Regular"),
+  #       text=element_text(size = 16, family="xkcd-Regular"),
+  #       axis.text.x=element_text(colour="black", size = 12),
+  #       axis.text.y=element_text(colour="black", size = 12)) +
+  # stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_3, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_4, geom="area", fill="red", alpha=0.2)
+```
+
+(ref:chisqdist3df) $\chi^2$ probability density function for three degrees of freedom.
 
 ## A Look At Mendel's Monohybrid Cross Data
 

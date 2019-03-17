@@ -53,13 +53,13 @@ ggplot(data=mendel_data) +
 # Mono hybrid cross student data-------------------------------------------------------
 
 #load and sum data by category
-mono_data <- read.csv("data/monohybrid_cross.csv")
+mono_data <- read.csv("data/monohybrid_cross_genetics.csv")
 observed_mono <- c(sum(mono_data$Purple),sum(mono_data$Yellow))
 
 knitr::kable(mono_data, digits = 2, caption = "Monohybrid cross data for Pearson's chi-squared test.")
 
 # chi squared by hand
-expected_mono <- c(0.75*sum(mono_data), 0.25*sum(mono_data))
+expected_mono <- c(0.75*sum(c(mono_data$Purple,mono_data$Yellow)), 0.25*sum(c(mono_data$Purple,mono_data$Yellow)))
 chi_stat_mono <- sum((observed_mono-expected_mono)^2/expected_mono)
 p_value_mono <- 1-pchisq(chi_stat_mono,1)
 
@@ -80,25 +80,21 @@ ggplot(data=data_mono) +
 # Dihybrid cross student data ----------------------------------------------------------
 
 #load and sum data by category
-di_data <- read.csv("data/dihybrid_cross.csv")
+di_data <- read.csv("data/dihybrid_cross_genetics.csv")
 observed_di <- c(sum(di_data$PurpleSmooth),sum(di_data$PurpleWrinkled),
                  sum(di_data$YellowSmooth),sum(di_data$YellowWrinkled))
 
 # chi squared by hand
-expected_di <- c(9/16*sum(di_data), 3/16*sum(di_data),
-                  3/16*sum(di_data), 1/16*sum(di_data))
+expected_di <- c(9/16*sum(c(di_data$PurpleSmooth,di_data$PurpleWrinkled,di_data$YellowSmooth,di_data$YellowWrinkled)),
+                 3/16*sum(c(di_data$PurpleSmooth,di_data$PurpleWrinkled,di_data$YellowSmooth,di_data$YellowWrinkled)),
+                  3/16*sum(c(di_data$PurpleSmooth,di_data$PurpleWrinkled,di_data$YellowSmooth,di_data$YellowWrinkled)),
+                 1/16*sum(c(di_data$PurpleSmooth,di_data$PurpleWrinkled,di_data$YellowSmooth,di_data$YellowWrinkled)))
 chi_stat_di <- sum((observed_di-expected_di)^2/expected_di)
-p_value_di <- 1-pchisq(chi_stat_di,1)
+p_value_di <- 1-pchisq(chi_stat_di,3)
 
 # chi squared using R function
 p_null_di <- c(9/16,3/16,3/16,1/16)
 chisqu_di <- chisq.test(observed_di,p=p_null_di)
-
-#test for color only
-
-obs_di <- c(sum(di_data$PurpleSmooth) + sum(di_data$PurpleWrinkled),
-            sum(di_data$YellowSmooth) + sum(di_data$YellowWrinkled))
-chisqu_di <- chisq.test(obs_di,p=p_null_mono)
 
 
 # plot chi squared denisity function
@@ -137,18 +133,25 @@ funcShaded_2 <- function(x) {
 }
 
 
-# funcShaded_3 <- function(x) {
-#   y <- dchisq(x, df=3)
-#   y[x < 7.814728 ] <- NA
-#   return(y)
-# }
+funcShaded_3 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x > 7.814728 ] <- NA
+  return(y)
+}
+
+funcShaded_4 <- function(x) {
+  y <- dchisq(x, df=3)
+  y[x < 7.814728 ] <- NA
+  return(y)
+}
 
 
+# Chi-squared for 1 degree of freedom
 ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
   stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1, show.legend = FALSE) +
 #  stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1.5) +
   scale_x_continuous(name = "chi-squared", breaks = seq(0, 10, 0.5)) +
-  scale_y_continuous(name = "Probability") +
+  scale_y_continuous(name = "f(x)") +
   ggtitle("Chi-squared distribution") +
   scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
   # theme(axis.line = element_line(size=1, colour = "black"),
@@ -163,3 +166,25 @@ ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
   stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
   stat_function(fun=funcShaded_2, geom="area", fill="red", alpha=0.2) # +
 #  stat_function(fun=funcShaded_3, geom="area", fill="red", alpha=0.2)
+
+
+# Chi-squared for 3 degree of freedom
+ggplot(data.frame(x = c(0, 10)), aes(x = x)) +
+ # stat_function(fun = dchisq, args = list(df = 1), aes(color = "k=1"), size = 1, show.legend = FALSE) +
+    stat_function(fun = dchisq, args = list(df = 3), aes(color = "k=3"), size = 1, show.legend = FALSE) +
+  scale_x_continuous(name = "chi-squared", breaks = seq(0, 10, 0.5)) +
+  scale_y_continuous(name = "f(x)") +
+  ggtitle("Chi-squared distribution") +
+  scale_colour_manual("Degrees of freedom", values = c("blue", "red")) +
+  # theme(axis.line = element_line(size=1, colour = "black"),
+  #       panel.grid.major = element_blank(),
+  #       panel.grid.minor = element_blank(),
+  #       panel.border = element_blank(),
+  #       panel.background = element_blank(),
+  #       plot.title=element_text(size = 20, family="xkcd-Regular"),
+  #       text=element_text(size = 16, family="xkcd-Regular"),
+  #       axis.text.x=element_text(colour="black", size = 12),
+  #       axis.text.y=element_text(colour="black", size = 12)) +
+  # stat_function(fun=funcShaded_1, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_3, geom="area", fill="blue", alpha=0.2)  +
+  stat_function(fun=funcShaded_4, geom="area", fill="red", alpha=0.2)

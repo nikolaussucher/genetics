@@ -134,6 +134,7 @@
 <li class="chapter" data-level="7.4" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#pearsons-chi-squared-chi2-and-goodness-of-fit-test"><i class="fa fa-check"></i><b>7.4</b> Pearson’s Chi-Squared (<span class="math inline">\(\chi^2\)</span>) And Goodness Of Fit Test</a><ul>
 <li class="chapter" data-level="7.4.1" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#calculating-chi2-using-the-monohybrid-cross-data"><i class="fa fa-check"></i><b>7.4.1</b> Calculating <span class="math inline">\(\chi^2\)</span> Using The Monohybrid Cross Data</a></li>
 <li class="chapter" data-level="7.4.2" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#testing-goodness-of-fit"><i class="fa fa-check"></i><b>7.4.2</b> Testing Goodness Of Fit</a></li>
+<li class="chapter" data-level="7.4.3" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#calculate-chi2-for-your-dihybrid-cross-data"><i class="fa fa-check"></i><b>7.4.3</b> Calculate <span class="math inline">\(\chi^2\)</span> For Your Dihybrid Cross Data</a></li>
 </ul></li>
 <li class="chapter" data-level="7.5" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#a-look-at-mendels-monohybrid-cross-data"><i class="fa fa-check"></i><b>7.5</b> A Look At Mendel’s Monohybrid Cross Data</a></li>
 <li class="chapter" data-level="7.6" data-path="mendelian-genetics-a-practical-example.html"><a href="mendelian-genetics-a-practical-example.html#review-questions-3"><i class="fa fa-check"></i><b>7.6</b> Review Questions</a></li>
@@ -504,16 +505,35 @@ Figure 7.4: Dihybrid cross
 <ol style="list-style-type: decimal">
 <li>State the null hypothesis (<em>H</em><sub>0</sub>). Our <em>H</em><sub>0</sub> is that kernels with purple color will be 3 times more frequent than kernels with yellow color.</li>
 <li>Select a desired level of confidence (significance level, p-value or alpha level) for the result of the test. It is common in many scientific investigations to use p &lt; 0.05. This essentially means that we will reject the null hypothesis (<em>H</em><sub>0</sub>), i.e. that our observations are consistent with a 3:1 ratio, if the p-value in our experiments is less than 0.05. In other words, a p-value less than 0.05 would indicate that there is less than a 5% (1 in 20) chance that we would have observed the numbers we did, if the Mendelian model of inheritance is in fact applicable in our case.</li>
-<li>Determine the p-value corresponding to our <span class="math inline">\(\chi^2\)</span> value. The blue curve shown in Figure <a href="mendelian-genetics-a-practical-example.html#fig:chisqdist">7.5</a> is called the probability density function of <span class="math inline">\(\chi^2\)</span> with one degree of freedom. The light blue shaded area under the curve between <span class="math inline">\(\chi^2=0\)</span> and <span class="math inline">\(\chi^2=3.84\)</span> corresponds to a probability of 95% of observing a <span class="math inline">\(\chi^2\)</span> value in that range if <em>H</em><sub>0</sub> is true. <span class="math inline">\(\chi^2\)</span> values greater than 3.84 indicate a less than 5% chance of observing the values we did, if <em>H</em><sub>0</sub> is true (light red shaded area).</li>
+<li>Determine the p-value corresponding to our <span class="math inline">\(\chi^2\)</span> value. The blue curve shown in Figure <a href="mendelian-genetics-a-practical-example.html#fig:chisqdist1df">7.5</a> is called the probability density function of <span class="math inline">\(\chi^2\)</span> with one degree of freedom. The light blue shaded area under the curve between <span class="math inline">\(\chi^2=0\)</span> and <span class="math inline">\(\chi^2=3.84\)</span> corresponds to a probability of 95% of observing a <span class="math inline">\(\chi^2\)</span> value in that range if <em>H</em><sub>0</sub> is true. <span class="math inline">\(\chi^2\)</span> values greater than 3.84 indicate a less than 5% chance of observing the values we did, if <em>H</em><sub>0</sub> is true (light red shaded area).</li>
 <li>Reject <em>H</em><sub>0</sub> if <span class="math inline">\(\chi^2\)</span> is greater than 3.84.</li>
 </ol>
 
-<div class="figure" style="text-align: center"><span id="fig:chisqdist"></span>
-<img src="mendel_files/figure-html/chisqdist-1.svg" alt="\(\chi^2\) probability density function." width="75%" />
+<div class="figure" style="text-align: center"><span id="fig:chisqdist1df"></span>
+<img src="mendel_files/figure-html/chisqdist1df-1.svg" alt="\(\chi^2\) probability density function for one degree of freedom." width="75%" />
 <p class="caption">
-Figure 7.5: <span class="math inline">\(\chi^2\)</span> probability density function.
+Figure 7.5: <span class="math inline">\(\chi^2\)</span> probability density function for one degree of freedom.
 </p>
 </div>
+</div>
+<div id="calculate-chi2-for-your-dihybrid-cross-data" class="section level3">
+<h3><span class="header-section-number">7.4.3</span> Calculate <span class="math inline">\(\chi^2\)</span> For Your Dihybrid Cross Data</h3>
+<ol style="list-style-type: decimal">
+<li>Calculate the <span class="math inline">\(\chi^2\)</span> value for your dihybrid cross data.</li>
+<li>State the null hypothesis (<em>H</em><sub>0</sub>).</li>
+<li>Select p &lt; 0.05 as your level of confidence, i. e. you will reject the null hypothesis (<em>H</em><sub>0</sub>) if the p-value in your experiment is less than 0.05. The blue curve shown in Figure <a href="mendelian-genetics-a-practical-example.html#fig:chisqdist3df">7.6</a> is the probability density function of <span class="math inline">\(\chi^2\)</span> with three degrees of freedom. The light blue shaded area under the curve between <span class="math inline">\(\chi^2=0\)</span> and <span class="math inline">\(\chi^2=7.81\)</span> corresponds to a probability of 95% of observing a <span class="math inline">\(\chi^2\)</span> value in that range if <em>H</em><sub>0</sub> is true. <span class="math inline">\(\chi^2\)</span> values greater than 7.81 indicate a less than 5% chance of observing the values we did, if <em>H</em><sub>0</sub> is true (light red shaded area).</li>
+<li>Reject <em>H</em><sub>0</sub> if <span class="math inline">\(\chi^2\)</span> is greater than 7.81.</li>
+<li>Calculate the goodness of fit of your data to the outcome predicted by Mendel’s laws of inheritance applied to a dihybrid cross.</li>
+<li>What is the p-value corresponding to your <span class="math inline">\(\chi^2\)</span> value?</li>
+<li>Do you accept or reject your null hypothesis?</li>
+</ol>
+<div class="figure" style="text-align: center"><span id="fig:chisqdist3df"></span>
+<img src="mendel_files/figure-html/chisqdist3df-1.svg" alt="\(\chi^2\) probability density function for three degrees of freedom." width="75%" />
+<p class="caption">
+Figure 7.6: <span class="math inline">\(\chi^2\)</span> probability density function for three degrees of freedom.
+</p>
+</div>
+
 </div>
 </div>
 <div id="a-look-at-mendels-monohybrid-cross-data" class="section level2">
@@ -522,10 +542,10 @@ Figure 7.5: <span class="math inline">\(\chi^2\)</span> probability density func
 <div class="figure" style="text-align: center"><span id="fig:mendelfigure"></span>
 <img src="mendel_files/figure-html/mendelfigure-1.pdf" alt="Results of Mendel’s monohybrid cross experiments with peas." width="70%" />
 <p class="caption">
-Figure 7.6: Results of Mendel’s monohybrid cross experiments with peas.
+Figure 7.7: Results of Mendel’s monohybrid cross experiments with peas.
 </p>
 </div>
-<p>Compare your <span class="math inline">\(\chi^2\)</span> and p-values with Mendel’s results (Fig. <a href="mendelian-genetics-a-practical-example.html#fig:mendelfigure">7.6</a>) from his monohybrid cross experiments in peas (Chapter <a href="mendelian-genetics-mendel-in-his-own-words.html#mendelian-genetics-mendel-in-his-own-words">6</a>). Table <a href="mendelian-genetics-a-practical-example.html#tab:mendeldata">7.4</a> summarizes the experimental results and Table <a href="mendelian-genetics-a-practical-example.html#tab:mendelchisq">7.5</a> lists the calculated <span class="math inline">\(\chi^2\)</span> and p-values.</p>
+<p>Compare your <span class="math inline">\(\chi^2\)</span> and p-values with Mendel’s results (Fig. <a href="mendelian-genetics-a-practical-example.html#fig:mendelfigure">7.7</a>) from his monohybrid cross experiments in peas (Chapter <a href="mendelian-genetics-mendel-in-his-own-words.html#mendelian-genetics-mendel-in-his-own-words">6</a>). Table <a href="mendelian-genetics-a-practical-example.html#tab:mendeldata">7.4</a> summarizes the experimental results and Table <a href="mendelian-genetics-a-practical-example.html#tab:mendelchisq">7.5</a> lists the calculated <span class="math inline">\(\chi^2\)</span> and p-values.</p>
 <table>
 <caption><span id="tab:mendeldata">Table 7.4: </span>Mendel’s monohybrid cross data for Pearson’s chi-squared test.</caption>
 <thead>
