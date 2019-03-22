@@ -12,12 +12,19 @@ data <-  as.tibble(read.csv("data/pipetting.csv"))
 
 data <- data %>% mutate(error = (actual_volume-target_volume)/target_volume*100, fractional_volume = target_volume/(pipette_size*10^(-3))*100)
 
-# Plot data ---------------------------------------------------------------
-
 # order the pipette names for plotting by pipette size
 
 data$pipette_name <- factor(data$pipette_name, levels = c("1 ml", "5 ml", "10 ml", "20 ml","P10","P20","P200","P1000"))
 
+by_pipette <- data %>% group_by(pipette_name)
+
+by_pipette %>% summarise(mean(error),sd(error))
+
+
+
+# Plot data ---------------------------------------------------------------
+
+# Error vs. fractional volume
 ggplot(data=data) +
   geom_point(mapping = aes(x = fractional_volume, y = error, shape = student, color = pipette_name),
              size = 4, show.legend = TRUE) +
@@ -36,11 +43,26 @@ ggplot(data = data) +
   labs(y = "Error (%)", x = "Pipette size") +
   scale_fill_discrete(name = "Student")
 
+
+#Violin plot grouped by pipette size
+ggplot(data = by_pipette) +
+  geom_violin(mapping = aes(x = pipette_name, y = error, fill = pipette_name), 
+              draw_quantiles = c(0.25, 0.5, 0.75), 
+              adjust = .5, show.legend = FALSE, scale = "width") +
+  labs(y = "Error (%)", x = "Pipette size") 
+
+
+
 #Box plot
-ggplot(data = data) +
-  geom_boxplot(mapping = aes(x = pipette_name, y = error, fill = student),
+ggplot(data = by_pipette) +
+  geom_boxplot(mapping = aes(x = pipette_name, y = error, fill = pipette_name),
                show.legend = TRUE) +
   labs(y = "Error (%)", x = "Pipette size") +
   scale_fill_discrete(name = "Student")
 
+ggplot(data = data) +
+  geom_count(mapping = aes(x = pipette_name, y = error, color = student),
+               show.legend = TRUE) +
+  labs(y = "Error (%)", x = "Pipette size") +
+  scale_fill_discrete(name = "Student")
 
