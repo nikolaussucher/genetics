@@ -24,8 +24,6 @@ DNA isolation is a process of purification of DNA from sample using a combinatio
 
 PCR is now a common and often indispensable technique used in clinical and research laboratories for a broad variety of applications. These include DNA cloning for sequencing, gene cloning and manipulation, gene mutagenesis; construction of DNA-based phylogenies, or functional analysis of genes; diagnosis and monitoring of hereditary diseases; amplification of ancient DNA; analysis of genetic fingerprints for DNA profiling (for example, in forensic science and parentage testing); and detection of pathogens in nucleic acid tests for the diagnosis of infectious diseases. In 1993, Mullis was awarded the Nobel Prize in Chemistry along with Michael Smith for his work on PCR.
 
-PCR is now a common and often indispensable technique used in clinical and research laboratories for a broad variety of applications. These include DNA cloning for sequencing, gene cloning and manipulation, gene mutagenesis; construction of DNA-based phylogenies, or functional analysis of genes; diagnosis and monitoring of hereditary diseases; amplification of ancient DNA; analysis of genetic fingerprints for DNA profiling (for example, in forensic science and parentage testing); and detection of pathogens in nucleic acid tests for the diagnosis of infectious diseases.
-
 The vast majority of PCR methods rely on thermal cycling, which involves exposing the reactants to cycles of repeated heating and cooling, permitting different temperature-dependent reactions—specifically, DNA melting and enzyme-driven DNA replication—to quickly proceed many times in sequence. Primers (short DNA fragments) containing sequences complementary to the target region, along with a [DNA polymerase](https://en.wikipedia.org/wiki/DNA_polymerase) (e.g. Taq polymerase), after which the method is named, enable selective and repeated amplification. As PCR progresses, the DNA generated is itself used as a template for replication, setting in motion a chain reaction in which the original DNA template is exponentially amplified. The simplicity of the basic principle underlying PCR means it can be extensively modified to perform a wide array of genetic manipulations. PCR is not generally considered to be a recombinant DNA method, as it does not involve cutting and pasting DNA, only amplification of existing sequences.
 
 Almost all PCR applications employ a heat-stable DNA polymerase, such as Taq polymerase, an enzyme originally isolated from the thermophilic bacterium *Thermus aquaticus*. If heat-susceptible DNA polymerase is used, it will denature every cycle at the denaturation step. Before the use of Taq polymerase, DNA polymerase had to be manually added every cycle, which was a tedious and costly process. This DNA polymerase enzymatically assembles a new DNA strand from free nucleotides, the building blocks of DNA, by using single-stranded DNA as a template and DNA oligonucleotides (the primers mentioned above) to initiate DNA synthesis.
@@ -53,44 +51,45 @@ Table: (\#tab:plant) Plant material record.
 
 4. Chop the plant tissue into small (1-2 mm in diameter) pieces using a razor blade. 
 5. Add the plant material to the microcentrifuge tubes with the lysis buffer.
-5. Using a micropestle, carefully grind the plant tissue into fine particles (until no more chunks are visible). Be careful not to spill the lysis buffer. If any material gets stuck at the bottom of the tube use a clean pipet tip to dislodge it and continue grinding. 
-6. Add an additional 500 µl of lysis buffer.
-7. Grind until the lysate is homogeneous.
-7. Close the microcentrifuge tube.
-8. Spin for 5 min at full speed in a microcentrifuge at room temperature. Make sure to place the tubes in the rotor so that the microcentrifuge is balanced.  
-9. While tubes are centrifuging, label two microcentrifuge tubes for each extract.
-10. Add 500 µl of 70% ethanol to each tube.
-11. Retrieve  your tubes from the microcentrifuge.
-12. Carefully remove 400 µl of supernatant without disturbing the pellet and add it to the new tubes containing the 500 µl of 70% ethanol. Avoid transferring any solid plant material to the ethanol; if necessary, re-centrifuge the lysate.
+6. Using a micropestle, carefully grind the plant tissue into fine particles (until no more chunks are visible). Be careful not to spill the lysis buffer. If any material gets stuck at the bottom of the tube use a clean pipet tip to dislodge it and continue grinding. You may have to continue grinding for several minutes before the leaves have been completely homogenized.
+7. Add an additional 500 µl of lysis buffer.
+8. Grind until the lysate is homogeneous.
+9. Close the microcentrifuge tube.
+10. Spin for 5 min at full speed in a microcentrifuge at room temperature. Make sure to place the tubes in the rotor so that the microcentrifuge is balanced.  
+11. While tubes are centrifuging, label two microcentrifuge tubes for each extract.
+12. Add 500 µl of 70% ethanol to each tube.
+13. Retrieve  your tubes from the microcentrifuge.
+14. Carefully remove 400 µl of supernatant without disturbing the pellet and add it to the new tubes containing the 500 µl of 70% ethanol. Avoid transferring any solid plant material to the ethanol; if necessary, re-centrifuge the lysate.
 Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 
 ```{block2, type='rmdimportant'}
 **If a precipitate is visible, spin the microcentrifuge tube again for 5 min in a microcentrifuge at full speed to pellet the precipitated material and use the supernatant for the next stages.**
 ```
-10. Label the top of a mini column for each sample with your initials. Place the columns in 2 ml cap-less collection tubes.
-11. Remove 800 µl of cleared plant lysate from your microcentrifuge tube and add it to the column.
 
- ```{block2, type='rmdimportant'}
+15. Label the top of a mini column for each sample with your initials. Place the columns in 2 ml cap-less collection tubes.
+16. Remove 800 µl of cleared plant lysate from your microcentrifuge tube and add it to the column.
+
+```{block2, type='rmdimportant'}
 **Be sure that the lysate that is added to the column is clear and does not contain any precipitate. If necessary, centrifuge the lysate again to pellet any plant material prior to loading the lysate on the column.**
 ```
- 
-12. Place the cap-less collection tubes containing the columns into the microcentrifuge. Ensure that the centrifuge is balanced. Spin for 1 min at full speed at room temperature.
-13. Discard the flowthrough from the collection tubes.
-   
+
+17. Place the cap-less collection tubes containing the columns into the microcentrifuge. Ensure that the centrifuge is balanced. Spin for 1 min at full speed at room temperature.
+18. Discard the flowthrough from the collection tubes.
+
 ```{block2, type='rmdimportant'}
 **If all of the supernatant does not pass through column, centrifuge again for 1 min. If there is any supernatant left in the column, carefully remove and discard it. Do not disrupt the bed of the column.**
 ```
 
-13. Add 700 µl of wash buffer to each column. 
-14. Spin at full speed at room temperature for 1 min. Discard the flowthrough.
-15. Repeat steps 11 to 14 two more times for a total of 3 washes. 
-14. After the final wash step, discard the flow-through and put the columns back into the collection tubes. Centrifuge the columns for 2 min at full speed in the microcentrifuge at room temperature. This step removes the residual ethanol which will interfere with PCR if present.
-15.Label a fresh microcentrifuge tube and transfer the column to the new tube.
-16. Obtain the sterile water from the 70 °C heat block.
-17. Immediately add 80 µl of 70 °C sterile water to the bed of each column, making certain that the water wets the column bed and let it sit for 1 min.
-17. Place the column in the microcentrifuge tube into the microcentrifuge. Orient the loose cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation. 
-18. Spin at full speed in the microcentrifuge at room temperature for 2 min. 
-19. Remove the spin column from the microcentrifuge tube.
+19. Add 700 µl of wash buffer to each column. 
+20. Spin at full speed at room temperature for 1 min. Discard the flowthrough.
+21. Repeat steps 19 and 20 two more times for a total of 3 washes. 
+22. After the final wash step, discard the flow-through and put the columns back into the collection tubes. Centrifuge the columns for 2 min at full speed in the microcentrifuge at room temperature. This step removes the residual ethanol which will interfere with PCR if present.
+23. Label a fresh microcentrifuge tube and transfer the column to the new tube.
+24. Obtain a microcentrifuge tube and fill it with double distilled water from the bottle in the 70 °C heat water bath.
+25. Immediately add 80 µl of 70 °C sterile water to the bed of each column, making certain that the water wets the column bed and let it sit for 1 min.
+26. Place the column in the microcentrifuge tube into the microcentrifuge. Orient the loose cap of the microcentrifuge tube downward, toward the center of the rotor, to minimize friction and damage to the cap during centrifugation. 
+27. Spin at full speed in the microcentrifuge at room temperature for 2 min. 
+28. Remove the spin column from the microcentrifuge tube.
 
 ## GAPDH Polymerase Chain Reaction
 ## Experimental Procedures
