@@ -20,8 +20,6 @@ by_pipette <- data %>% group_by(pipette_name)
 
 by_pipette %>% summarise(mean(error),sd(error))
 
-
-
 # Plot data ---------------------------------------------------------------
 
 # Error vs. fractional volume
@@ -66,3 +64,13 @@ ggplot(data = data) +
   labs(y = "Error (%)", x = "Pipette size") +
   scale_fill_discrete(name = "Student")
 
+# Histogram overlaid with kernel density curve
+ggplot(data = data) + 
+  geom_histogram(mapping = aes(x = error, y=..density..,fill=pipette_name,color=pipette_name),
+                 binwidth=2, position = "identity", alpha=0.4) +
+  geom_density(aes(x = error,fill=pipette_name,color=pipette_name),alpha=0.7) +
+  stat_function(fun=dnorm,
+                color="red", alpha=0.4,
+                args=list(mean=mean(data$error), 
+                          sd=sd(data$error)))
+  
