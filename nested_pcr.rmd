@@ -2,7 +2,7 @@
 
 ## Exonuclease I Digestion
 
-Exonucleases are enzymes that work by cleaving nucleotides one at a time from the end (exo) of a polynucleotide chain. A hydrolyzing reaction that breaks phosphodiester bonds at either the 3' or the 5' end occurs. Its close relative is the endonuclease, which cleaves phosphodiester bonds in the middle (endo) of a polynucleotide chain. Exonuclease I (Phosphodiesterase I) hydrolytically removes 5'-nucleotides successively from the 3'-hydroxy termini of 3'-hydroxy-terminated oligonucleotides. We use exonuclease I to digest the oligonucleotide primers from the firs PCR reaction so that they will not allow for PCR amplification in the second PCR. After the initial PCR primers have been digested, exonuclease I also needs to be inactivated before it is introduced into fresh PCR reactions to prevent it digesting the nested PCR primers.
+Exonucleases are enzymes that work by cleaving nucleotides one at a time from the end (exo) of a polynucleotide chain. A hydrolyzing reaction that breaks phosphodiester bonds at either the 3' or the 5' end occurs. Its close relative is the endonuclease, which cleaves phosphodiester bonds in the middle (endo) of a polynucleotide chain. Exonuclease I (Phosphodiesterase I) hydrolytically removes 5'-nucleotides successively from the 3'-hydroxy termini of 3'-hydroxy-terminated oligonucleotides. We use exonuclease I to digest the oligonucleotide primers from the first PCR reaction so that they will not allow for PCR amplification in the second PCR. After the initial PCR primers have been digested, exonuclease I also needs to be inactivated before it is introduced into fresh PCR reactions to prevent it digesting the nested PCR primers.
 
 ## Experimental Procedures
 
