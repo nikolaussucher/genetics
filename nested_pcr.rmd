@@ -6,9 +6,12 @@ Exonucleases are enzymes that work by cleaving nucleotides one at a time from th
 
 ## Experimental Procedures
 
-1. Add 1 µl of exonuclease I to each PCR tube containing the amplified gDNA. 
+1. Add 1 µl of exonuclease I to each tube from the first round of PCR. 
 2. Mix well by pipetting up and down.
+2. Program the thermocycler to incubate at 37 °C for 15 min.
+2. Put the tubes in the thermocycler.
 2. Incubate at 37 °C for 15 min.
+2. Program the thermocycler to incubate at 80 °C for 15 min.
 3. Incubate at 80 °C for 15 min to heat-inactivate the exonuclease I enzyme.
 
 ## Nested polymerase chain reaction
@@ -19,19 +22,27 @@ Nested polymerase chain reaction involves two sets of primers, used in two succe
 
 ## Experimental Procedures
 
-1. Label a microcentrifuge tube for each of the two exonuclease-treated first-round PCR tubes.
+1. Obtain and label one microcentrifuge tube for each of the two exonuclease-treated first-round PCR tubes.
 5. To dilute each first-round PCR sample 50× (to 1/50 the original concentration), add 98 µl of sterile water into each of the labeled microcentrifuge tubes.
 6. Using a fresh tip each time, pipet 2 µl of each first-round PCR into the corresponding microcentrifuge tube containing 98 µl water. Close the cap.
 7. Vortex or flick the tube with your finger to mix. Spin briefly in a microfuge to collect the liquid at the bottom of the tube.
-8. Label 4 fresh PCR tubes with numbers 1 to 4 and your initials. 
+8. Label 5 fresh PCR tubes with numbers 6 to 10 and your initials. 
 9. Place them in PCR tube adaptors on ice. 
-9. Pipet 20 µl of 2× MMNP into each of the three PCR tubes.
-6. Using a fresh tip, pipet 20 µl of the each diluted first-round PCR into tube #1 and #2, respectively. Close the cap.
-7. Use a fresh pipet tip to add 20 µl of plasmid DNA (positive control) to tube #3. Gently pipet up and down to mix the reagents. Recap the tubes.
-10. Use a fresh pipet tip to add 20 µl of plasmid DNA (positive control) to tube #3.
-11. Use a fresh pipet tip to add 20 µl of sterile water (negative control) to PCR tube #4. 
-12. Place the PCR tubes into the thermal cycler.
-The PCR will run for the next several hours using the Nested GAPDH PCR program listed in Table \@ref(tab:nestedpcr).
+9. Pipet 20 µl of the yellow 2× MMNP into each of the five PCR tubes.
+5. Using a fresh pipette tip, add 20 µl of the appropriate DNA template listed in Table \@ref(tab:nestedtubes) to each PCR tube. Gently pipet up and down to mix the reagents.
+1. Place the PCR tubes into the thermal cycler.
+1. The PCR will run for the next several hours using the Nested GAPDH PCR program listed in Table \@ref(tab:nestedpcr).
+1. The laboratory technicians will remove the PCR tubes from the thermocycler after the PCR has finished and store the tubes at -20 °C until we continue our experiments next week.
+
+Table: (\#tab:nestedtubes) Number and content of the tubes for the nested PCR.
+
+|Tube #|Description        |Diluted first-round PCR product|Amount|
+|:-----|:------------------|:------------------------------|:-----|
+|6     |Negative control   |ddH_2_O         |20 µl  | 
+|7     |Positive control   |pGAP plasmid    |20 µl  |
+|8     |Arabidopsis gDNA   |Arabidopsis gDNA|20 µl  |
+|9     |Extracted plant DNA|gDNA 1          |20 µl  |
+|10    |Extracted plant DNA|gDNA 2          |20 µl  |
 
 Table: (\#tab:nestedpcr) PCR protocol for second round (nested) GAPDH amplification.
 
