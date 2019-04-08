@@ -16,7 +16,7 @@ Agarose gel is easy to cast, has relatively fewer charged groups, and is particu
 Take special care when pipetting very small volumes. Make sure only the soft stop of the pipet is used, when pulling up reagents even though it may feel like a very small movement. Also, look at the end of the pipet tip to be sure that the correct volume of reagent is in the tip. After adding the reagent to the tube, be sure that the pipet tip is empty. Never reuse a pipet tip.
 ```
 
-2. Get the Erlenmeyer flask containing 1 g of agarose powder
+1. Get the Erlenmeyer flask containing 1 g of agarose powder
 3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
 4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
 5. Heat in the microwave at full power for 1 minute.
