@@ -1,4 +1,4 @@
-# Agarose Gel Electrophoresis, Ligation and Transformation
+# Agarose Gel Electrophoresis and Ligation
 
 ## Agarose gel electrophoresis
 
@@ -75,60 +75,12 @@ Centrifuge the tube briefly to collect the contents at the bottom of the tube. M
 10. Close the cap and mix well. 
 11. Centrifuge briefly in a microcentrifuge to collect the contents at the bottom of the tube.
 11. Incubate the tube at room temperature for 5–10 min.
-12. Pipet 5 µl of the ligation reaction into a fresh microcentrifuge tube labeled with your initials and “t" for "transformation” and store it on ice until needed for the transformation.
+12. Pipet 5 µl of the ligation reaction into a fresh microcentrifuge tube labeled with your initials and “t" for "transformation” and store it on ice. The laboratory techniccians will store the samples for us at -20 °C until we will perform the transformation during the next laboratory session.
 8. Take the gel out of the electrophoresis box to visualize the DNA bands and acquire an image of your gel.
-
-## Transformation
-
-In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformation_(genetics)) is the genetic alteration of a cell resulting from the direct uptake and incorporation of exogenous genetic material from its surroundings through the cell membrane(s). For transformation to take place, the recipient bacteria must be in a state of competence, which might occur in nature as a time-limited response to environmental conditions such as starvation and cell density, and may also be induced in a laboratory.
-
-Transformation is one of three processes for horizontal gene transfer, in which exogenous genetic material passes from one bacterium to another, the other two being conjugation (transfer of genetic material between two bacterial cells in direct contact) and transduction (injection of foreign DNA by a bacteriophage virus into the host bacterium). In transformation, the genetic material passes through the intervening medium, and uptake is completely dependent on the recipient bacterium.
-
-"Transformation" may also be used to describe the insertion of new genetic material into nonbacterial cells, including animal and plant cells; however, because "transformation" has a special meaning in relation to animal cells, indicating progression to a cancerous state, the process is usually called "transfection".
-Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of *S. pneumoniae* and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.
-
-## Experimental Procedures
-
-1. Add 1.5 ml C-growth medium into a 15 ml culture tube. Label tube with your initials and warm it at 37 °C for at least 10 min.
-2. Label 2 LB amp IPTG agar plates with your initials (on the bottom of the plate, not the lid). Also label one of the plates “pGAP” for the control plasmid and the other for your ligation (pJET + your plant name).
-3. Pipet 150 µl of fresh *E. coli* starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37 °C incubator or water bath for 20–40 min shaking at 275 rpm.
-4. Label a 1.5 microcentrifuge tube with your initials and “competent cells.”
-5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
-6. After bacteria have grown in C-growth medium for 20–40 min at 37 °C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
-7. Centrifuge the bacterial culture in a microcentrifuge at top speed for 1 min. Make sure that the microcentrifuge is balanced. Immediately put the pelleted bacterial culture on ice.
-8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture supernatant, avoiding the pellet, using a 1,000 µl pipet. Keep the cells on ice.
-9. Pipet 300 µl of ice-cold transformation buffer into the microcentrifuge tube containing the bacterial pellet. Resuspend the pellet by gently pipetting up and down in the solution above the pellet with a 1,000 µl pipet, and gradually wear away the pellet from the bottom of the tube. Make sure that the bacteria are fully resuspended, with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
-10. Incubate the resuspended bacteria on ice for 5 min.
-11. Centrifuge the bacteria in a microcentrifuge for 1 min, then place back in ice bucket immediately.
-
-```{block2, type='rmdimportant'}
-Ensure that the bacteria are on ice immediately prior to and immediately following centrifugation. If the centrifuge is not close to the lab bench, take the entire ice bucket to the microcentrifuge so that the bacteria are only out of the ice bucket for 1 minute. Use a refrigerated microcentrifuge, if available.
-```
-
-12. Remove the supernatant from the pellet using a 1,000 μl pipet.
-    
-```{block2, type='rmdimportant'}
-After this step, it is very important to keep the bacteria on ice as much as possible during this procedure. Transformation efficiency will be severely compromised if the cells warm up.
-It is very important to treat the bacteria extremely gently during this procedure — the bacteria are very fragile and your transformation efficiency will be compromised unless you are very gentle.
-```
-
-13. Locate the pellet of bacteria at the bottom of the tube. Remove the culture
-14. Pipet 120 μl of ice-cold transformation buffer onto the pellet and resuspend by gently pipetting up and down with a 200 μl pipet. Be sure that bacteria are fully resuspended with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
-15. Incubate the resuspended bacteria on ice for 5 min.
-The cells are now competent for transformation.
-16. Label one microcentrifuge tube with your initials and “pGAP T” (for pGAP transformation) and another microcentrifuge tube with your initials and “T” (referred to below as the “plant T” tube).
-17. Pipet 1 μl of control pGAP plasmid into the microcentrifuge tube labeled “pGAP T.”
-18. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “plant T” tube containing 5 μl of your ligation, and gently pipet up and down 2 times to mix.
-19. Incubate the transformations for 10 min on ice.
-20. Retrieve the warm LB amp IPTG agar plates from the 37 °C incubator.
-21. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
-It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
-22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37 °C.
 
 ## Review Questions
 
 1. What is agarose gel electrophoresis?
 2. What is the overall electrical charge of DNA?
 2. What is a ligation?
-3. What is transformation?
 

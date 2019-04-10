@@ -7,7 +7,8 @@ Specifically, we will:
 1. Learn and practice some essential skills for the molecular laboratory (Chapter \@ref(molecular-laboratory-skills))
 1. Identify the plant or plants to be studied, extract the gDNA, and amplify a portion of the GAPC gene using PCR (Chapter \@ref(dna-extraction-and-polymerase-chain-reaction)).
 2. Assess the results of PCR using agarose gel electrophoresis, perform exonuclease I digestion to remove the first round PCR primers, perform nested PCR (Chapter \@ref(exonuclease-i-digestion-and-nested-pcr)).
-3. Ligate (insert) the GAPC gene fragment into a plasmid vector and transform bacteria with the plasmid (Chapter \@ref(agarose-gel-electrophoresis-ligation-and-transformation)).
+3. Ligate (insert) the GAPC gene fragment into a plasmid vector (Chapter \@ref(agarose-gel-electrophoresis-and-ligation)).
+4. Transform bacteria with the plasmid (Chapter \@ref(transformation)).
 4. Isolate the plasmid from the bacteria and confirm the presence of the insert by restriction enzyme digestion (Chapter \@ref(plasmid-purification-and-restriction-digest)).
 5. Prepare plasmid for DNA sequencing and send to a facility for sequencing (Chapter \@ref(dna-sequencing)).
 6. Obtain the sequence of the cloned GAPC gene fragment and analyze the cloned gene using bioinformatics (Chapter \@ref(dna-sequence-analysis)).
