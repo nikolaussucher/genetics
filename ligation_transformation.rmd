@@ -17,17 +17,17 @@ Take special care when pipetting very small volumes. Make sure only the soft sto
 ```
 
 1. Get the Erlenmeyer flask containing 1 g of agarose powder
-3. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
-4. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
-5. Heat in the microwave at full power for 1 minute.
-6. Swirl to make sure that all powder has dissolved, and the solution is clear.
-7. Add the comb into the comb slot.
-8. Pour the solution onto the gel tray in the gel box.
+1. Add 100 ml of 1× TAE (Tris base, acetic acid, EDTA) running buffer.
+1. Add 10 µl of SybrGreen™ dye (10,000× stock solution).
+1. Heat in the microwave at full power for 1 minute.
+1. Swirl to make sure that all powder has dissolved, and the solution is clear.
+1. Add the comb into the comb slot.
+1. Pour the solution onto the gel tray in the gel box.
 1. Label a microcentrifuge tube for each PCR sample.
-2. Transfer 20 µl of each of first-round PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
-3. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
-4. The gel will need about 30 minutes to solidify.
-5. Start setting up the PCR product purification.
+1. Transfer 20 µl from each first-round PCR reaction tube into the labeled microcentrifuge tube. Add 4 µl of loading dye and stain into the tube. Pipette up and down to mix.
+1. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
+1. The gel will need about 30 minutes to solidify.
+1. Start setting up the PCR product purification.
  
 ## PCR Product Purification
 
@@ -51,7 +51,7 @@ Centrifuge at 735×g for 2 min. Make sure that another group’s sample counterb
 12. Check if the agarose gel has solidified. If so, proceed to the next step or wait until the gel is ready.
 4. Pour electrophoresis running buffer into the chamber until it just covers the gel by 1–2 mm.
 5. Load 10 µl of the 500 bp molecular weight ruler into the first well. 
-6. Load 20 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 5 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
+6. Load 24 µl from each microcentrifuge tube containing an initial PCR with added loading dye. Load 6 µl from each tube containing a nested PCR with added loading dye into the wells of the gel according to your plan.
 7. Connect your electrophoresis chamber to the power supply and turn on the power. Run the gel at 100 V for 30 min. 
 8. While the gel is running, start setting up the ligation reactions.
 
@@ -60,7 +60,7 @@ Centrifuge at 735×g for 2 min. Make sure that another group’s sample counterb
 In molecular biology, [ligation](https://en.wikipedia.org/wiki/Ligation_(molecular_biology)) is the joining of two nucleic acid fragments through the action of an enzyme. It is an essential laboratory procedure in the molecular cloning of DNA whereby DNA fragments are joined together to create recombinant DNA molecules, such as when a foreign DNA fragment is inserted into a plasmid. The ends of DNA fragments are joined together by the formation of phosphodiester bonds between the 3'-hydroxyl of one DNA terminus with the 5'-phosphoryl of another.
 
 ## Experimental Procedures 
-1. Label a microcentrifuge tube with your initials and “l" for "ligation.”
+1. Label a microcentrifuge tube with your initials and “L" for "Ligation.”
 2. Briefly centrifuge the stock tubes containing the 2× ligation reaction buffer and proofreading polymerase in a microfuge to force contents to bottom of tubes.
 4. Add 5.0 µl 2× ligation reaction buffer to the labeled microcentrifuge tube.
 5. Add 1.0 µl purified PCR product
@@ -112,16 +112,16 @@ After this step, it is very important to keep the bacteria on ice as much as pos
 It is very important to treat the bacteria extremely gently during this procedure — the bacteria are very fragile and your transformation efficiency will be compromised unless you are very gentle.
 ```
 
-8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture
-13. Pipet 120 μl of ice-cold transformation buffer onto the pellet and resuspend by gently pipetting up and down with a 200 μl pipet. Be sure that bacteria are fully resuspended with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
-14. Incubate the resuspended bacteria on ice for 5 min.
+13. Locate the pellet of bacteria at the bottom of the tube. Remove the culture
+14. Pipet 120 μl of ice-cold transformation buffer onto the pellet and resuspend by gently pipetting up and down with a 200 μl pipet. Be sure that bacteria are fully resuspended with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
+15. Incubate the resuspended bacteria on ice for 5 min.
 The cells are now competent for transformation.
-15. Label one microcentrifuge tube with your initials and “pGAP T” (for pGAP transformation) and another microcentrifuge tube with your initials and “T” (referred to below as the “plant T” tube).
-16. Pipet 1 μl of control pGAP plasmid into the microcentrifuge tube labeled “pGAP T.”
-19. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “plant T” tube containing 5 μl of your ligation, and gently pipet up and down 2 times to mix.
-20. Incubate the transformations for 10 min on ice.
-21. Retrieve the warm LB amp IPTG agar plates from the 37 °C incubator.
-22. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
+16. Label one microcentrifuge tube with your initials and “pGAP T” (for pGAP transformation) and another microcentrifuge tube with your initials and “T” (referred to below as the “plant T” tube).
+17. Pipet 1 μl of control pGAP plasmid into the microcentrifuge tube labeled “pGAP T.”
+18. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “plant T” tube containing 5 μl of your ligation, and gently pipet up and down 2 times to mix.
+19. Incubate the transformations for 10 min on ice.
+20. Retrieve the warm LB amp IPTG agar plates from the 37 °C incubator.
+21. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
 It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
 22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37 °C.
 
