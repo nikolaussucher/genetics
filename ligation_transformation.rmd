@@ -25,7 +25,7 @@ Take special care when pipetting very small volumes. Make sure only the soft sto
 8. Pour the solution onto the gel tray in the gel box.
 1. Label a microcentrifuge tube for each PCR sample.
 2. Transfer 20 µl of each of first-round PCR reaction into the labeled microcentrifuge tube. Add 4 µl of loading dye into the tube. Pipette up and down to mix.
-3. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye and stain. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
+3. To assess the success of the nested PCR round, pipet 5 µl of each nested PCR into a microcentrifuge tube and mix it with 1 µl of 6× loading dye. A smaller volume of the nested PCR is loaded because nested PCR is usually more efficient and produces very intense bands that can obscure bands in adjacent wells if samples are overloaded.
 4. The gel will need about 30 minutes to solidify.
 5. Start setting up the PCR product purification.
  
