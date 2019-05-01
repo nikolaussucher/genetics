@@ -6,7 +6,7 @@ The principles of Mendelian inheritance were named for and first derived by [Gre
 
 In this laboratory session, we will read an [English translation](http://www.mendelweb.org/Mendel.html) of [Mendel's famous paper](http://www.mendelweb.org/MWGerText.html). If you prefer to work with a printed copy, you can download a [PDF version of the English translation](papers/bateson-mendel-3-peas.pdf) and print it before coming to the lab.
 
-## Experimental Procedures
+### Experimental Procedures
 
 1. Right-click on the link to the [English translation](http://www.mendelweb.org/Mendel.html) to open a new browser tab showing an HTML version of Mendel's paper.
 2. Read the first section entitled "INTRODUCTORY REMARKS".
