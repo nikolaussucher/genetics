@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6 Mendelian Genetics | Laboratory Manual For SCI200 Genetics at Roxbury Community College</title>
   <meta name="description" content="This laboratory manual will accompany you during your laboratory for Genetics." />
-  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6 Mendelian Genetics | Laboratory Manual For SCI200 Genetics at Roxbury Community College" />
   <meta property="og:type" content="book" />
@@ -567,8 +567,9 @@ Figure 6.4: Dihybrid cross
 <li>Add both numbers. This is the total number of observations.</li>
 <li>Multiply the total number of observations by 0.75 (the expected fraction of purple kernels). The result is <em>E<sub>purple</sub></em>.</li>
 <li>Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is <em>E<sub>yellow</sub></em>.</li>
-<li>Subtract <em>E<sub>purple</sub></em> from <em>O<sub>purple</sub></em>, square the result and divide by <em>E<sub>purple</sub></em>. The result is <span class="math inline">\(\chi^2_{purple}\)</span>.</li>
-<li>Subtract <em>E<sub>yellow</sub></em> from <em>O<sub>yellow</sub></em>, square the result and divide by <em>E<sub>yellow</sub></em>. The result is <span class="math inline">\(\chi^2_{yellow}\)</span>.</li>
+<li>Subtract <em>E<sub>purple</sub></em> from <em>O<sub>purple</sub></em>, square the result and divide by <em>E<sub>purple</sub></em>. Write down the result of the calculation.</li>
+<li>Subtract <em>E<sub>yellow</sub></em> from <em>O<sub>yellow</sub></em>, square the result and divide by <em>E<sub>yellow</sub></em>. Write down the result of the calculation.</li>
+<li>Add the two numbers calculated in steps 6 and 7. The sum of the two values is the <span class="math inline">\(\chi^2\)</span> value.</li>
 <li>Obviously, our data do not correspond 100% to the prediction. If they did, <span class="math inline">\(\chi^2\)</span> would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. due to random errors that can never be competely avoided.</li>
 </ol>
 </div>
@@ -577,7 +578,7 @@ Figure 6.4: Dihybrid cross
 <ol style="list-style-type: decimal">
 <li>State the null hypothesis (<em>H</em><sub>0</sub>). Our <em>H</em><sub>0</sub> is that kernels with purple color will be 3 times more frequent than kernels with yellow color.</li>
 <li>Select a desired level of confidence (significance level, p-value or alpha level) for the result of the test. It is common in many scientific investigations to use p &lt; 0.05. This essentially means that we will reject the null hypothesis (<em>H</em><sub>0</sub>), i.e. that our observations are consistent with a 3:1 ratio, if the p-value in our experiments is less than 0.05. In other words, a p-value less than 0.05 would indicate that there is less than a 5% (1 in 20) chance that we would have observed the numbers we did, if the Mendelian model of inheritance is in fact applicable in our case.</li>
-<li>Determine the p-value corresponding to our <span class="math inline">\(\chi^2\)</span> value. The blue curve shown in Figure <a href="mendelian-genetics.html#fig:chisqdist1df">6.5</a> is called the probability density function of <span class="math inline">\(\chi^2\)</span> with one degree of freedom. The light blue shaded area under the curve between <span class="math inline">\(\chi^2=0\)</span> and <span class="math inline">\(\chi^2=3.84\)</span> corresponds to a probability of 95% of observing a <span class="math inline">\(\chi^2\)</span> value in that range if <em>H</em><sub>0</sub> is true. <span class="math inline">\(\chi^2\)</span> values greater than 3.84 indicate a less than 5% chance of observing the values we did, if <em>H</em><sub>0</sub> is true (light red shaded area).</li>
+<li>Determine the p-value corresponding to your <span class="math inline">\(\chi^2\)</span> value. The blue curve shown in Figure <a href="mendelian-genetics.html#fig:chisqdist1df">6.5</a> is called the probability density function of <span class="math inline">\(\chi^2\)</span> with one degree of freedom. The light blue shaded area under the curve between <span class="math inline">\(\chi^2=0\)</span> and <span class="math inline">\(\chi^2=3.84\)</span> corresponds to a probability of 95% of observing a <span class="math inline">\(\chi^2\)</span> value in that range if <em>H</em><sub>0</sub> is true. <span class="math inline">\(\chi^2\)</span> values greater than 3.84 indicate a less than 5% chance of observing the values we did, if <em>H</em><sub>0</sub> is true (light red shaded area).</li>
 <li>Reject <em>H</em><sub>0</sub> if <span class="math inline">\(\chi^2\)</span> is greater than 3.84.</li>
 </ol>
 
@@ -831,10 +832,6 @@ gitbook.start({
 "text": "Edit"
 },
 "history": {
-"link": null,
-"text": null
-},
-"view": {
 "link": null,
 "text": null
 },

@@ -166,15 +166,16 @@ The $\chi^2$ statistic can be used to calculate a p-value by comparing the value
 3. Add both numbers. This is the total number of observations.
 4. Multiply the total number of observations by 0.75 (the expected fraction of purple kernels). The result is *E~purple~*.
 5. Multiply the total number of observations by 0.25 (the expected fraction of yellow kernels). The result is *E~yellow~*.
-6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. The result is $\chi^2_{purple}$.
-7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. The result is $\chi^2_{yellow}$.
-8. Obviously, our data do not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. due to random errors that can never be competely avoided. 
+6. Subtract *E~purple~* from *O~purple~*, square the result and divide by *E~purple~*. Write down the result of the calculation.
+7. Subtract *E~yellow~* from *O~yellow~*, square the result and divide by *E~yellow~*. Write down the result of the calculation.
+8. Add the two numbers calculated in steps 6 and 7. The sum of the two values is the $\chi^2$ value.
+9. Obviously, our data do not correspond 100% to the prediction. If they did, $\chi^2$ would be 0. The next step, then, is to see how likely it is that the difference between observation and model are simply due to chance, i.e. due to random errors that can never be competely avoided. 
 
 ### Testing Goodness Of Fit
 
 1. State the null hypothesis (*H*~0~). Our *H*~0~ is that kernels with purple color will be 3 times more frequent than kernels with yellow color.
 2. Select a desired level of confidence (significance level, p-value or alpha level) for the result of the test. It is common in many scientific investigations to use p < 0.05. This essentially means that we will reject the null hypothesis (*H*~0~), i.e. that our observations are consistent with a 3:1 ratio, if the p-value in our experiments is less than 0.05. In other words, a p-value less than 0.05 would indicate that there is less than a 5% (1 in 20) chance that we would have observed the numbers we did, if the Mendelian model of inheritance is in fact applicable in our case.
-3. Determine the p-value corresponding to our $\chi^2$ value. The blue curve shown in Figure \@ref(fig:chisqdist1df) is called the probability density function of $\chi^2$ with one degree of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=3.84$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 3.84 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
+3. Determine the p-value corresponding to your $\chi^2$ value. The blue curve shown in Figure \@ref(fig:chisqdist1df) is called the probability density function of $\chi^2$ with one degree of freedom. The light blue shaded area under the curve between $\chi^2=0$ and $\chi^2=3.84$ corresponds to a probability of 95% of observing a $\chi^2$ value in that range if *H*~0~ is true. $\chi^2$ values greater than 3.84 indicate a less than 5% chance of observing the values we did, if *H*~0~ is true (light red shaded area). 
 4. Reject *H*~0~ if $\chi^2$ is greater than 3.84.
 
 (ref:chisqdist1df) $\chi^2$ probability density function for one degree of freedom.
