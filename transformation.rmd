@@ -1,4 +1,22 @@
- the pellet of bacteria at the bottom of the tube. Remove the culture supernatant, avoiding the pellet, using a 1,000 µl pipet. Keep the cells on ice.
+# Transformation
+
+In molecular biology, [transformation](https://en.wikipedia.org/wiki/Transformation_(genetics)) is the genetic alteration of a cell resulting from the direct uptake and incorporation of exogenous genetic material from its surroundings through the cell membrane(s). For transformation to take place, the recipient bacteria must be in a state of competence, which might occur in nature as a time-limited response to environmental conditions such as starvation and cell density, and may also be induced in a laboratory.
+
+Transformation is one of three processes for horizontal gene transfer, in which exogenous genetic material passes from one bacterium to another, the other two being conjugation (transfer of genetic material between two bacterial cells in direct contact) and transduction (injection of foreign DNA by a bacteriophage virus into the host bacterium). In transformation, the genetic material passes through the intervening medium, and uptake is completely dependent on the recipient bacterium.
+
+"Transformation" may also be used to describe the insertion of new genetic material into nonbacterial cells, including animal and plant cells; however, because "transformation" has a special meaning in relation to animal cells, indicating progression to a cancerous state, the process is usually called "transfection".
+Transformation in bacteria was first demonstrated in 1928 by the British bacteriologist [Frederick Griffith](https://en.wikipedia.org/wiki/Frederick_Griffith). Griffith was interested in determining whether injections of heat-killed bacteria could be used to vaccinate mice against pneumonia. However, he discovered that a non-virulent strain of *Streptococcus pneumonia* could be made virulent after being exposed to heat-killed virulent strains. Griffith hypothesized that some "transforming principle" from the heat-killed strain was responsible for making the harmless strain virulent. In 1944 this "transforming principle" was identified as being genetic by [Oswald Avery](https://en.wikipedia.org/wiki/Oswald_Avery), [Colin MacLeod](https://en.wikipedia.org/wiki/Colin_Munro_MacLeod), and [Maclyn McCarty](https://en.wikipedia.org/wiki/Maclyn_McCarty). They isolated DNA from a virulent strain of *S. pneumoniae* and using just this DNA were able to make a harmless strain virulent. They called this uptake and incorporation of DNA by bacteria "transformation". The results of Avery et al.'s experiments were at first skeptically received by the scientific community and it was not until the development of genetic markers and the discovery of other methods of genetic transfer (conjugation in 1947 and transduction in 1953) by [Joshua Lederberg](https://en.wikipedia.org/wiki/Joshua_Lederberg) that Avery's experiments were accepted.
+
+## Experimental Procedures
+
+1. Add 1.5 ml C-growth medium into a 15 ml culture tube. Label tube with your initials and warm it at 37 °C for at least 10 min.
+2. Label 2 LB amp IPTG agar plates with your initials (on the bottom of the plate, not the lid). Also label one of the plates “pGAP” for the control plasmid and the other for your ligation (pJET + your plant name).
+3. Pipet 150 µl of fresh *E. coli* starter culture (inoculated one day prior) into the prewarmed C-growth medium and place in a 37 °C incubator or water bath for 20–40 min shaking at 275 rpm.
+4. Label a 1.5 microcentrifuge tube with your initials and “competent cells.”
+5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
+6. After bacteria have grown in C-growth medium for 20–40 min at 37 °C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
+7. Centrifuge the bacterial culture in a microcentrifuge at top speed for 1 min. Make sure that the microcentrifuge is balanced. Immediately put the pelleted bacterial culture on ice.
+8. Locate the pellet of bacteria at the bottom of the tube. Remove the culture supernatant, avoiding the pellet, using a 1,000 µl pipet. Keep the cells on ice.
 9. Pipet 300 µl of ice-cold transformation buffer into the microcentrifuge tube containing the bacterial pellet. Resuspend the pellet by gently pipetting up and down in the solution above the pellet with a 1,000 µl pipet, and gradually wear away the pellet from the bottom of the tube. Make sure that the bacteria are fully resuspended, with no clumps. Avoid removing the cells from the ice bucket for more than a few seconds.
 10. Incubate the resuspended bacteria on ice for 5 min.
 11. Centrifuge the bacteria in a microcentrifuge for 1 min, then place back in ice bucket immediately.
@@ -31,8 +49,5 @@ It is vital that the LB amp IPTG plates are warm at this step to ensure sufficie
 ## Review Questions
 
 1. What is transformation?
-d “competent cells.”
-5. Prepare transformation buffer by combining 250 µl of transformation reagent A and 250 µl of transformation reagent B into a tube labeled “TF buffer” and mix thoroughly with a vortex mixer. Keep on ice until use. 
-6. After bacteria have grown in C-growth medium for 20–40 min at 37 °C with shaking, transfer the entire culture to the tube labeled “competent cells” by decanting. Do not put the actively growing cell culture on ice at this step.
-7. Centrifuge the bacterial culture in a microcentrifuge at top speed for 1 min. Make sure that the microcentrifuge is balanced. Immediately put the pelleted bacterial culture on ice.
-8. Locate
+
+
