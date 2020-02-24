@@ -28,8 +28,7 @@ Ensure that the bacteria are on ice immediately prior to and immediately followi
 12. Remove the supernatant from the pellet using a 1,000 μl pipet.
     
 ```{block2, type='rmdimportant'}
-After this step, it is very important to keep the bacteria on ice as much as possible during this procedure. Transformation efficiency will be severely compromised if the cells warm up.
-It is very important to treat the bacteria extremely gently during this procedure — the bacteria are very fragile and your transformation efficiency will be compromised unless you are very gentle.
+After this step, it is very important to keep the bacteria on ice as much as possible during this procedure. Transformation efficiency will be severely compromised if the cells warm up. It is very important to treat the bacteria extremely gently during this procedure — the bacteria are very fragile and your transformation efficiency will be compromised unless you are very gentle.
 ```
 
 13. Locate the pellet of bacteria at the bottom of the tube. Remove the culture
@@ -39,12 +38,17 @@ The cells are now competent for transformation.
 16. Label one microcentrifuge tube with your initials and “pGAP T” (for pGAP transformation) and another microcentrifuge tube with your initials and “T” (referred to below as the “plant T” tube).
 17. Pipet 1 μl of control pGAP plasmid into the microcentrifuge tube labeled “pGAP T.”
 18. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “plant T” tube containing 5 μl of your ligation, and gently pipet up and down 2 times to mix.
-19. Incubate the transformations for 10 min on ice.
+18. Using a fresh tip, pipet 50 μl of competent bacteria directly into the ice-cold “pGAP T” tube containing 1 μl of the control pGAP plasmid, and gently pipet up and down 2 times to mix.
+19. Incubate the transformations on ice for 10 min.
 20. Retrieve the warm LB amp IPTG agar plates from the 37 °C incubator.
-21. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate and, using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
-It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
-22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37 °C.
 
+```{block2, type='rmdimportant'}
+It is vital that the LB amp IPTG plates are warm at this step to ensure sufficiently high transformation efficiency. This is the heat shock for the transformation. Spreading the plate until it is dry will also reduce transformation efficiency.
+```
+
+21. Pipet the entire volume of each transformation onto the corresponding labeled LB amp IPTG plate.
+21. Using an inoculation loop or a sterile spreader, very gently spread the bacteria around the plate — remember that the bacteria are still very fragile! Once the plate is covered, stop spreading. Do not spread for more than 10 sec.
+22. Once the volume is absorbed in the agar, cover and place the LB amp IPTG plates upside down and incubate them overnight at 37 °C.
 
 ## Review Questions
 
