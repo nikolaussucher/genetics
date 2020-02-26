@@ -53,7 +53,7 @@ All adjustable pipettes should be calibrated and checked periodically. The simpl
 1.  Turn on the microbalance.
 1.  Put the empty weigh boat on the microbalance and and set the scale to zero.
 1.  Obtain a graduated pipette.
-2.  Notice that the  tapered delivery tip at one end of the pipette.
+2.  Notice the  tapered delivery tip at one end of the pipette.
 3.  Always hold the pipette upright and straight.
 3.  Remove the pipette from the plastic wrapper by pulling apart the wrapper at the top (blunt) end of the pipette.
 4.  Attach the rubber bulb or mechanical pipetter to the other (blunt) end of the pipette.
