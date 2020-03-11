@@ -102,7 +102,7 @@ Table: (\#tab:tubes) Number and content of the tubes for the PCR.
 
 |Tube #|Description        |DNA template    |Amount|
 |:-----|:------------------|:---------------|:-----|
-|1     |Negative control   |ddH_2_O         |5 µl  | 
+|1     |Negative control   |ddH~2~O         |5 µl  | 
 |2     |Positive control   |pGAP plasmid    |5 µl  |
 |3     |Arabidopsis gDNA   |Arabidopsis gDNA|5 µl  |
 |4     |Extracted plant DNA|gDNA 1          |5 µl  |
