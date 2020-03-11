@@ -83,9 +83,12 @@ Mix the lysate and ethanol thoroughly by pipetting up and down. Cap the tubes.
 30. Remove the spin column from the microcentrifuge tube.
 
 ## GAPDH Polymerase Chain Reaction
+
 ## Experimental Procedures
 
-1. Find the tube labeled "PCR master mix" and the tube labeled "Initial GAPDH PCR primers" (it contains a small amount of blue liquid). Add 96 µl of PCR master mix to the tube containing the initial GAPDH primers. Mix well by pipetting up and down. Spin the tube for 10 seconds at maximum speed to collect the mix at the bottom of the tube. This is now your MMIP (**M**aster **M**ix with **I**nitial **P**rimers).
+1. Obtain a microcentrifuge tube and label it "MMIP". 
+2. Locate the tube labeled "Initial GAPDH PCR primers" (it contains a small amount of blue liquid). Collect 2 µl and add it to the "MMIP" tube. 
+7. Find the tube labeled "PCR master mix". Transfer 98 µl of PCR master mix to the "MMIP" tube. Mix well by pipetting up and down. The liquid in the tube should look uniformly blue. This is now your MMIP (**M**aster **M**ix with  **I**nitial **P**rimers).
 2. Obtain 5 PCR tubes.
 3. Label the tubes with your initials and number them 1 to 5.
 4. Add 20 µl of 2× MMIP (**m**aster **m**ix with **i**nitial **p**rimers) into each PCR tube.
