@@ -26,6 +26,7 @@ Nested polymerase chain reaction involves two sets of primers, used in two succe
 5. To dilute each first-round PCR sample 50× (to 1/50 the original concentration), add 98 µl of sterile water into each of the labeled microcentrifuge tubes.
 6. Using a fresh tip each time, pipet 2 µl of each first-round PCR into the corresponding microcentrifuge tube containing 98 µl water. Close the cap.
 7. Vortex or flick the tube with your finger to mix. Spin briefly in a microfuge to collect the liquid at the bottom of the tube.
+7. Find the tube labeled "PCR master mix" and the tube labeled "Nested GAPDH PCR primers" (it contains a small amount of yellow liquid). Add 96 µl of PCR master mix to the tube containing the nested GAPDH PCR primers (4 µl). Mix well by pipetting up and down. Spin the tube for 10 seconds at maximum speed to collect the mix at the bottom of the tube.  This is now your MMNP (**M**aster **M**ix with  **N**ested **P**rimers).
 8. Label 5 fresh PCR tubes with numbers 6 to 10 and your initials. 
 9. Place them in PCR tube adaptors on ice. 
 9. Pipet 20 µl of the yellow 2× MMNP into each of the five PCR tubes.
